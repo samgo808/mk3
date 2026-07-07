@@ -1,0 +1,5 @@
+Document: Virtual Design Thinking Spint
+Lecture: Session 8 - 11
+Date: March 3, 2026, March 10, 2026, March 24, 2026, March 31, 2026                                                        
+Course: BAIM 3300 - AI & Automation for Tomorrow's Societies
+Topics: Day 1: Program Overview, Problem Context, MonsterWorkshop. Day 2: Sailboat, HMW. Day 3 (Optional): Special Lecture. Day 4: Lightening Demos, Crazy 8s, Solution Sketches. Day 5: Art Museum, Straw Poll + Supervote, Storyboard.

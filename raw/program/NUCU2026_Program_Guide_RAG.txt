@@ -1,0 +1,374 @@
+Document: NUCU2026_Program_Guide.pdf
+Title: NUCU 2026 Program Guide
+Topics: entrepreneurship, innovation, aging societies, healthcare, mobility, Japan, Nagoya University, startups
+Format: Cleaned text export for RAG ingestion
+================================================================================
+
+
+## PAGE 1
+
+NUCU 2026 Program Guide 1
+University of Colorado Boulder × Nagoya University
+Entrepreneurship and Innovation in Aging Societies
+Comprehensive Program Overview and Itinerary Program Period May 14-28, 2026 (15 days / 14 nights) Main Locations Tokyo and Nagoya, Japan Participants 20 students, 1 University of Colorado chaperone, and 1 CoHo staff member (provisional) Lodging Plan Tokyo: KOKO Ginza Tsukiji / Nagoya: Yamate South International Residence / Tokyo return: Toyoko Inn Shinagawa Konan-guchi Tennozu Isle Core Theme Entrepreneurship, innovation, mobility, healthcare, and aging societies
+Internet Access (Important) Please make sure that you have reliable internet access during the program. We will ask all participants to complete a short daily feedback form each day, so it is important that you are able to connect to the internet regularly. If your home university provides eduroam, we strongly recommend that you confirm your access before arriving in Japan. Nagoya University supports eduroam, and it may help you connect smoothly on campus. If you do not have access to eduroam, please make sure to arrange another way to access the internet during your stay.
+
+
+## PAGE 2
+
+NUCU 2026 Program Guide 2
+SUMMARY This program is a collaborative international learning experience between the University of Colorado Boulder and Nagoya University. The 2026 itinerary expands the program into a 15-day format combining Tokyo startup ecosystem visits, Nagoya-based fieldwork, university and hospital visits, rural healthcare exposure, mobility and robotics-related site visits, group research, and final presentations. The program is designed to help participants understand how entrepreneurial thinking and technology can address the social, healthcare, and mobility challenges of aging societies.
+PROGRAM OBJECTIVES • Understand the demographic, healthcare, mobility, and community challenges created by rapidly aging societies. • Explore Japanese models of innovation through hospitals, startups, public-sector initiatives, university research, and community-based field sites. • Apply entrepreneurial and design-thinking approaches to real-world problems through group research, interviews, surveys, and final presentations. • Compare urban and rural contexts in Japan, including Tokyo, Nagoya, Obu, and Nakatsugawa. • Build cross-cultural collaboration skills through interaction with faculty, practitioners, entrepreneurs, local stakeholders, and peers.
+PROGRAM STRUCTURE Phase Dates Focus Phase 1: Arrival and Tokyo Startup Ecosystem May 14-17 Arrival, Tokyo startup visits, cultural immersion, and transfer to Nagoya. Phase 2: Nagoya Fieldwork and Site Visits May 18-22 Orientation, Nagoya University Hospital, xR Center, STATION Ai, Tongali, NCGG, rural town visit, surveys, and group work. Phase 3: Final Presentations and Tokyo Return May 23-28 Final presentations, closing event, optional cultural activities, Tokyo return, National Diet visit, alumni reception, reflection, and departure.
+SCHEDULE OVERVIEW Note for NU students: NU students are welcome to join the shaded activities in Nagoya from May 18 to May 23. Please note that some details are still subject to change.
+
+
+## PAGE 3
+
+NUCU 2026 Program Guide 3
+Day Date Theme Morning Afternoon Evening Lodging Transport Day 1 May 14 Thu (CU only) Arrival -- Fly into Narita (16:00); check in at hotel -- KOKO Ginza Tsukiji Train
+Day 2 May 15 Fri (CU only) Tokyo Startup Ecosystem Google for Startups; Sunshine Burri (10:30-12:00)
+Techstars Tokyo; Rene Budeck (14:00-15:00)
+-- KOKO Ginza Tsukiji Local transit
+Day 3 May 16 Sat (CU only) Culture Day Sanja Matsuri Sanja Matsuri -- KOKO Ginza Tsukiji Train/bus
+Day 4 May 17 Sun (CU only) Travel Day Travel from Tokyo to Nagoya Check in at hotel in Nagoya -- Best Western Plus Shinkansen
+Day 5 May 18 Mon (CU & NU) Orientation and Site Visit Check out hotel; check in at Yamate South (10:00)
+(CU&NU) Orientation; hospital tour; xR Center
+(Faculty Members Only) Visit to Dean Katsuno (17:00-17:30) Official Welcome Dinner at Umenohana Sakae (19:00-21:00)
+Yamate South International Residence
+Train/bus
+Day 6 May 19 Tue (CU & NU) Innovation and Startup Site Visits Aichi Prefecture briefing; Tongali; STATION Ai tour
+Prof. Masakatsu Fukai; Dr. Oyama; PREVENT session
+Team preparation Yamate South International Residence
+Train/bus
+Day 7 May 20 Wed (CU & NU) Mobility, Robotics, and Research National Center for Geriatrics and Gerontology (NCGG), including robotics center tour
+Prof. Aoki driving simulation at NIC; additional university research session if arranged
+Optional NU/CU karaoke or bowling
+Yamate South International Residence
+Charter bus
+Day 8 May 21 Thu (CU & NU) Field Trip to Rural Town Dr. Ban lecture and facility tour in Nakatsugawa
+Visit to Old Japanese Town Iwamura Tour and interviews at elderly care house
+Team preparation Yamate South International Residence
+Charter bus
+Day 9 May 22 Fri (CU & NU) Group Work and Presentation Preparation
+Information session at Tsurumai Campus;
+Team preparation Team preparation Yamate South International Residence
+Train/bus
+
+
+## PAGE 4
+
+NUCU 2026 Program Guide 4
+survey at Nagoya University Hospital Day 10 May 23 Sat (CU & NU) Presentation Prep and Final Presentations
+Team preparation at NIC Final presentations at NIC (13:00-14:30) post-presentation sushi Party (no additional fee) (14:30-16:00)
+Additional gathering / closing event (TBD)
+Yamate South International Residence
+Train/bus
+Day 11 May 24 Sun (CU only) Culture Day (Optional) -- Chunichi Dragons vs. Hiroshima Carp (13:30, optional)
+-- Yamate South International Residence
+Train/bus
+Day 12 May 25 Mon (CU only) Return to Tokyo Check out Yamate South Travel from Nagoya to Tokyo -- Toyoko Inn Shinagawa Konan-guchi Tennozu Isle
+Shinkansen
+Day 13 May 26 Tue (CU only) Tokyo Site Visit and Mentor Dinner
+National Diet of Japan (10:00) -- CU Buffs dinner reception at Tokyo American Club
+Toyoko Inn Shinagawa Konan-guchi Tennozu Isle
+Train
+Day 14 May 27 Wed (CU only) Free Day and Self Reflection -- -- Self-reflection / free time Toyoko Inn Shinagawa Konan-guchi Tennozu Isle
+Train
+Day 15 May 28 Thu (CU only) Departure Check out hotel -- Fly out to Denver (16:30) -- Train
+
+
+## PAGE 5
+
+NUCU 2026 Program Guide 5
+DETAILED DAILY ITINERARY Note for Nagoya University students: The detailed itinerary below includes the full schedule for the University of Colorado Boulder group. Nagoya University students are welcome to join the activities marked (CU & NU) during the Nagoya portion of the program. Activities marked (CU only) are for the Colorado group only. Day 1 (CU only) : May 14 Thu - Arrival Time Activity Venue Members / Transport Morning -- -- -- Arrival at Narita International Airport. Immigration and baggage claim Narita International Airport CU students Assemble after baggage claim; purchase/prepare train tickets or IC cards as needed Airport arrival lobby / meeting point TBD CU students
+ Move to Tokyo by train Narita Airport -> Tokyo hotel area Train Arrival at hotel area and check-in KOKO Ginza Tsukiji CU students Evening Free time after check-in. Confirm meeting time and route for the next day KOKO Ginza Tsukiji HOTEL Train / local transit Day 2 (CU only): May 15 Fri - Tokyo Startup Ecosystem Time Activity Venue Members / Transport Assemble at hotel lobby HOTEL lobby CU students Move to Google for Startups Hotel -> Google for Startups / venue TBD Local transit Arrival and check-in for session Google for Startups / venue TBD CU students Google for Startups session with Sunshine Burri Google for Startups / venue TBD CU students Close session Google for Startups / venue TBD CU students Lunch and move to next venue Tokyo area Local transit Arrival / preparation for Techstars Tokyo session Techstars Tokyo / venue TBD CU students Techstars Tokyo session with Rene Budeck Techstars Tokyo / venue TBD CU students Close session / Q&A and wrap-up Techstars Tokyo / venue TBD CU students Move back to hotel or free exploration in small groups Tokyo area Local transit Free time. Prepare for culture day KOKO Ginza Tsukiji Train
+
+
+## PAGE 6
+
+NUCU 2026 Program Guide 6
+Day 3 (CU only): May 16 Sat - Culture Day Time Activity Venue Members / Transport Assemble at hotel lobby HOTEL lobby CU students Move to Asakusa Hotel -> Asakusa area Train Sanja Matsuri cultural visit Asakusa / Sanja Matsuri area CU students Lunch in the area Asakusa area CU students Continue Sanja Matsuri / cultural exploration Asakusa area CU students Move back to hotel or free time in Tokyo Asakusa -> hotel / Tokyo area Train/bus Free time. Pack luggage and confirm Shinkansen plan for Nagoya KOKO Ginza Tsukiji Train/bus Day 4 (CU only): May 17 Sun - Travel Day Time Activity Venue Members / Transport Check out and assemble at hotel lobby HOTEL lobby CU students Move to Tokyo Station Hotel -> Tokyo Station Train Arrival at Tokyo Station; purchase food/drinks if needed Tokyo Station CU students Take Shinkansen to Nagoya Tokyo Station -> Nagoya Station Shinkansen Arrival at Nagoya Station Nagoya Station CU students Lunch / move to Nagoya hotel Nagoya Station area CU students Check in at hotel in Nagoya Best Western Plus CU students Rest / local orientation / free time Nagoya city area Local transit Free time. Confirm Yamate South check-in procedure for the next day Best Western Plus Local transit Day 5 (CU & NU): May 18 Mon - Orientation and Site Visit Time Activity Venue Members / Transport 8:30 AM Check out hotel and assemble at hotel lobby Best Western Plus CU students 8:40 AM Move to Yamate South International Residence Best Western Plus -> Yamate South CU students / Train/bus 10:00 AM Check in at Yamate South International Residence International Residence Yamate South CU students / Samuel&Hasegawa 11:00 AM Free time / room setup Yamate South CU students 12:10 PM Assemble at Yamate South Entrance, Yamate South CU students / Samuel 12:20 PM Walk to Yagoto Nisseki Station Yamate South -> Yagoto Nisseki Station CU students 12:40 PM Take the subway to Tsurumai Station Yagoto Nisseki Station -> Tsurumai Station CU students 1:05 PM Arrive at Tsurumai Station Tsurumai Station CU students
+
+
+## PAGE 7
+
+NUCU 2026 Program Guide 7
+Time Activity Venue Members / Transport 1:10 PM Walk to Tsurumai Campus Tsurumai Station -> Tsurumai Campus CU students 1:20 PM Assemble at Tsurumai Campus Meeting Room No. 1, Basic Medicine Building All students 1:30 PM Orientation Meeting Room No. 1, Basic Medicine Building All students 2:15 PM Hospital tour (Dr Sumigama-OBGY) Nagoya University Hospital All students 3:30 PM xR Center visit / medical innovation session (Dr Nakanishi-GI, Ms. Sato) xR Center / Nagoya University Hospital All students 4:30 PM Close session and move back / break Tsurumai Campus All students 4:40 PM Students move to Tsurumai Station Basic Medicine Building → Tsurumai Station CU students 4:50 PM Faculty group moves to Dean’s Room Office→Dean’s Room Prof. Matt / Samuel / Hasegawa 5:00 PM Faculty group visits Dean Katsuno Dean’s Room Prof. Matt / Samuel / Hasegawa 5:30 PM Faculty group closes meeting and leaves Dean’s Room Dean’s Room Prof. Matt / Samuel / Hasegawa 4:55 PM Students take the subway to Yagoto Nisseki Station Tsurumai Station → Yagoto Nisseki Station CU students 5:20 PM Students walk to Yamate South Yagoto Nisseki Station → Yamate South CU students 5:30 PM Students arrive at Yamate South International Residence Yamate South CU students 6:40 PM Faculty group moves to dinner venue Tsurumai Campus or Hotel → Umenohana Sakae Prof. Matt / Samuel / Hasegawa 7:00 PM Official Welcome Dinner Umenohana Sakae Prof. Matt / Samuel / Prof. Kasuya / Hasegawa / invited faculty 9:00 PM End of dinner Prof. Matt / Samuel / Prof. Kasuya / Hasegawa / invited faculty Day 6 (CU & NU): May 19 Tue - Innovation and Startup Site Visits Time Activity Venue Members / Transport 8:40 AM Assemble at Yamate South Entrance, Yamate South CU students / Samuel 8:50 AM Walk to Yagoto Nisseki Station Yamate South -> Yagoto Nisseki Station CU students 9:10 AM Take the subway toward Tsurumai Yagoto Nisseki Station -> Tsurumai Station CU students 9:35 AM Arrive at Tsurumai Station Tsurumai Station CU students 9:40 AM Walk to STATION Ai Tsurumai Station -> STATION Ai CU students
+
+
+## PAGE 8
+
+NUCU 2026 Program Guide 8
+Time Activity Venue Members / Transport 9:50 AM Assemble at STATION Ai / preparation STATION Ai All students 10:00 AM Briefing from Aichi Prefecture STATION Ai, 3F Central Lounge All students 10:30 AM Tongali / Nagoya University entrepreneurship overview STATION Ai, 3F Central Lounge All students 11:00 AM Break / preparation for tour STATION Ai All students 11:30 AM STATION Ai tour STATION Ai All students 12:00 PM Lunch STATION Ai / Tsurumai area All students 12:45 PM Move to Tsurumai Campus / Medical Department STATION Ai -> Tsurumai Campus All students 1:00 PM Arrive at Tsurumai Campus / Medical Department Tsurumai Campus All students 1:10 PM Talk by Prof. Masakatsu Fukai on Medical Innovation and Industry-Academia Collaboration Meeting Room No. 2, Basic Medicine Building All students
+2:10 PM Close session / short break Tsurumai Campus All students 2:30 PM Dr. Oyama Session Meeting Room No. 2, Basic Medicine Building All students 3:30 PM PREVENT session by Mr. Hagiwara Meeting Room No. 2, Basic Medicine Building All students 4:30 PM Close session / Q&A Tsurumai Campus All students Team preparation Meeting Room No. 2, Basic Medicine Building All students Move back to Yamate South Tsurumai Campus -> Yamate South CU students Arrive at Yamate South International Residence Yamate South CU students Day 7 (CU & NU): May 20 Wed - Mobility, Robotics, and Research Time Activity Venue Members / Transport 8:00 AM Assemble at Yamate South Entrance, Yamate South CU students / Samuel 8:05 AM Walk to Higashiyama Campus Yamate South -> Higashiyama Campus (Toyoda Auditorium) CU students / Samuel 8:20 AM Assemble at Higashiyama Campus In front of Toyoda Auditorium, Higashiyama Campus All students
+8:30 AM Move to National Center for Geriatrics and Gerontology Higashiyama Campus -> NCGG All students / Charter bus 9:20 AM Arrival and check-in NCGG All students 9:30 AM NCGG introduction / information session NCGG All students 10:30 AM Robotics center tour NCGG Robotics Center All students 11:30 AM Close visit NCGG All students 11:40 AM Move to Agri Town Genki NCGG All students
+
+
+## PAGE 9
+
+NUCU 2026 Program Guide 9
+Time Activity Venue Members / Transport 12:00 PM Lunch Agri Town Genki All students 12:40 PM Transfer back to Nagoya University Agri Town Genki -> Higashiyama Campus All students / Charter bus 1:30 PM Arrival at NIC NIC All students 2:00 PM Prof. Hirofumi Aoki driving simulation session NIC / driving simulation facility All students 3:30 PM Close session NIC All students Group discussion or Team preparation NIC All students Move back to Yamate South NIC -> Yamate South CU students Evening Optional NU/CU karaoke or bowling Venue TBD Optional participants Day 8 (CU & NU): May 21 Thu - Field Trip to Rural Town Time Activity Venue Members / Transport 7:30 AM Assemble at Yamate South Entrance, Yamate South CU students / Samuel 7:35 AM Walk to Higashiyama Campus Yamate South -> Higashiyama Campus (Toyoda Auditorium) CU students / Samuel 7:50 AM Assemble at Higashiyama Campus In front of Toyoda Auditorium, Higashiyama Campus All students
+8:00 AM Depart for Nakatsugawa by charter bus Higashiyama Campus → Nakatsugawa All students / Charter bus 9:45 AM Arrival in Nakatsugawa / short break Nakatsugawa All students 10:00 AM Dr. Ban lecture Agi Clinic All students 10:45 AM Facility tour Agi Clinic All students 11:30 AM Move to Iwamura Castle Town Agi area -> Iwamura Area All students / Charter bus 11:45 AM Walk around Iwamura Castle Town and lunch Iwamura area All students 1:45 PM Assemble and move to Cyclamen Elder Care Center Iwamura area -> Cyclamen Elderly care house All students
+2:00 PM Tour and interviews at elderly care house Elderly care house All students 3:30 PM Close visit Elderly care house All students 3:40 PM Depart for Nagoya Nakatsugawa -> Higashiyama Campus All students / Charter bus 5:15 PM Arrival at Higashiyama Campus Higashiyama Campus All students 5:20 PM CU students walk back to Yamate South Higashiyama Campus ->Yamate South CU students
+
+
+## PAGE 10
+
+NUCU 2026 Program Guide 10
+Day 9 (CU & NU): May 22 Fri - Group Work and Presentation Preparation Time Activity Venue Members / Transport 8:10 AM Assemble at Yamate South Entrance, Yamate South CU students / Samuel 8:20 AM Walk to Yagoto Nisseki Station Yamate South -> Yagoto Nisseki Station CU students 8:40 AM Take the subway to Tsurumai Station, with transfer if needed Yagoto Nisseki Station -> Tsurumai Station CU students 9:05 AM Arrive at Tsurumai Station Tsurumai Station CU students 9:10 AM Walk to Tsurumai Campus Tsurumai Station -> Tsurumai Campus CU students 9:20 AM Assemble at Tsurumai Campus / Meeting Room No. 1 Meeting Room No. 1, Basic Medicine Building All students 9:30 AM Information session Meeting Room No. 1, Basic Medicine Building All students 10:00 AM Survey at Nagoya University Hospital Nagoya University Hospital All students 11:30 AM Survey wrap-up / data organization Meeting Room No. 1, Basic Medicine Building All students 12:00 PM Lunch Tsurumai Campus / cafe All students 1:00 PM Group discussion / organize interview and survey findings Meeting Room No. 1 is available until 19:00 All students Break Meeting Room No. 1 All students Team preparation Meeting Room No. 1 All students Move back to residence Meeting Room No. 1 -> Yamate South CU students
+Day 10 (CU & NU): May 23 Sat - Presentation Prep and Final Presentations Time Activity Venue Members / Transport 9:40 AM Assemble at Yamate South Entrance, Yamate South CU students / Samuel 9:45 AM Walk to NIC Yamate South -> NIC CU students 10:00 AM Assemble at NIC NIC All students 10:10 AM Group work and presentation preparation NIC Conference Room All students 12:00 PM Lunch / final preparation NIC / campus area All students 12:45 PM Set up for final presentations NIC / Idea Stoa All students 1:00 PM Final presentations NIC / Idea Stoa All students / faculty / guests 3:00 PM Post-presentation Sushi Party (no additional fee) NIC / Idea Stoa All students 4:00 PM End of sushi gathering NIC / Idea Stoa All students Return to residence after the event NIC -> Yamate South CU students Evening Additional Closing Dinner Event (TBD) Venue TBD Optional
+
+
+## PAGE 11
+
+NUCU 2026 Program Guide 11
+Day 11 (CU only): May 24 Sun - Culture Day (Optional) Time Activity Venue Members / Transport Free time / optional self-guided cultural activities Nagoya city area Optional Day 12 (CU only): May 25 Mon - Return to Tokyo Time Activity Venue Members / Transport 9:50 AM Assemble before check-out Entrance, Yamate South CU students / Samuel&Hasegawa 10:00 AM Check out from Yamate South Yamate South CU students 10:30 AM Move to Nagoya Station Yamate South -> Nagoya Station CU students / Train/bus Arrival at Nagoya Station; lunch / purchase food if needed Nagoya Station CU students Take Shinkansen to Tokyo Nagoya Station -> Tokyo Station CU students / Shinkansen Arrival at Tokyo Station and move to hotel Toyoko Inn Shinagawa Konan-guchi Tennozu Isle CU students / Train
+ Check in at hotel Toyoko Inn Shinagawa Konan-guchi Tennozu Isle CU students
+ Free time Toyoko Inn Shinagawa Konan-guchi Tennozu Isle CU students / Train
+ Day 13 (CU only): May 26 Tue - Tokyo Site Visit and Mentor Dinner Time Activity Venue Members / Transport Assemble at hotel lobby Toyoko Inn Shinagawa Konan-guchi Tennozu Isle CU students
+ Move to National Diet of Japan Hotel -> National Diet CU students / Train Arrival / security check National Diet of Japan CU students National Diet of Japan visit National Diet of Japan CU students Close visit National Diet of Japan CU students Lunch / free time / self-guided research Tokyo area CU students Free time or optional group reflection Tokyo area / hotel CU students Assemble at hotel lobby for dinner reception Toyoko Inn, Shinagawa lobby CU students Move to Tokyo American Club Hotel -> Tokyo American Club CU students / Train/taxi
+
+
+## PAGE 12
+
+NUCU 2026 Program Guide 12
+Time Activity Venue Members / Transport CU Buffs alumni orientation and dinner reception Tokyo American Club CU students / CU alumni / mentors Close reception and return to hotel Tokyo American Club -> hotel CU students / Train/taxi Day 14 (CU only): May 27 Wed - Free Day and Self Reflection Time Activity Venue Members / Transport Free time / optional individual exploration Tokyo area CU students Free time / self-guided learning Tokyo area CU students Self-reflection / program wrap-up in small groups if arranged Toyoko Inn Shinagawa Konan-guchi Tennozu Isle CU students
+ Free time. Pack luggage and confirm departure arrangements Toyoko Inn Shinagawa Konan-guchi Tennozu Isle CU students / Train Day 15 (CU only): May 28 Thu - Departure Time Activity Venue Members / Transport Check out hotel Toyoko Inn Shinagawa Konan-guchi Tennozu Isle CU students
+ Assemble after check-out; depart for airport Hotel lobby CU students Move to airport Tokyo hotel -> airport TBD CU students / Train Arrival at airport; check-in and security Airport TBD CU students Fly out to Denver Airport TBD CU students -- -- --
+
+
+## PAGE 13
+
+NUCU 2026 Program Guide 13
+KEY PROGRAM COMPONENTS AND SITE INFORMATION Tokyo Startup Ecosystem The Tokyo portion introduces participants to the startup ecosystem through visits such as Google for Startups and Techstars Tokyo. These sessions help frame how entrepreneurship, investment, mentorship, and scaling strategies operate in Japan and internationally. Nagoya University Hospital and xR Center The Nagoya University Hospital visit and xR Center session connect the program theme to medical innovation, simulation, digital tools, and future-oriented healthcare education. STATION Ai STATION Ai is a major innovation hub in Aichi designed to connect startups, companies, investors, universities, and public-sector partners. The visit offers insight into regional startup support and business creation in Central Japan. Tongali Tongali is Nagoya University’s entrepreneurship education and startup support initiative. The session introduces university-based entrepreneurship education, incubation support, and student innovation activities. PREVENT Inc. PREVENT is a Nagoya-based health-tech startup focused on prevention of lifestyle-related diseases and reduction of hospital readmissions through data-driven health coaching and remote support. National Center for Geriatrics and Gerontology (NCGG) The NCGG visit, including the robotics center tour, introduces participants to research and technologies supporting older adults and aging society challenges. Professor Hirofumi Aoki and Mobility Research The driving simulation and mobility-related session at NIC connect autonomous driving, smart mobility, and aging society needs, especially for communities facing transportation barriers. Nakatsugawa Rural Field Trip The rural field trip highlights demographic decline, aging, healthcare access, community care, and mobility challenges outside large urban centers. The visit includes Dr. Ban’s lecture and facility tour, interviews at an elderly care house. Nagoya University Hospital Survey and Market Research Students will conduct surveys and/or interviews to better understand user needs, patient and family experiences, and the practical context for entrepreneurial solutions.
+
+
+## PAGE 14
+
+NUCU 2026 Program Guide 14
+Final Presentations Teams will synthesize their fieldwork, site visits, stakeholder interviews, and research into final presentations at NIC, receiving feedback from faculty and program stakeholders.
+DORMITORY INFORMATION Yamate South International Residence - Nagoya University Location: Yamate South Residence is one of the international student dormitories operated by Nagoya University. It is located in a quiet residential area near the Higashiyama Campus, within walking distance from campus buildings and subway stations. Address: 21 Yamate-cho, Showa-ku, Nagoya, Aichi 466-0815, Japan (Approximately 10 minutes’ walk from Nagoya University Station on the Subway Meijo Line) Room Type: • Single occupancy rooms • Fully furnished (bed, desk, chair, closet, air conditioner, etc.) • Each room includes a private bathroom and mini-kitchen • Bedding and kitchenware may be provided or available for rent (depending on the arrangement) Shared Facilities: • Laundry room • Lounge and common space • Security entry system Check-in Times: • Morning: 9:30 AM - 11:00 AM • Afternoon: 1:00 PM - 3:00 PM Please note: If you miss the check-in time, staff will not be available and you will need to wait until the following day. Nearby Amenities: • Convenience stores, supermarkets, and restaurants are within walking distance • Easy access to public transportation Other Notes: • Please bring your passport and necessary documents on arrival • Wi-Fi is available in the rooms • Smoking is not permitted inside the building
+
+
+## PAGE 15
+
+NUCU 2026 Program Guide 15
+Additional notes: Please note that towels are not provided. We recommend bringing a lightweight towel that dries quickly. Shampoo and laundry detergent are also not provided, so please bring your own if needed. Laundry facilities are available, but they require payment. Check-out procedure: A staff member must be present at the time of check-out to inspect the room. All participants must check out together as a group according to the program schedule; individual check-outs are not permitted. The program coordinator must also be present during check-out.
+
+
+## PAGE 16
+
+NUCU 2026 Program Guide 16
+
+
+## PAGE 17
+
+NUCU 2026 Program Guide 17
+
+
+## PAGE 18
+
+NUCU 2026 Program Guide 18
+SITE VISIT INFORMATION Nagoya University Hospital xR Center The visit to the xR Center at Nagoya University Hospital introduces participants to the use of extended reality technologies in medical education, clinical training, and future-oriented healthcare innovation. “xR” is a collective term that includes virtual reality (VR), augmented reality (AR), and mixed reality (MR), and these technologies are increasingly being used to support simulation-based learning, surgical education, patient communication, and interdisciplinary collaboration in healthcare. This visit is closely connected to the program theme, “Entrepreneurship and Innovation in Aging Societies,” because digital technologies are expected to play an increasingly important role in addressing the challenges faced by healthcare systems in aging societies. As the number of older patients increases, medical professionals must provide safe, efficient, and high-quality care while also training the next generation of healthcare workers. xR technologies can help create realistic learning environments, allowing students and professionals to practice clinical decision-making, procedures, communication, and teamwork without placing patients at risk. At Nagoya University Hospital, the xR Center serves as a hub for exploring how immersive technologies can be applied to medical education and healthcare practice. Through the visit, participants will learn how xR tools can be used to visualize anatomy, simulate clinical scenarios, support procedural training, and enhance understanding of complex medical conditions. These technologies also have the potential to improve education across different locations, making it possible for learners to experience high-quality training even when access to clinical settings is limited. For students interested in entrepreneurship, the xR Center provides an important example of how technological innovation can be connected to real clinical and educational needs. Rather than developing technology for its own sake, successful healthcare innovation requires a deep understanding of users, including patients, healthcare professionals, educators, and institutions. The visit will encourage participants to consider how digital tools can be designed, implemented, and evaluated in ways that are practical, ethical, and beneficial to society.
+
+
+## PAGE 19
+
+NUCU 2026 Program Guide 19
+The xR Center visit will also complement other components of the program. While visits to startups and innovation hubs highlight business development and social implementation, the xR Center demonstrates how innovation can emerge from within a university hospital setting. It shows how academic medicine, clinical practice, engineering, and education can work together to develop new approaches to training and healthcare delivery. Overall, the visit to the Nagoya University Hospital xR Center will provide participants with a valuable opportunity to understand how immersive technologies are transforming medical education and healthcare innovation. This experience will help students think more concretely about how digital solutions can contribute to safer care, better training, and more sustainable healthcare systems in aging societies.
+Rural Clinic Tour In addition to the field tours in the city area, I would like to propose a visit to Nakatsugawa, a depopulated area about an hour away from Nagoya, where the students can observe local healthcare challenges in the context of Japan’s population decline. As part of the program's goal to understand the broader societal challenges posed by shrinking demographics, I believe this visit will offer an invaluable, real-world perspective. The students will gain a deeper understanding of the very challenges they are tasked with addressing during their program, including labor shortages, cultural erosion, and social instability. Moreover, this experience will allow them to consider practical solutions in the context of real-world issues, enhancing their ability to create meaningful technology-based solutions. I believe this visit will contribute significantly to their overall learning experience. Dr Nobutaro Ban https://www.singhealthdukenus.com.sg/SDEC2022/Pages/Speakers-Nobutaro-Ban.aspx Dr. Nobutaro Ban is a distinguished physician specializing in community healthcare and primary care. He is currently serving as the director of Nakatsugawa City National Health Insurance Agi Clinic in Gifu Prefecture, Japan. Dr. Ban has dedicated his career to providing high-quality medical services to rural and aging communities, ensuring that patients receive continuous and comprehensive healthcare. In addition to his clinical work, Dr. Ban is actively involved in medical education and plays a significant role in training students from Nagoya University School of Medicine. He has been instrumental in mentoring future healthcare professionals, offering them hands-on experience in community-based medicine. Dr. Ban also has international experience, having studied abroad in the United States, where he gained valuable insights into global healthcare systems. His ability to communicate fluently in English, combined with his extensive knowledge of both Japanese and international medical practices, makes him an invaluable resource for discussions on aging society and community-based healthcare.
+
+
+## PAGE 20
+
+NUCU 2026 Program Guide 20
+With his expertise and experience, Dr. Ban continues to contribute to the advancement of primary care and rural medicine in Japan, while also fostering international collaborations in medical education and healthcare innovation. Agi Clinic https://n-sougouiryou.com/clinic-agi Agi Clinic is a community-based medical facility located in Nakatsugawa City, Gifu Prefecture, Japan. It operates under the Nakatsugawa City National Health Insurance system and plays a crucial role in providing primary and comprehensive healthcare services to the local population, particularly the elderly and residents of rural areas. The clinic is led by Dr. Nobutaro Ban, who has extensive experience in community medicine and medical education. Under his leadership, Agi Clinic has been actively engaged in rural healthcare, home medical care, and preventive medicine, ensuring that patients receive continuous and personalized treatment. Given Japan's rapidly aging society, Agi Clinic focuses on geriatric medicine and home healthcare services, addressing the challenges of an aging population with limited access to urban medical institutions. The clinic provides a wide range of preventive care, chronic disease management, and palliative care to support the well-being of its patients. In addition to its medical services, Agi Clinic also serves as a training site for medical students from Nagoya University, offering hands-on experience in community-based medicine and primary care. Through this initiative, the clinic contributes to the education of future healthcare professionals by exposing them to real-world challenges in rural healthcare. Agi Clinic represents an essential model for sustainable healthcare in aging and rural communities, combining medical excellence with a strong commitment to patient-centered care and community engagement. The Nagoya University Hospital visit and xR Center session connect the program theme to medical innovation, simulation, digital tools, and future-oriented healthcare education.
+
+
+## PAGE 21
+
+NUCU 2026 Program Guide 21
+National Center for Geriatrics and Gerontology (NCGG) The visit to the National Center for Geriatrics and Gerontology (NCGG) offers participants an opportunity to learn about Japan’s national-level efforts to address the medical, social, and technological challenges of an aging society. As a national research and medical center dedicated to geriatrics and gerontology, NCGG works to promote the physical and mental health of older adults and to support lifelong independence through close collaboration between clinical care, research, rehabilitation, and social implementation. This visit is directly connected to the overall theme of the program, “Entrepreneurship and Innovation in Aging Societies.” Japan is one of the world’s most rapidly aging countries, and the needs of older adults are becoming increasingly complex. These needs include not only medical treatment, but also rehabilitation, mobility support, dementia care, prevention of frailty, social participation, and support for independent living. By visiting NCGG, students will be able to understand how healthcare, engineering, robotics, and policy can be integrated to create practical solutions for older adults and their families. A key component of the visit will be the tour of the Assistive Robot Center. The center was established to support the development and social implementation of assistive technologies and care robots for older adults. Its mission includes connecting technological “seeds” with real needs in elderly care, providing testing fields for robot development from the perspective of longevity medicine, promoting research in rehabilitation engineering, and contributing to policy recommendations. Through the robotics center tour, participants will gain insight into how robots and assistive devices are developed, evaluated, and introduced into real care settings. Rather than viewing robotics simply as advanced technology, students will be encouraged to consider how these tools can support dignity, independence, safety, mobility, and quality of life for older adults. This perspective is especially important for entrepreneurship, because successful innovation in aging societies must be grounded in the actual needs of users, caregivers, healthcare professionals, and communities.
+
+
+## PAGE 22
+
+NUCU 2026 Program Guide 22
+The visit will also help students compare different approaches to aging-related innovation. While startup visits may focus on business models, digital platforms, and market opportunities, the NCGG visit will show how clinical evidence, user-centered design, safety evaluation, and long-term care needs shape the development of healthcare technologies. Participants will be able to reflect on how ideas emerging from research institutions can be translated into practical services, products, and social systems. Overall, the NCGG visit will provide students with a valuable opportunity to observe how Japan is addressing the challenges of aging through a combination of medicine, research, rehabilitation, robotics, and social innovation. This experience will deepen their understanding of the real-world context behind aging-related problems and will help them develop more meaningful, feasible, and human-centered entrepreneurial ideas.
+STATION Ai STATION Ai is the largest innovation terminal in Japan, located in Aichi. More than 700 startups, partner companies, VCs and other support organizations, and universities from Japan and abroad are participating in STATION Ai to create new businesses. STATION Ai facility includes not only event spaces and offices, but also a fitness gym, a tech lab for STATION Ai members. STATION Ai also includes a café/restaurant, a hotel, an event space, and the Aichi Founders' Hall for the public people. They aspire to serve as a hub for generating new value by integrating established industries with emerging businesses in Aichi and the Tokai region, which is home to a concentration of industries that drive the Japanese economy. 01 Startup support Business creation support project Support business growth Management of programs, events, etc. 02 Facility maintenance and management business Maintenance and management of the entire facility 03 Fund management operation Management of funds that invest in STATION Ai members
+
+
+## PAGE 23
+
+NUCU 2026 Program Guide 23
+Basic Medical Building to Station Ai
+Prevent PREVENT Inc. is a health-tech startup based in Nagoya, Japan, dedicated to preventing lifestyle-related diseases and reducing hospital readmissions-particularly among elderly patients. The company was founded with the mission of shifting the focus of healthcare from treatment to prevention. Their core service involves data-driven health coaching and remote support programs for patients at risk of chronic conditions such as diabetes, heart disease, and stroke. PREVENT partners with hospitals, local governments, and insurance providers to offer personalized post-discharge care plans. These include regular check-ins via phone or app, behavior modification strategies, and health monitoring. What makes PREVENT unique is its interdisciplinary approach, combining medical research, behavioral science, and digital technology to extend care beyond the hospital setting. By doing so, the company aims to help Japan-and potentially other aging societies-reduce healthcare costs and improve long-term health outcomes.
+Professor Hirofumi Aoki Professor Hirofumi Aoki is a researcher at Nagoya University whose work focuses on future mobility, driving simulation, and human-centered mobility systems. He is a leading researcher and educator in the field of future mobility, particularly focusing on autonomous driving technologies, smart cities, and the integration of mobility systems in aging societies. Professor Aoki is known for his interdisciplinary work bridging engineering, medicine, and public policy to develop innovative transportation solutions that support both urban and rural communities in Japan. He actively collaborates with local governments, private companies, and research institutes to pilot next-generation mobility services-such as autonomous shuttle trials-and explore their social implementation. At Nagoya University, he contributes to the development of practical education and research in mobility innovation, and frequently supervises student-led projects that tackle real-world transportation and health-related challenges.
+
+
+## PAGE 24
+
+NUCU 2026 Program Guide 24
+Session by Professor Masakatsu Fukai Medical Innovation and Industry-Academia Collaboration Professor Masakatsu Fukai is a former Designated Professor at the Medical and Healthcare Innovation Unit, Academic Research & Industry-Academia-Government Collaboration, Nagoya University. After beginning his career at the Bank of Tokyo, he worked at Nidec Corporation before joining Nagoya University in 2013. At Nagoya University, he has been involved in supporting medical and healthcare innovation, particularly by helping researchers collaborate with companies and develop startup projects. Drawing on his experience in both business and academia, Professor Fukai supports projects that connect clinical needs, university research, technology, and business development. He is also involved in promoting needs-driven innovation based on the biodesign approach, which emphasizes identifying real problems in healthcare before developing solutions. In this program, Professor Fukai will share his perspective on medical innovation and industry-academia collaboration, helping students understand how research and clinical challenges can be translated into practical solutions for society.
+Session by Dr. Shintaro Oyama Medical Technology, Clinical Needs, and Innovation This session by Dr. Shintaro Oyama will introduce participants to how clinical needs can lead to medical technology and healthcare innovation. Students will learn how problems identified in real healthcare settings can become the starting point for developing new solutions. The session is closely connected to the program theme of “Entrepreneurship and Innovation in Aging Societies,” as healthcare systems must respond to increasing demand, limited resources, and the diverse needs of older adults. Through this session, participants will consider how medical knowledge, technology, and user-centered thinking can be combined to create practical and meaningful innovations. Overall, Dr. Oyama’s session will help students connect real clinical challenges with entrepreneurial ideas for future healthcare.
+
+
+## PAGE 25
+
+NUCU 2026 Program Guide 25
+Nakatsugawa City https://japanguide.live/nakatsugawa/ Nakatsugawa City is located in the southeastern part of Gifu Prefecture, Japan, and serves as a gateway between the Chubu and Kanto regions. Surrounded by mountains and rich natural landscapes, the city is known for its scenic beauty, traditional culture, and historical significance. Nakatsugawa was once a post town (juku) along the historic Nakasendo route, which connected Edo (Tokyo) and Kyoto during the Edo period. Today, the city preserves this legacy through well-preserved streets, historical buildings, and cultural sites. It is also famous for its traditional Japanese confection called “kuri kinton”, made from chestnuts, and for the Magome-juku area, a popular destination for travelers seeking an authentic taste of old Japan. Nakatsugawa plays an active role in promoting sustainable rural development, healthcare access in aging communities, and regional revitalization. It serves as a valuable example of how local governments in Japan are addressing contemporary social challenges while preserving tradition.
+Iwamura Castle Town Iwamura Castle Town is a well-preserved historic district located in Ena City, Gifu Prefecture, Japan. The area developed as the castle town of Iwamura Castle, one of Japan’s highest mountain castles, and it still retains the atmosphere of a traditional town shaped by history, local culture, and community life. The town is known for its old streets lined with traditional wooden buildings, merchant houses, sake breweries, and small local shops. Walking through Iwamura Castle Town allows visitors to experience a part of regional Japan that has preserved its historical identity while continuing to function as a living community. In this way, the town offers not only cultural value, but also an opportunity to observe how local heritage, tourism, and community sustainability are connected.
+
+
+## PAGE 26
+
+NUCU 2026 Program Guide 26
+Iwamura Castle itself has a long history and is closely associated with Lady Otsuya, a female castle ruler whose story makes the site especially distinctive in Japanese history. Although much of the original castle structure no longer remains, the stone walls and mountain setting still convey the strategic and cultural importance of the site. For participants in this program, a visit to Iwamura Castle Town provides an opportunity to reflect on the relationship between aging society, rural communities, and local revitalization. In contrast to large urban centers, places such as Iwamura highlight the challenges and possibilities faced by smaller regional communities, including population decline, preservation of culture, and sustainable local development. Overall, the visit to Iwamura Castle Town will complement the medical and innovation-focused parts of the program by offering students a broader perspective on the social and cultural context of regional Japan. This experience will help participants better understand the communities in which healthcare, mobility, and social innovation must ultimately function.
+
+
+## PAGE 27
+
+NUCU 2026 Program Guide 27
+TRANSPORTATION Notes • Major intercity transfers will use the Shinkansen between Tokyo and Nagoya. • Local movement in Nagoya will primarily use train, subway, or bus, with charter bus transportation planned for the field trip. • Participants should keep an IC card or sufficient cash available for local transportation and meals when not covered by the program. • Final transportation details, meeting points, and departure times should be reconfirmed each evening during the program.
+How to Use the Bus in Nagoya Find Your Bus Stop Locate the nearest bus stop. Bus stops are usually marked with a bus symbol and have a timetable and route map. Check the Bus Route and Timetable: Look at the timetable and route map to confirm the bus number and direction. Note the time the bus will arrive. Prepare Your Fare: You can pay the fare with cash or an IC card (like Manaca or Toica). Make sure you have small change if paying with cash. The fare is usually a flat rate within the city. Boarding the Bus: When the bus arrives, check the bus number and destination displayed on the front. Enter the bus through the front door. Paying the Fare: If using an IC card, tap your card on the reader next to the driver when you get on. If paying with cash, take a numbered ticket from the machine when you board (if applicable), and pay when you get off. All bus lines offer rides at a flat rate, except for Late Night Buses. Adult fare is 210 Yen During the Ride: Find a seat or hold onto the handrails if standing. Keep an eye on the stops displayed inside the bus or listen to the announcements.
+
+
+## PAGE 28
+
+NUCU 2026 Program Guide 28
+Getting Off the Bus: Press the "Stop" button located near the seats or handrails when your stop is approaching. When the bus stops, go to the front of the bus to exit. If you took a numbered ticket, check the fare chart at the front to see how much you need to pay based on your ticket number. Pay the fare into the fare box next to the driver (insert your ticket first, then the fare). If using an IC card, tap it again on the reader. Exiting the Bus: Exit through the back door.
+
+
+## PAGE 29
+
+NUCU 2026 Program Guide 29
+NAGOYA UNIVERSITY INFORMATION Nagoya University Graduate School of Medicine and School of Medicine Nagoya University Hospital 65, Tsurumai-cho, Showa-ku, Nagoya, Aichi 466-8550 JAPAN
+ Nagoya University, with its distinguished heritage dating back to 1871, is one of Japan's premier institutions. It originally started as a provisional hospital and medical school for the Nagoya Domain and has evolved significantly over the years. Renowned for its contributions to education and research, the university has been home to multiple Nobel laureates, emphasizing its role in global scientific and academic advancement. Nagoya University Graduate School of Medicine and School of Medicine traces its esteemed heritage back to 1871, when it began as a provisional hospital and medical school for the Nagoya Domain. As a bastion of research excellence, the institution is committed to leading global innovation in medicine and healthcare. Education is the cornerstone of research strength at Nagoya University. We employ a triad of cutting-edge educational programs to foster this development: NOVI+A, which emphasizes community-oriented medical education enriched by near-peer teaching and a blend of onsite, virtual, and anthropological learning. CIBoG, a fusion of informatics and biomedical sciences crafted to address global health challenges. AI-MAILs, an initiative that bridges academia and industry to nurture leaders in medical AI. The resumption of international exchanges post-COVID-19 has been a pivotal step forward. In November 2022, we proudly hosted the 6th annual GAME conference, underscoring our central role in this strategic consortium of world-class medical schools dedicated to shaping the future of medical education and collaborative international research.
+
+
+## PAGE 30
+
+NUCU 2026 Program Guide 30
+Looking to the horizon, Nagoya University is resolutely positioned to be a driving force in the evolution of medical science, with the vision of becoming a central hub of medical education and research in Asia. Our commitment to this role is unwavering, and we endeavor to expand our network, enhancing collaborations with our esteemed partner universities worldwide. These partnerships are integral to our mission, providing a robust foundation for the pioneering advancements in medicine. With a balanced emphasis on our initiatives such as CIBoG, GAME, and more, we dedicate ourselves to cultivating a fertile ground for innovation and knowledge exchange. This expansive network, which extends to leading institutions across the globe, is pivotal to our strategy of fostering progress and setting new standards in healthcare, education, and research. Through this collective effort, we aim to anchor Asia as a leading force in the global medical community.
+Masahisa Katsuno Professor Dean of Nagoya University School of Medicine and Graduate School of Medicine Department of Virology
+Hideki Kasuya Professor Vice Dean for International Affairs Department of International Education Chair of the Office of International Affairs
+
+
+## PAGE 31
+
+NUCU 2026 Program Guide 31
+Tongali (Nagoya University Entrepreneurship Educational Institution)
+	Tongali at Nagoya University is an educational initiative designed to foster entrepreneurship within Central Japan's academic communities. Launched in 2016, Tongali has been instrumental in helping numerous university-led startups grow by providing substantial funding and support. The program offers a comprehensive incubation service, helping transform innovative ideas and research into successful businesses.
+
+
+## PAGE 32
+
+NUCU 2026 Program Guide 32
+Tongali provides a range of resources including tuition-free entrepreneurial education, access to co-working spaces and makers' studios equipped with 3D printers and other tools, as well as a global network of mentors, investors, and industry leaders. The initiative also emphasizes collaboration with other universities and research institutions to enhance its reach and effectiveness. Dr. Sawako Tanaka Research Administrator Academic Research & Industry-Academia-Government Collaboration Sawako Tanaka at Nagoya University is actively involved with Tongali, an organization focused on fostering entrepreneurship among university students in the Tokai region of Japan. She played a significant role in organizing an entrepreneurial workshop. These events aimed to generate innovative ideas for urban renewal and attracted participation from international students. The workshop facilitated interactions between students and local residents, helping them identify specific challenges and develop potential solutions. These activities are part of Tongali’s broader mission to support the entrepreneurial spirit and practical skills development among students through various programs and collaborations.
+
+
+## PAGE 33
+
+NUCU 2026 Program Guide 33
+ACCESS INFORMATION Higashiyama Campus - NIC National Innovation Complex 1F Idea Stoa Idea Stoa is a co-creation space located on the 1st floor of Nagoya University’s NIC (National Innovation Complex). It is designed to bring together students, researchers, entrepreneurs, and people from various backgrounds to share ideas, collaborate, and create new value. 3F Conference room Dormitory to NIC
+
+
+## PAGE 34
+
+NUCU 2026 Program Guide 34
+Toyoda Auditorium The Toyoda Auditorium is a distinguished landmark located on the Higashiyama campus of Nagoya University in Japan. Established in 1960 through a generous donation from Toyota Motor Corporation, the auditorium was designed by the renowned architect Fumihiko Maki. It stands as a prime example of Brutalist architecture, characterized by its bold concrete structures and geometric forms. Serving as the university's central venue, the auditorium hosts a variety of events, including commencement ceremonies, academic conferences, lectures, and cultural performances. Its design emphasizes functionality and acoustics, providing an ideal setting for both large-scale gatherings and intimate presentations. In recognition of its architectural significance, the Toyoda Auditorium was registered as a National Tangible Cultural Property of Japan in 2011. This designation underscores its importance as a cultural and historical asset. Assemble Area (Parking Space in front of the Auditorium)
+
+
+## PAGE 35
+
+NUCU 2026 Program Guide 35
+Tsurumai Campus - School of Medicine and University Hospital Meeting Room No1 and No2 From Tsurumai station to Basic Medical Research Building Meeting Room School of Medicine Nagoya University Tsurumai station ( Subway Exit 4 or JR Meidaibyoinmae Exit) → Walk along JR line seeing Tsurumai park to your right → School of Medicine West Gate (between a building under construction and a residence of nurses) → Basic Medical Research Building → Meeting Room
+JR Tsurumai Sta. Meidaibyoinmae Exit
+Subway Tsurumai Sta. Exit 4
+Nagoya Univ. & Hospital
+Tsurumai Park
+Basic Medical Research Bldg, 1st Floor Meeting Room
+Bus stop Meidaibyoin
+A B
+C D E F G H
+
+
+## PAGE 36
+
+NUCU 2026 Program Guide 36
+ A Subway Tsurumai sta Exit 4 B From Exit 4 go along JR Line C JR Tsurumai sta Meidaibyoin Exit D Tsurumai Campus E Pass the front gate of hospital F Enter the campus G Turn Left at Basic Medical Research Bldg H Enter the building
+
+
+## PAGE 37
+
+NUCU 2026 Program Guide 37
+Dormitory to Tsurumai Campus
+ Bus Stop (Meidai Byoin) to Basic Medicine Building
+
+
+## PAGE 38
+
+NUCU 2026 Program Guide 38
+Nagoya University Hospital
+Hospital Main Entrance
+JR Tsurumai Station
+Outpatient Building
+Ward Building
+Consultation Building A
+Consultation Building B
+ Research Building 2
+Research Building 1
+Research Building 3
+Basic Research Building
+Tsurumai Park
+JR	Line:	Nagoya	Station	to	Tsurumai	Station
+
+
+## PAGE 39
+
+NUCU 2026 Program Guide 39
+CONTACT INFORMATION Nagoya University School of Medicine Office of International Affairs 65, Tsurumai-cho, Showa-ku, Nagoya, Aichi 466-8550 JAPAN Phone +81-52-744-2507 Working hours: Mon-Fri 8:30 a.m.- 5:15 p.m. (Emergency Contact) Hitoki Hasegawa Phone +81-90-5118-8523 Email: hitoki.hasegawa@gmail.com
+
+
+## PAGE 40
+
+NUCU 2026 Program Guide 40
+Program policies Rules of Conduct/Program Dismissal Participants are expected to conduct themselves as mature, law abiding, responsible, and cooperative members of the Program and the community of Nagoya University. Participants must respect and obey the rules, regulations, property and attendance requirements as set forth by Nagoya University. These rules and regulations are strictly enforced during the entire program. Any participants whose behavior is inconsistent with the policies and objectives of the program and/or the rules and regulations of Nagoya University, the laws of Nagoya city, the commonwealth of Aichi, and Japan may be subject to legal and disciplinary action and may be removed from the program. In the event the academic staff determine a participant should be dismissed from the program, the participant will be ineligible to complete the program. Beyond stated university policies, all participants must understand and adhere to the following policies: Inappropriate Behavior Participants are expected to commit themselves to serious and honest work during the program. We expect them to attend all classes/activities and complete assignments, and they adhere to the daily schedule and be present and on time to required activities. It’s necessary to wear clean clothes and to keep the places they use clean. Since other students and patients will be on campus during the summer, participants are expected to act in a mature fashion. Participants should be respectful of other classes and faculty at all times. The following will be considered inappropriate behavior and may be grounds for dismissal from the program. • Unauthorized absence or dismissal from the program and other required events • Profane, lewd, or indecent behavior, Tardiness, rudeness, or other recurring manifestations of “negativity” • Violation of the University rules Breaking the Law Participants will be dismissed from the program immediately, no exceptions, no warnings, and no second chances if they engage in any illegal activities. This includes, but is not limited to: Alcohol The legal drinking age in Japan is 20. Drunk driving is severely punished in Japan regardless of legal drinking age. Participants must not drive a vehicle, including a bicycle, while under the influence of alcohol. The Japanese standard for a driver’s level of intoxication is much stricter than in other
+
+
+## PAGE 41
+
+NUCU 2026 Program Guide 41
+countries. Note that passengers of a drunk driver are also subject to severe penalties when they know the driver is under the influence of alcohol. Drugs Participants’ personal use, attempted purchase, possession of or being in the company of anyone using or possessing any illegal drugs in any quantity, or any unauthorized prescription drugs, or possession of any drug equipment or paraphernalia is prohibited. Prescription Drugs Use/Abuse The possession or use/misuse of any unauthorized prescription drugs or sharing/selling any prescription drugs is prohibited and is grounds for dismissal. Participants may have over-the-counter medication, but they must be used only as directed and intended. Misusing or abusing over-the-counter medications is also prohibited and grounds for dismissal. Stealing The removal of public or private property online or in person, without payment and/or consent, and/or another student's property is a crime. Stealing from the University will result in direct disciplinary action from Nagoya University. Additional Conduct That Constitutes Removal from the Program Endangerment Participants may not place themselves or others in a situation that endangers any party involved. Participants that jeopardize the safety, security and health of themselves or others are subject to dismissal from the program and the University’s campus. This includes but is not limited to: physical/verbal threats or assault, fighting. Sexual, Racial, Personal Harassment and Bullying Tolerance of different people’s religions, ethnicities, cultures, gender and sexual orientation is an integral part of the Program experience. Verbal, physical, and/or cyber bullying, intolerance, intolerance and/or sexual, racial, or personal harassment of any kind is prohibited and can result in dismissal from the program. Smoking and Use of Tobacco Products Smoking is prohibited for those under the age of 20 in Japan. The Program strives for a smoke-free program. All university buildings are smoke-free as are all Program events. Participants are prohibited from smoking anywhere on campus or during any off campus activity. Unauthorized Video and/or Audio Taping or Photography
+
+
+## PAGE 42
+
+NUCU 2026 Program Guide 42
+Participants are not permitted to video/audio tape or photograph any participant, program administrator or professor without the consent of that individual. Unauthorized video/audio taping, photographs or web postings are grounds for dismissal from the program. Schedule Please refer to the document for the details of each date. There you will find the schedules and where you need to be at what time especially, after the first day. What to bring Here is the basic list of what you need to bring. Items underlined are required to participate in the program. Beyond this list, it is up to each participant to decide what to bring. It's important to understand that you must never bring items that are prohibited by Japanese law, which you have sworn to do with the pledge you have submitted. • Passport • Thermometer • Clothing for the days of your stay • Masks for 5 days at least • Japanese cash which is equivalent to approximate US $200 • Prescription medicine • A backpack for a short trip • Towels • Laptop / Tablet • Phone with translation app • Emergency contact information for your travel insurance company • Rain gear (The rainy season runs from the beginning of June to mid-July in Japan.) • Additional items such as a light jacket just to cover from air conditions • Converter if needed *Outlets are different from those in your country. Participants are required to bring a thermometer to take your temperature each morning. If it is higher than 37.5℃, you won't be allowed to join the program that day. If your temperature is between 37℃ and 37.5℃ for two consecutive days, you will not be allowed to join the program either. These are mandatory rules because participants will go to the hospital and there are some opportunities to see patients and local people. This standard is based on the average body temperature in Japan. If this
+
+
+## PAGE 43
+
+NUCU 2026 Program Guide 43
+standard is very different from your average temperature, consider it a fever if it is significantly higher than your normal temperature. Even if you forget to bring any of the above except the mandatory items, there is no need to worry. There is a shopping mall near our university, and you can get almost everything there. It has clothing stores including UNIQLO, pharmacy, DAISO, grocery stores, some restaurants, Burger King, Starbucks etc. Before you leave Please check your E-ticket to double check the flight schedule before your departure. Most airlines allow passengers to check-in online 24 hours before the departure time. We advise you to use web check-in for smooth boarding. You can enter your email address on your reservation, and you will be notified if there are any changes including flight schedule changes and cancellation occurs to your original flights. If you have any questions regarding the baggage allowance, overweight baggage, and in-flight meal, please contact your airlines or check their website for more details. Please give yourself plenty of time to get ready and go to the airport early, you may expect the airport to be crowded. If you have any problems on the way to Japan, please contact us at the following address. < Emergency Contact> Name: Hitoki Hasegawa (Jr. Associate Professor) Phone: +81-90-5118-8523 / Email: hitoki.hasegawa@gmail.com Clothing Campus dress is casual but must be tasteful and appropriate. Appropriate attire must be worn at all times in accordance with Nagoya University Hospital’s dress code: pants, slacks, or skirts knee-length or longer, along with shirts or blouses, and closed-toe shoes. When you enter the hospital, you will be required to wear a surgical mask. During the program, It is early summer in Japan, and a light sweater or jacket will be necessary for some air-conditioned classrooms. Rain gear may be needed occasionally, as rain can start to increase towards the end of May. Participants should ensure that their permitted jewelry is minimal so that it does not pose a risk to themselves or others and promotes a professional image. Facial piercing should remain discreet and facial jewelry should be plain and flat. This is to avoid potential harm and also to present a professional image. Make up / Nails / Perfume and Hair Keeping make up to a minimum is desirable. Finger nails should be kept short and clean. Nail polish may be worn, but colors shall be conservative. The use of strong fragrances should be avoided. Participants should wear no perfume to avoid discomfort to patients and potential allergic reactions. Especially, between on May 18 and 23, it will not be allowed to wear any perfume / cologne. Hair must be clean and well groomed. Where hair clips are worn, they must not have the potential to injure others, and must comply with health and safety and infection control standards. The use of hair colorant is an individual choice but should not be of a color that draws undue attention- staff should consider patient’s expectations of professional image.
+
+
+## PAGE 44
+
+NUCU 2026 Program Guide 44
+Tattoos Tattoos needs to be covered during the program. Where present tattoos should not be offensive to others and where they may be deemed to be offensive, they should be covered with an appropriate body stickers / skin-colored patches provided by the individual. In Japan, it's generally not allowed to show your tattoos in hot springs, pools, or public baths. If you have a tattoo, you must cover it as described above. Travel insurance Insurance is NOT included in the Program fee. Travel insurance is required. By agreeing to participate in this program, you agree to purchase your own travel insurance. All participants are required to purchase comprehensive international travel insurance BEFORE leaving their home country to cover a wide range of expenses in the event of illness, hospitalization, repatriation, etc., and to provide coverage from the flight to Japan through the return to their home country. Meals Meals during the program are partially provided by Nagoya University for the participants. For the other days, each participant is responsible for preparing their own meals. At the Tsurumai campus, there are only a few restaurants, a cafeteria and a few convenience stores on campus. The cafeteria only accepts cash, so we recommend that you bring some cash with you. The average amount of money you will spend on each meal at the cafeteria would be around 600 yen. There are some menus that are lower than that, so it depends on what you eat there. The other restaurants would accept credit cards, but the average amount of money you will spend on each meal would be 1,000 yen to 1,500 yen. You can also use credit cards at convenience stores. Participants may eat most meals in the cafeteria or buy what they want to eat in the convenience stores. Either the cafeteria or the restaurants do not offer many choices of food such as vegetarian, vegan, gluten free, and halal options. There are convenience stores near the dormitory, so you can buy a lunch box. The price of vegetables and fruits is expensive compared to other countries. Though it differs from person to person, the cost of meals for one week should run about 20,000 yen. About Food Allergy For those allergic to certain foods, it is always advised to check what they eat before eating if they are not sure of the ingredients. Japan’s top seven allergens are: ① Shrimp (えび: shrimp) ② Crab (かに: crab) ③ Wheat (こむぎ: wheat) ④ Buckwheat (そば: buckwheat) ⑤ Egg (たまご: egg) ⑥ Milk (ぎゅうにゅう: milk) ⑦ Peanuts (らっかせい: peanuts) For more information, please refer to the following website: https://savvytokyo.com/quick-guide-know-and-understand-food-allergies-in-japan/
+
+
+## PAGE 45
+
+NUCU 2026 Program Guide 45
+Credit Card and Exchange You can use an international credit or debit card, such as VISA, MasterCard, or a card with “Plus” or “Cirrus,” to withdraw Japanese yen from ATMs with international card service. Please confirm this before coming to Japan. These ATMs are available at some banks, post offices (you can withdraw money at the post office on campus), Sakae or Nagoya Station, department stores around Sakae, and some hotels. However, they are not always available 24 hours a day. We recommend that you bring a credit card and confirm in advance that it can be used for international cash withdrawals. Furthermore, Alipay and UnionPay from China are gradually becoming more widely available in Japan. For a list of stores where Alipay and UnionPay can be used, please refer to the website below: https://cashless-japan.net/alipay-shop/ You can also exchange foreign currency (such as US dollars, UK pounds, Chinese yuan, Korean won, and Australian dollars) at banks or post offices at the international airport, or at the post office on campus until 4:00 PM on weekdays. Branch offices of Citibank are located at Chubu International Airport and in Sakae. Power Supply and Voltage In Nagoya, voltage is 100V and frequency is AC60Hz. Plug type is A.
+ Internet / Wi-Fi All participants will have access to the free school-wide WIFI, eduroam, on campus including their accommodation. It’s necessary to make sure about how to connect to eduroam with your ID and password at your home university before you come to Japan. Internet connection is only available on campus, so it’s necessary to rent/bring portable Wi-Fi if you want to use it anytime. In Japan, public Wi-Fi networks for free use have become numerous. However, it depends on whether you think it's enough or not. For your reference, we share the link that provides the information of free Wi-Fi in Japan. https://www.jnto.go.jp/mobiletips/eng/wifi/ Also, there are no general university computer labs available, so you will need to use your laptop or tablet. You can connect to the Internet with your laptop or tablet through the free Wi-Fi at the university as explained above. If you need to print something, you can use a copy machine in any of the convenience stores. We recommend that you bring a USB device for printing.
+
+
+## PAGE 46
+
+NUCU 2026 Program Guide 46
+Preparing for emergencies Insurance companies may provide a point of contact for emergencies, so be sure to have their contact information and how to reach them before you come to Japan. For general information, if you need an ambulance, please call 119. If you need the police in an emergency, call 110. In the case participants are involved in a situation that requires calling 119 or 110, we would like each of you to cooperate and help each other. In this case, it's necessary to call Dr. Hasegawa at the same time as soon as possible. < Emergency Contact> Name: Hitoki Hasegawa (Jr. Associate Professor) Phone: +81-90-5118-8523 / Email: hitoki.hasegawa@gmail.com General information : Links 【Transportation】 Transportation Bureau City of Nagoya：https://www.kotsu.city.nagoya.jp/en/pc/OTHER/TRP0001448.htm City bus：https://www.kotsu.city.nagoya.jp/en/pc/BUS/TRP0000987.htm Central Japan Railway Company（Shinkansen）：https://global.jr-central.co.jp/en/ Information of Manaca：https://www.meitetsu.co.jp/eng/train/Ticket/manaca/index.html Information of Suica：https://www.jreast.co.jp/multi/en/welcomesuica/welcomesuica.html 【Guide for Ambulance Services】 https://www.fdma.go.jp/publication/portal/items/portal001_pamphiet_english.pdf 【Nagoya University Websites】 Campus map (Higashiyama)：https://en.nagoya-u.ac.jp/map/index.html Campus map (Tsurumai)：https://www.med.nagoya-u.ac.jp/medical_E/access/tsurumai-campus-map/

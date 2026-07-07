@@ -1,0 +1,1247 @@
+Document: Reinvention After Collapse: Economic Reconstruction Japan from Shōwa to Heisei (Post-war): A Case Study
+Lecture: Session 3
+Date: January 27, 2026                                                        
+Course: BAIM 3300 - AI & Automation for Tomorrow's Societies
+
+Hope you're all doing great.
+We are, again, recording.
+So, for better or for worse, please keep that in mind.
+If you have a question that you'd like to ask us
+that is, that shouldn't be on the recording,
+Will you please let us know so that we can turn our mic off and kind of step away from?
+So this room is so high tech that not only are we
+wearing microphones and there are multiple cameras and projectors,
+but there are actually microphones in the ceiling as well as speakers.
+So, again, if you have a question that you'd like to
+discuss that's, you know, just not appropriate for the recording,
+feel free to just ask us to we can step outside or
+we can do so in a way that just takes us a second to kind of turn that off.
+But please be cognizant of that. The upshot is if you miss a lecture, it'll be online.
+It's in the course recordings. It's called a media site.
+It's a new technology that I think CU is testing and we do get the transcripts.
+And part of what Sam is going to dive into between
+tonight and over the next few weeks is he's training Makoto Kun,
+the AI assistant on those transcripts.
+So you'll be able to ask questions about the course
+in the direction of this AITA that I've been working to develop over the last few years.
+And then I ended up on the big screen because of
+I got a big award for that work.
+So don't look out there. Just stay looking in here. I don't don't distract you.
+So a couple of other housekeeping items just to get us started.
+First, the quizzes. So we are, as you know,
+as the.
+Pioneering or in our inaugural.
+Class taking this this first thirty three hundred
+course, you are seeing us develop content in real time.
+So the quiz is prepared. It's not yet available.
+I'll publish it tomorrow. You'll have an unlimited amount of time to take it.
+So what does that mean? The only thing that you
+need to know is that it's due before class next week.
+OK, so.
+The first two sessions wanted to. I'll tell you
+there's nothing on the quiz from session one. It was
+just us getting to know each other. You didn't miss anything if you weren't here.
+Session to Sam did an incredible job covering
+Japanese history today. He'll continue and finish
+that lecture. So session two last week in session
+three today will be on the quiz.
+And as was, I think, beautifully delivered. There are dates.
+Key concepts, other things about just putting.
+This history in a.
+In a framework for us to use history as a.
+A predicate for where we're headed in the Japanese culture and the Asian economy.
+The Japan carry trade. If we have any finance majors,
+please pay attention to that. It is starting to unravel.
+The United States is buying yen to prop it up.
+Which will round about prop up the USD.
+These are very, very.
+Trying times if you're in the world of.
+I.
+Global macro. So please pay attention to that.
+So again, housekeeping wise.
+First quiz will be due next week.
+You can start and take that quiz.
+Anytime you want.
+I don't time it.
+It's closed note.
+Close book.
+Close collaboration.
+And you will know right away if you know the topics or you don't.
+If you mess one up, no big deal.
+You'll have another chance on the final.
+Because the final is just a super quiz.
+Okay.
+So just like I run.
+All my courses.
+Learn the vocab.
+You know, practice your dates.
+Get a sense of kind of who did what when.
+So that when you're in an interview, you can have a coherent conversation.
+That will convince the executive and the person that you're going to be working for.
+That you know what you're talking about.
+Okay.
+And again, give yourself a little grace.
+This course is not designed to be a curved course
+where you're in the 20s to 40s through the semester.
+Like I was in engineering.
+And then you get.
+40 % added back at the end of the semester.
+This will be where we'll watch the grades.
+We'll tweak the final result.
+You'll be happy with your grade in this class.
+And of course, it's not the reason to take this class.
+It's to just get an easy D.
+Okay.
+So that's the plan.
+Course logistics wise.
+I did also want to mention to you now.
+Since I'm kind of covering all these things.
+As I had on the screen before.
+I really would like you as I had sent out.
+If it didn't come through, that's on me.
+But I sent either an email or an announcement.
+That I would love to have you share an article relevant to this course.
+That you will post in the discussion thread and then summarize.
+And I did so three times to give you examples.
+And I wanted to give a quick shout out to the
+only person who has done this so far.
+And that is Matt.
+So well done, Matt.
+Where you at?
+There you are.
+Well done.
+Thank you very much.
+Please do that.
+I read your content.
+I was somewhat familiar with the work that you had found already.
+And so it was nice for me to take to read your
+perspective on Deloitte's thought leadership in AI and in predictions.
+Now, are we offloading our work to you?
+Not really.
+We're just trying to get you to have some buy in in this content.
+Recognizing that much of this content will be dated.
+And that a year from now.
+When your predecessors or your successors take this course.
+They'll look at these articles and kind of chuckle.
+Because they will all know that certain things were true and false.
+So again, try to find things that you think are highly relevant.
+Whether they're timeless in nature.
+Or whether they're very, very specific to what's happening now.
+And so that's, those are kind of my major announcements.
+What I also wanted to do is just give you a quick
+preview of where we're headed.
+And that is that we're going to be.
+So it's really important to me that we always start a course strategically.
+Which is to say, you know, history.
+The big ideas.
+The macro factors in an environment like Japan and Asia.
+But I also want to get technical.
+Because this is an AI and automation course.
+So beginning in the second portion of today's lecture.
+And most of next week.
+We will be very hands on and technical.
+Now that might be Figma.
+Which is a design tool.
+And then that will also be some AI prompting.
+And some techniques that I just wanted to share with you.
+Are really, really cutting edge.
+So coming out of MIT.
+If you're interested in the most sophisticated aspects of AI.
+Look into recursive language models.
+And what's called recursive metacognition.
+I mentioned this in one of my other courses today.
+Just as a teaser.
+So that's just a preview of where we're headed.
+With learning how to prompt.
+In a way that leverages AI to be your advocate.
+Your co -pilot.
+Instead of just doing brute force work.
+So look forward to more on that next week.
+And as we head into February.
+Okay?
+Any questions about course logistics?
+Housekeeping items?
+Great.
+Yes, please.
+Do you know when the final will be?
+Like the date?
+I usually get those dates in the second month of the semester.
+So let me publish that for you once I get it.
+I don't.
+Our trip obviously won't be impacted by it either way.
+So it will just be in the regularly scheduled time slot.
+And then what I typically do is offer one alternative time.
+Before the normal final.
+To help you if you have certain conflicts.
+Or get double booked or something like that.
+Okay?
+Again, super quiz.
+I don't know how long it takes to do it.
+It will take you.
+I don't know.
+I can't say because I don't have the data yet.
+But quizzes.
+My quizzes usually take 15 minutes.
+So maybe the final takes you an hour.
+I don't try to develop tests where time is a factor.
+For better or for worse.
+Okay?
+So one other thing.
+Again, I'm going to turn it over to Sam.
+I'm really looking forward to his content.
+He's graciously linked the decks in this course matrix.
+So please capitalize on those.
+Subject to change.
+Because we are continuing to refine our plans as
+people are available in Japan and here in the U .S.
+And then the last thing to say is that we have a special guest.
+Which I will introduce and we'll do a little Q &A towards the end of class tonight.
+So if you can, please stick around until 615, give or take.
+And we'll have a nice discussion from a Leeds alum, Alex Mitchell.
+Okay?
+So Sam.
+I'll let you take it away.
+And we will go from there.
+All right.
+Check, check.
+Cool.
+All right.
+Thank you, Matt.
+Good evening, class.
+I hope everyone is doing well today.
+Any Bronco fans here?
+I'm kind of a fine fan.
+Yeah.
+Bummer.
+Bummer of a game last weekend.
+I always, I'm telling everyone if Bo Nix was still playing, we would have won the Super Bowl.
+So this year is an asterisk for Denver.
+All right.
+Let's get into it.
+So today, actually, let me go here.
+We are going, last time I spoke, we talked about the Meiji Restoration.
+And then we also spoke about before the Meiji Restoration.
+We spoke about the Edo Period.
+So now today we're going to talk about the post -war
+miracle, which is 1945 to 1989.
+But we're also going to go past that.
+We're going to talk about the lost decades that happened after that.
+I'm not going to touch on the actual World War II.
+There's a big gap, right, between 1912 and 1945.
+That could be a whole other class in its own.
+But at the end of this lecture, I have some great resources.
+If you're interested in that, you can dive in, too.
+That being said, this is, I don't know if many
+people realize this, but in 1945, Japan occupied all of the peak.
+So that's Manchuria, that's South Korea, so into China
+there, and pretty much all of Southeast Asia.
+So since we talked about how in the Meiji
+Restoration, they, you know, they were able to get to the top of the world,
+they, after their 200 -year period of isolation, they
+kind of changed focus and started building a military.
+And then they, the whole country came together under
+one emperor, and they continued on this technology
+and empire building, essentially.
+From, again, 1968, 19...
+No, no, no.
+From mid -19...
+Early 1900s all the way to 1945, where they occupied this much territory.
+Interesting viewpoints on their perspective on why they did this.
+And definitely there were atrocities that happened during this time.
+But again, that's another discussion that we can leave for another time.
+So.
+I'm going to talk about what happened after the war.
+Basically 1945 onwards.
+And, you know, it's pretty incredible.
+They went through a devastation again, and then
+they rebuilt their country to be an economic powerhouse.
+You know, in 1988, 32 of the top 50 corporations
+were Japanese.
+And then they went through a devastation again in 1990.
+I think it's interesting to think about, you know, how
+many companies, interestingly today,
+it's just one.
+Anybody have any thoughts on why this happened?
+Why did they go from 32 to one today?
+Yes?
+Was it the tech companies taking over?
+The tech, like in the U .S.?
+In the U .S.
+Mm -hmm.
+They got a bunch of these folks.
+I think that's definitely a part of it.
+Yeah.
+Didn't their loan system and housing market collapse?
+And then that was a huge economic shift.
+I think you get both right.
+And we're going to talk about both of those topics today.
+Yes, great.
+So the Japan paradox.
+So we're going to talk about the economic miracle post -war,
+and then the lost decades that happened after that.
+So let's move right after the war, 1946.
+So Japan went all in on military and empire building.
+And then after the bomb, after the war,
+they were 53 % of their pre -war size.
+In Tokyo alone, they went from 4 .5 million people to 2 .5 million.
+And so literally they're in rubble.
+They're eating tree bark.
+They're just trying to survive.
+And at this time, they decide to pivot again
+from building a strong army to building strong companies.
+So how did they do that?
+Well, first they plan from the top at the government level
+with an organization called MITI.
+MITI is the Ministry of International Trade and Industry.
+And so this organization,
+it's a small organization.
+It's a large organization.
+And so this organization said, OK,
+we're going to focus on a few key sectors
+and grow those globally.
+We're going to focus on steel, shipbuilding, electronics,
+and autos, to name a few.
+All right.
+And then in addition, they're going
+to coach the companies on how to get loans
+to power their companies into these industries.
+And so in addition to that, they're
+also going to, again, going back to what
+we saw after the isolation and the Meiji Restoration,
+bringing in experts, foreign experts.
+But in this case, they're bringing in technology.
+They're licensing technology.
+But they're also at the same time preventing foreign companies
+from setting up shops.
+So they're just taking the technology
+and learning about it.
+But they're blocking foreign competition in country.
+And they're taking those ideas and technology
+and making it, in their way, a Japanese technology
+and then exporting that as a finished project or product.
+So how are they going to fuel this?
+And this is pretty incredible.
+They decided, they came up with this FILP financing system,
+which is Fiscal Investment and Loan Program.
+And basically, all the citizens all across Japan
+pooled their money together into one savings account,
+into the Pulse.
+And then they were able to get a local savings account.
+And from that, the government took the money
+and loaned to companies.
+I mean, imagine trying to do this in the US.
+And this was the fuel to power the industries that
+came up into the 80s.
+So your Sonys, your Toyotas all came out
+of this strategic initiative.
+And in addition, we have visionaries
+that were born during this time.
+So we have Akil Morita, who actually was born in Nagoya.
+So when we go to Nagoya, this guy was born in that region.
+And he came from a family of famous sake producers.
+But he was in love with electronics.
+And after the war, he was, I think,
+I don't know his rank in the war.
+But during the war, he met his co -founder.
+And afterwards, they had an opportunity,
+to become professors and teach.
+But they decided to form a company that is Sony
+and grow that to what it was at its height in the late 80s.
+And he's a visionary in many ways.
+But he also had courage.
+There was a time before Sony was Sony where he was approached
+by Bolova, which is a famous giant US watchmaker.
+And they wanted to buy 100 ,000 units of Sony's watch.
+And they wanted to buy Bolova electronics.
+But one condition is that they wanted Sony
+to take off their brand label and to put Bolova on it instead.
+This is, at the time, 100 ,000 units.
+This is more than the entire market cap of the company,
+of Sony.
+And many people advised, you should definitely do this.
+This is a giant order.
+This is the biggest order we've ever had.
+But he said no thank you to that.
+Because he said, supposedly, in 50 years,
+the name Sony will be as famous as yours.
+So that kind of courage, that kind of visionary,
+people like Merida, people like Honda,
+were born during this time.
+And so, of course, not long after, the Walkman came about.
+50 million units sold in 1983.
+It became a Walkman part of the Oxford Dictionary.
+And it just, it was a huge hit.
+Not only the craftsmanship and the technology,
+but just the idea of putting music on your head,
+which to you guys probably is like second nature.
+But back then, maybe Professor Brady remembers this,
+I do too, these Walkmans were amazing.
+In my generation, we had the CD player Walkman.
+It wasn't the cassette style.
+But this was the CD player Walkman.
+This was the first commercial of Sony.
+The Sony Walkman is a tiny stereo cassette player
+with truly incredible sound.
+Hold on the Walkman and see the world in a whole new light.
+The Walkman from Sony, the one and only.
+So giant hit for Sony.
+And they continue with their TVs, their radios.
+It just, a huge, Sony really demonstrated quality
+and craftsmanship in their electronics.
+Okay, so we have the corporations on board in key industries.
+We have the citizenry getting loan, putting their money
+in a loan system to power the corporations.
+And now we have the employees, the workers.
+And this is where the salaryman concept came in.
+This is an idea where you're an employee to a company,
+but you're more than an employee.
+You're essentially total loyalty into the company,
+not worried about getting paid for overtime,
+working ridiculous hours, but on the contract that you will have
+lifetime employment.
+So you hire, you, you know, you're going to have to pay for overtime.
+Right out of college, you join a company,
+and you're in that company for life.
+And that's kind of the deal.
+You give everything you can to the company,
+and in kind, they will not get rid of you.
+And that was the salaryman.
+These guys, and you'll see them when you go to Japan still.
+They're still there.
+Maybe in a different light as to, as what, back during this time.
+But press suits, black jacket, dress really to the nines.
+They're still there.
+Going to work early in the morning on packed trains.
+And then after work, it's social time,
+which actually in Japan is where most of the business gets done,
+where you go out drinking, partying, everything.
+Come back early in the morning to your house.
+Get up 5 a .m. next morning and do it all over again.
+Okay?
+So what happened from all this?
+Well, on average, there are, you know,
+the average GDP grew 10%.
+So from 1955, it was $24 billion.
+And in the 1980s, they had grown to $1 trillion.
+So just in a short time, again, from the rubble of
+the World War II loss,
+they reinvented themselves.
+Instead of the world's strongest army, they became
+the world's strongest companies.
+And I remember during that time,
+a lot of people were putting out books and movies
+about how Japan was going to be the number one economy in the world.
+At the end of it, in the late 80s, they were the number two next to the U .S.
+But the bubble started going, all right?
+And this might sound familiar every time I look at this slide.
+People, because the economy started growing great at 10 % on an annual basis,
+and the economy was growing at a very high rate,
+people were buying land.
+And of course, the value of that land raised.
+They used that as collateral to borrow cash
+to buy stocks or buy more land.
+And this kind of started circling the bubble so much
+so that at one time,
+the Imperial Palace grounds, which is roughly about 300
+square yards,
+so that's like, if you guys drive on 36 back to Denver,
+I don't know if you ever see that, the CU South Campus,
+I think it's just a seed building right now,
+but that land, there might be some random animals in there,
+that's roughly the size of the Imperial Palace.
+It's not too big.
+That piece of property was valued at more than the entire state of California.
+A parking lot in Tokyo was valued more than Central Park in Manhattan.
+So at this time, the government started to get nervous,
+started to pump the brakes, and realized that they were in a bubble.
+Also, people, like office workers could go to the bank
+and easily get a 100 million yen loan.
+100 million yen in today's money is like half a
+million dollars U .S.,
+but in that time, it was like $2 million.
+You could walk into a bank.
+As a middle, mid -income office worker,
+and get a $2 million loan.
+So, definitely in the bubble, the government had to do something,
+and they essentially hit the brakes to a screeching halt.
+They raised interest rates, I think, five times in over a year,
+a little less than a year,
+from 3 .25 % to 6%.
+So this makes it harder to borrow money.
+In addition, they capped loans,
+so you can no longer get that $2 million loan.
+And then there was also some tax things that prevented lending money
+as much as they were.
+So, what happened?
+Well, in retrospect, you know, hindsight being 20 -20,
+they hit the brakes too hard,
+and the entire economy,
+the entire economy just collapsed.
+$10 trillion in wealth were wiped out in a little over a year.
+And more to it, that kind of social contract
+where you have lifetime employment,
+that was shattered too.
+Sony cut 17 ,000 jobs at the end of the 1990s.
+Bankruptcies went up 68%.
+So 10 ,000 companies went belly up.
+And again, that lifetime employment contract
+is what's broken.
+And in addition, the banks themselves,
+not wanting to take a loss on paper,
+continued to loan to some of these companies,
+as they still do today, actually.
+And this is what's known as a zombie company.
+So it's not growing, it's not innovating,
+but it's not dying either,
+just because the banks don't want to take a loss on those loans.
+So this is leading, this leads into the lost decade,
+roughly 1991 to 2001,
+although some might claim it's still going on.
+Growth was at 1 .14%.
+And then for the human capital,
+there would be a scene where,
+would you go out and get a lot of work done for the labor market ?ライal
+capital coming go to these companies to actually
+have an apartment to keep workers on a regular basis. And so
+it getsLooks like it's started that way. In that
+go straight to the cene encore? So whereas
+the Yas was signed
+up for Sotheby's. Yeah.
+coming out of this kind of trap, this capital trap
+that was created in the companies.
+Another way to look at it is like the Marietta way
+where you have a visionary, an idea, go
+to global market, take risks, try new things.
+Now in that lost decade, it's more about consensus,
+not taking risks, being as safe as possible,
+not innovating, but also not losing your job because remember that social contract is now
+broken.
+So while Sony was perfecting Blu -ray players,
+Netflix was coming out and bringing streaming
+services.
+While Japanese automakers were optimizing the engine,
+Tesla was coming up with cars
+that are essentially computers on wheels.
+So the innovation came rolled to a stop.
+I mean that innovation rolled to a stop in a global context.
+So there is this term that was coined in the early
+2000s called the Galapagos syndrome.
+Does anybody know the Galapagos island?
+What happens on the Galapagos island?
+Yes?
+Speaker 4 There's a bunch of unique species because it's
+like a contained.
+Exactly, yeah.
+And those unique species are like specifically have grown to adapt to their environment and
+thrive in it, but they can't thrive outside their environment.
+That same thing happened in Japan with the technology.
+So for example, the iPhone, I remember this, the iMode
+in early 2000s, you could send email,
+which you couldn't do on any other phone.
+You could read QR codes, you could do cashless
+payments, you could even stream TV on your
+phone.
+I know today it's like, well, yeah, of course.
+But this is like five years before iPhone even came out.
+They had this technology, but the technology only worked with systems in Japan.
+And again, going back to the idea of not taking
+risks, it was too risky to try to get this
+technology global.
+And soon iPhone would come and take over.
+In addition, Sharp, who was great at building cameras
+and phones and TV screens, they no
+longer innovated.
+They were soon bought out actually by Foxconn, which
+was the parts supplier for a long time
+of their TV sets.
+Toshiba, they had a huge accounting scandal where they were inflating profits for like
+seven years.
+Somebody blew the whistle on that and they flopped as well.
+So this is the reason why only one company now,
+Toyota, is existing as a top 50 corporate
+company.
+And then in addition, Japanese, and I think this goes back now that we've talked about
+the Edo time period and the Meiji Restoration,
+there's this term called monozukuri, which
+is really like a dedication to craftsmanship, which is great.
+But at the same time, it takes a long time to
+perfect something, so much for that they
+don't want to put it out on the market because they still want to kind of perfect it or tinker
+it until it's just perfect.
+Whereas maybe out here, it's more agile, fail fast type product building.
+And in addition, with the Galapagos effect, it
+happened because Japan is actually a big
+market, 125 million people.
+So you could innovate in Japan and still live comfortably.
+You can make those iMode phones.
+So, you know, 100 million people.
+Hundreds and thousands of them can be fine in country.
+Whereas other countries like South Korea, which only has
+51 million people, they were
+kind of forced to go global.
+And that's why, you know, you go to Costco or
+whatever and you see all the TVs are Korean
+TVs, Samsung, LG, because they had to perfect their
+product and go global since their market
+was so small.
+Interesting point, something to think about as we progress in this course.
+Where now with shrinking society, Japan's market is shrinking.
+So how is that going to affect the corporate view of things?
+Okay and that's it as far as an overview of the post
+-war miracle and then the lost decades.
+Again total defeat in World War II.
+The nation was in ruins as its imperial system was dismantled.
+And it transformed from a military.
+Military.
+Empire.
+To an economic giant.
+But then as we, you guys pointed out, the technology kind of stayed in country.
+And then the bubble, the real estate bubble kind of
+blew up the entire market or the entire
+economy.
+At some point, I think a few lectures down the road,
+we will talk about the third pivot,
+which happens during the Reiwa period, which is the current time period.
+Any questions?
+Yes.
+I know that you said we're not really going to touch on Japan.
+But I wanted to hear your perspective on why Japan
+still kind of maybe denies like a strong
+word but kind of avoids talking about like what
+they, like the atrocities that they committed,
+especially during like World War II against like how you showed on the map like South
+Korea, Taiwan, China, or like Korea in general and all of that.
+Yeah.
+So.
+I'll fast forward to this again.
+I love podcasts.
+So this guy, Dan Carlin.
+Does anybody listen to Dan Carlin?
+He's actually a CEO alum.
+He's a great like before, I didn't really dig history.
+But this guy does a great job at reading history.
+He has a whole section or group of podcasts on supernova in the east.
+And he talks about the E .T.
+And he talks about Japan during that time period in post, in World War II.
+And I think the perspective, at least what
+he comes to the conclusion of, and I kind
+of agree with him, is Japan, you know, after the,
+during the Meiji Restoration, they earned
+a seat at the table of the league of the top Western countries.
+They were the only Asian country.
+But still, it felt like maybe from their perspective.
+It was.
+It was racism or they just believed Japan couldn't do it.
+They still didn't have the power that the other countries did at the table.
+And so then they came back and started doing their own empire building.
+And they reasoned they were doing it as to grow like, like how there's a European Union.
+They wanted to grow in the Asian Union, have like a
+Asia global condensed power to where
+they could really have a seat at that table.
+So.
+And so, you know, the atrocities like with South Korea and the comfort women and everything
+that happened is not an excuse, I think.
+But in their thinking, it was kind of a means to
+getting to that table of growing and creating
+a whole Asian union.
+And that's why they began the empire building.
+And that's, you know, there was the collateral atrocities that happened from it.
+But you're right.
+When we go to Tokyo, we get, there's still shrines
+out there that talk about the war
+dead from Japan.
+Where they still honor them, but they committed great atrocities.
+But they're still there.
+And the prime minister, depending on who the prime minister is, still goes and pays their
+respect to it.
+So for that part, I don't have an answer on why they do that.
+But from the perspective, they're trying to build
+like an Asian global footprint to, to
+put them on the map with the rest of the Western world.
+That's, I can, I can't.
+I can kind of see why they're going that way of empire building.
+Any other questions?
+All right.
+So let's go back to this.
+So I have some breakout questions, but I want to do this because we're going to go to Japan.
+You guys, I know you probably know the people at your table, but let's mix it up a little.
+So let's see.
+I, if I had time, I would make like a personality
+quiz for everyone and group them on those.
+But let's just do something simple.
+Raise your hand if, I'm going to ask three flavors
+of ice cream, vanilla, strawberry,
+and chocolate.
+Okay.
+Raise your hand if you like vanilla ice cream.
+Okay.
+Raise your hand if you like chocolate ice cream.
+Raise your hand if you like strawberry ice cream.
+Okay.
+All right.
+Cool.
+All right.
+Everybody stand up.
+All of the vanilla ice creams go huddle over here.
+All of the chocolate ice creams go huddle on this side.
+And then the strawberries, you can kind of find a table in the middle.
+And we're going to do these discussion questions together.
+Strawberry.
+Yeah.
+That was the other one.
+That's a good choice.
+Okay.
+So, I'm going to go with the strawberry.
+And find a, you guys can stand if you want or find a table, whichever.
+There's a lot of vanilla and chocolates.
+Strawberry.
+And maybe vanilla and chocolate, if you guys are,
+you guys are vanilla, you can make two
+groups if you want in your vanilla.
+Okay.
+Can somebody read the first question for me, for the class?
+Yes, please.
+The core of the, if a company prioritizes the
+security of 125 million citizens and protect
+stable employment over high risk global expansion, is that a failure of leadership or a rational
+choice to prioritize social stability over volatile global change?
+Okay.
+So, what do you guys think about Japan's decision to
+put in this lifetime employment, which
+grew the economy to what it is?
+It did.
+And then, can somebody read number two as well?
+Yeah.
+While the US values the freedom to job hop for higher salaries, would you welcome the
+stability of lifetime employment found in the Japanese system?
+Okay.
+So, both questions are kind of similar.
+What do you guys think?
+After college, if you join a company on the contract that they will have lifetime employment
+for you, but you're not going to get paid overtime.
+You got to give full loyalty.
+You're not going to see your family that much.
+But you're set for life.
+You're set for life.
+Would you do it?
+All right.
+Please discuss.
+We'll give you like five minutes, five, 10 minutes.
+Yeah.
+Same.
+I mean, my first job after college.
+Because I could not basically what he explained
+where like if people got the contract, then
+they just become lazy and like not do anything because they know.
+They get older and then the company starts to fall too.
+Like if you don't have new people coming in with new ideas.
+Yeah.
+Yeah.
+I feel like it seems like a good idea to Japan at first, but then, but they really
+think that.
+I feel like, in all honesty .ücht,
+is hard, but I feel like. It's
+hard so far. You would
+be asked them to something in theäg I would
+rather be like. the church
+and like live overtime. Like.
+Yeah, that was a little bold stuff that was a little set.
+I think the entrance was nice.
+The entrance was nice.
+But from there, yeah, it was nice.
+Innovation era and everything like that was a novelty for me.
+I think also it's worse off the companies that you're talking about.
+Yeah.
+The whole class go to Japan.
+Yeah.
+That's so awesome.
+I've been to Japan.
+I've been two times now.
+It's like my favorite place in the world.
+Really?
+Such good food.
+Like overly respectful people.
+I dropped my wallet on the street once and like this dude picked it up.
+I thought he was crazy.
+Stuff does not get stolen in Japan.
+He like returned it back to me and he was like thanking me.
+He was like, .
+And I'm like, dude, I gave him my wallet.
+People were just like, that's awesome.
+Kind of like moved them out of the way.
+Is that why you're here?
+It's a really talker.
+Oh no, I work for like IT support services, IT consulting firm.
+I hate saying that though because consulting is not all that much, but we're trying to
+implement AI in our business.
+So like he works like 12 hour days.
+I take some courses.
+He works like a year out of college.
+As some of your colleagues.
+I'm speaking to a class and I'm like, oh, like, I'm .
+Yeah.
+I'm just trying to get some more information.
+I'm just trying to get some more information.
+I'm just trying to get some more information.
+I'm just trying to get some more information.
+I don't want to.
+This is.
+I don't think this ability.
+A lot of YouTube videos where it's workflows that don't actually work.
+I really feel like people would appreciate
+What type of, like are you trying to build solutions?
+My thought is
+We're really trying to build it more so
+You had your incentive to grow
+They won't get rid of you
+And you won't get rid of them
+It's like you guys both have a window
+I feel like
+Small cities or small towns
+In Colorado and schools and stuff
+Really just trying to introduce them to AI
+So then we can see what they need
+It was extreme
+Right now it's like
+I don't think I've heard chat GPT membership
+You know, probably start going there
+Like analytics
+I know
+You were saying
+Positions
+20 years
+You're going to have more benefits
+But like
+I'm kind of at a loss
+If that sucks you've got to work here the rest of your life
+Right
+Another of Matthew's courses
+Work
+Work
+Work
+Basically
+Work
+So
+Have you seen
+I did the low code one last semester
+Stow the streets
+Yeah
+Nice
+Just exhaust it
+Yeah
+Exactly
+You know what I'm talking about
+Especially
+I figured out
+You know
+Got to be
+I've seen
+Try to learn a little bit more
+Yeah
+That's cool
+Good treatment
+That's what you're doing
+I feel like that's a good place to be right now
+Yeah
+Skill set
+That's true
+Yeah
+I really like frowned upon.
+You'd be coming back.
+You're like excommunicated.
+We'd have clubbing and everything.
+It's not going to work.
+Or people don't stop.
+It's just like somebody in a room saying, like, I got to go.
+All right, guys, let's come back.
+How are you guys?
+Okay.
+Oh, yeah.
+Oh, yeah.
+Oh, yeah.
+All right.
+All right.
+Seems vanilla has lots of conversation.
+That's great.
+I don't know if flavor of ice cream links to personality or not.
+It's just a tool I can use to mix you guys up.
+You can stay at the same place or go to your original seats.
+It's up to you.
+All right.
+Any ice cream flavor had an interesting discussion on point one
+that they'd like to share with the class?
+No.
+Really?
+Oh, yes, please.
+You were generally talking about how stability and, like, leadership kind of went hand in
+hand, and that is one of the reasons why the company
+is kind of being so risk averse in
+their strategy and making that kind of leg up their
+whole kind of protection mindset
+that you layered.
+Was the root cause of it?
+Was it more of a leadership thing?
+Or was it just the global market and what Japan has done?
+I mean, I guess it's just like the global market and what Japan has done that job is
+crucial to the hobby of the labels and, I guess, the department.
+So, welcome.
+Thank you.
+Excellent.
+Thank you.
+Totally agree.
+Anybody else want to share?
+How about number two?
+What do you guys think?
+Anybody have thoughts on working for a company for life?
+Yes.
+You were mostly saying that, you know, you're trying to make sure that you're not
+a jobless person.
+You're trying to make sure that you're not a jobless
+person.
+I mean, I think that's a good point.
+I think that's a good point.
+I think that's a good point.
+I think that's a good point.
+Yeah.
+So, working for a lifetime, working for life for a company because AI?
+How does that?
+Kind of just like working with AI.
+Because, like, there's been a huge debate going on around, too, how people are saying
+AI is taking over jobs and stuff like that.
+So, technology advances more than us, you know, having a lifetime job working with
+that technology.
+I think it's possible to do that.
+Ah, yeah, yeah.
+That's interesting.
+So, you're kind of an insurance policy.
+You're secure.
+Yeah.
+At AI.
+Yeah.
+So, you're not going to take over your job.
+Cool.
+Yeah.
+I like that point.
+Never thought about that.
+And, you know, in Japan, it's interesting.
+They hire by class year.
+Like there's one season, it's a hiring season.
+It's almost like you finish university and then you're
+going into the corporate world,
+but it's still set up as, like, freshman, sophomore, et cetera, years.
+So, in springtime, the school calendar in Japan
+starts in April when all the students
+and all the cherry blossoms come down because it's new.
+It's spring.
+It's a great time to start school.
+But that's also the hiring season for the corporations.
+So you'll see, like, giant classes of young Japanese
+people all in their salaryman black
+suits going to their job interviews and then
+afterwards going to the drinking parties because
+they're being recruited into the companies and starting their careers.
+And that all happens during the spring.
+One thing to look ahead.
+So when we go out to Japan, when observing tech
+in Tokyo, such as persistence of fiscal
+fax machines, yes, they still use fax machines.
+Dedicated IC cards.
+So these are your train cards.
+Or hyper niche vending machines.
+Yes, vending machines.
+You can buy anything you want.
+How do these reveal a different standard of innovation?
+So something to think about when we go out there.
+Okay.
+One question.
+Yes.
+On that first one, I was thinking, parallel is kind of the question you asked us about
+the Meiji period.
+Where, you know, having done that protectionist
+approach where there could be very, very limited
+trading, it's kind of the same thing.
+They closed themselves off from understanding what was happening on the global stage, and
+so they didn't keep up with innovation.
+And it seems like, in a way, this was a parallel approach.
+A similar thing happened.
+Do you see parallels?
+I guess in the way that they didn't, you know, they didn't have a lot of innovation, they
+didn't want, like today, where they're ruling by consensus, right?
+And then, yeah, I guess there are some parallels in that.
+You know, a lot of people say Japan is the future as
+far as it's in the 2000s today,
+right?
+That a lot of the technologies that they
+created during the early 2000s, it's kind of just
+stuck.
+They haven't innovated past that.
+So, yeah, they are behind in that sense.
+But the barrier is there.
+There isn't trade.
+It's more internal, right?
+Where there's not a consensus, or I mean, there's too much consensus.
+There's not any visionary leaders that are trying to break the mold.
+Yeah, I agree.
+Okay.
+So, references.
+First one, MIDI.
+This is, again, academic.
+So there's talks about the Japanese miracle.
+And how MIDI, the trade organization, orchestrated that.
+Lost Japan.
+I read this book, actually, in the early 2000s.
+It talks about how kind of it goes into the lost decade of Japan, and how that's come
+about.
+One part about this book I always remember, and you'll probably see it.
+One way to keep the economy going is through construction.
+And they cemented so much of the countryside.
+Rivers, creeks, everything.
+Just as an infrastructure project to keep the money moving.
+That's mentioned a lot in this book here by Alex Kerr.
+And then, as I mentioned, Dan Carlin, CU alum.
+He also does a great podcast on Genghis Khan as well.
+Check it out.
+And this, I think the supernova in the east, it's like six or seven parts.
+But it really gives you perspective on what you brought up during World War II and why.
+And how they rose.
+All right.
+Okay, guys.
+I'm going to, I got about ten minutes left here before we move to our guest speaker.
+So I wanted to do a quick deep dive on some tech
+that I worked on in the past.
+And that we can kind of look at as when you guys
+finally get into teams and finally think
+about automated solutions.
+Maybe you can glean some ideas off of this.
+So the first technology I'm going to share is built in ChatGPT.
+They're called ChatGPTs.
+And I'll give you an example of this first one.
+They're super easy to build.
+This is Charlie Munger Investment Assistant.
+And how I built this is.
+I don't know if you can see it well.
+But I gave it a prompt.
+Right?
+You're an investment advisor who uses.
+Do you guys know who Charlie Munger is?
+Oh, he's, you know who Warren Buffett is?
+Charlie Munger is Warren Buffett's partner.
+His right hand man, so to speak.
+So you're an investment advisor who uses Charlie
+Munger's wisdom to recommend investment strategies.
+You are wise and have long term outlook.
+So it's a prompt to frame him as this ChatGPT as Charlie Munger.
+And then some set questions, which you can see here that appear here.
+And then I just went out and found articles on Charlie Munger.
+You know, interviews, profiles on him.
+Let me see if I can find one.
+Yeah.
+Yeah, something like this.
+This is one of the PDFs.
+I just throw it in, information on Munger and his thinking.
+I put that in their knowledge base.
+And then I also did a little widget.
+This is actually written in JavaScript.
+But I used an AI agent to make the JavaScript as well.
+That pulls tickers, stock tickers for me.
+So then you could do something like, what are
+your top five investment strategies?
+He's searching knowledge base.
+And then he, you know, talks about some knowledge
+strategies or some money strategies.
+Or I could do something like, let me see if I can get back to the question.
+Okay.
+Can you get me a price of a stock?
+Yes, I can.
+What do you want?
+Let's do Apple.
+What's today's Apple stock?
+Then it's going into that API, which was written in JavaScript that I showed you.
+It goes and looks that up.
+And it pulls up the price.
+That's today's price.
+Okay.
+Pretty neat.
+This was built a year ago.
+And at the time, it was super cheap.
+Super cool.
+But now I look at this and I say, well, I could
+just talk to ChatGPT and say, pretend you're Charlie Munger.
+Give me stock advice, right?
+And I don't even have to program it to look up a
+stock price because it's already integrated now in ChatGPT.
+But at the time, it wasn't.
+And so I had to manually build it out.
+Another one is, let's do Makoto -kun.
+This is Makoto -kun.
+This is the first generation.
+Muskaan is here.
+She would know it.
+But I did the same thing.
+I gave it a knowledge base and lecture notes, meeting
+notes, summary notes, everything about as the schedule for the program.
+And then I kind of prompted instructions, you
+know, AI -assisted, designed to provide information about the Nuku program.
+But I kept having to add to the prompt.
+Like, oh, I've uploaded a tentative calendar.
+Oh, I've uploaded a summary of our most recent virtual session.
+So this prompt started to get long.
+But it still works.
+You know, Makoto -kun is still here.
+I can say, please provide a summary of last virtual session.
+And there it goes.
+It talks about the design sprint that we did last year.
+It's really cool.
+In addition, I can ask it.
+Let me show you here.
+I have Makoto -kun.
+One of its knowledge base is the schedule, the itinerary when we're in Japan.
+This is the actual itinerary we had last year.
+And so I could say something like, oh, I don't know.
+What did we do on 520?
+So I could go back to Makoto -kun.
+You know.
+And you can use.
+Let me go back here.
+What did we do on 520, 525?
+It looks at its knowledge base.
+And then, yeah, we took talks about the schedule.
+Yeah, we went to Station AI that day.
+Is that right?
+520?
+Yeah, Station AI.
+OK.
+So it's another way to interface with the calendar, keep you updated.
+If you don't want to look at this and try to thumb
+through it, you could just talk to Makoto -kun and ask him what we're doing tomorrow.
+OK.
+And this was a web interface.
+So they would just go right here and talk to it directly.
+But there were some limitations, mainly with the
+knowledge base where I kept having to add stuff.
+And it started to get bloated.
+It started to get slow.
+So, oh, by the way, if you're interested, ChatGPT has a store.
+Other people put their GPTs out there that you can use.
+I don't think it's as popular today as it was when it first came out.
+I thought it was a really cool idea.
+I wish OpenAI would push this a little further, kind
+of like the Apple App Store where you can make
+your own agent and sell it on this OpenAI store.
+But they haven't pushed it forward as much as I had hoped.
+But, again, going back to Makoto -kun, the knowledge base started to get bloated.
+And it started to get slow.
+And there were things about this, especially how to stay in the OpenAI ecosystem.
+So now, and I'll share with you next time, I'm
+starting to build Makoto -kun 2 .0 inside NAN.
+So I can now talk to it and say, you know, like, hi.
+And it will go to the agent.
+And you can select whatever language model you want.
+I'm just using my OpenAI account.
+I don't know if you can see that well.
+But it says, you know, he introduces himself, talks about the program.
+So I can say something like, why should I join Nuku?
+By the way, Nuku is another name for this
+program, right, Nagoya University, University of Colorado.
+But he's thinking.
+He's going into his knowledge base right here.
+And then he provides, which basically was a brochure that I fed into it.
+And it gives the reasons that is found on one of the brochures.
+It can also do email.
+It can email the team if it doesn't know the answer to the question.
+Or it can schedule coffee chats with the team if you guys want.
+But, again, there's a problem with this.
+Because the document.
+. .
+Where is it?
+That I fed it.
+Is. . .
+It's just a text document.
+I took the content from the brochure, top five reasons to join Nuku.
+And I put it here.
+It's fine.
+You know, the model will read this document and kind
+of regurgitate the answers to you off of it.
+But every time I ask it a question, it reads through the whole document.
+Which, again, is going to slow it down.
+Because I want to add, like, the transcripts from this lecture to it.
+I want to add, you know, the calendar.
+I want to add a lot more things into it.
+And every time I ask it a question, it's going to
+read that whole document before it gives me an answer.
+Which is just going to get slower and slower and slower.
+So the next version, which I'll share with you guys down the road once I get it.
+Is Makoto -kun, I think, 2 .3.
+Which is what's known as a RAG architecture.
+Where it'll go in and only pull back the chunks relevant.
+And read those chunks.
+And then give you the answer.
+So that's what I'm working on now.
+And I hope to share it with you next time.
+So, any questions about this?
+All right.
+Cool.
+Thank you, guys.
+Oh, wait.
+Sorry.
+I forgot one last thing.
+The most important thing.
+From a social aspect.
+Weela AI.
+So, Weela is my mom.
+And I don't know what you guys think about this.
+It's kind of, you know, it's kind of in a weird spot.
+But one day for, like, several years ago, for
+Mother's Day, I brought, I bought my mom this account called StoryWorth.
+And what it does.
+It emailed her questions every week.
+Just about her life.
+Like, who did you date in high school?
+You know.
+What are some of your family traditions?
+You know, it's an eight -page document.
+Over time, then I accumulated all these answers.
+Because she would write.
+And she would email back to this account.
+And then it would share the answers with me.
+So, I took all that content.
+And I fed it into Weela AI.
+And in a way, it was a great experience.
+And in a way, it's weird.
+But it's like talking to my mom.
+So, I have this prompt.
+It says, you are a relic of my mother.
+My mother is still alive.
+I don't know why I said that.
+But I've uploaded the files.
+Several questions.
+Yeah.
+And so, I prompt.
+I give it a prompt.
+Also, my mother speaks Spanish.
+So, I tell her to say things like, hee -haw.
+And so, yeah.
+I could say something like, hi, Weela.
+Oh, it starts in Spanish.
+Please speak in English.
+Yeah.
+See?
+And it's saying, I'm happy to see you.
+Right?
+And I can say, like, tell me what it was like growing up.
+So, when we talk about problems of a shrinking
+society, we'll know, you know, loneliness is one of the social issues of it.
+Right?
+So, I'm happy to say that.
+This could be a technology to help that.
+Although it's kind of that strange, like, is it really my mom?
+What is it doing?
+But, yeah.
+It talks about her life.
+And this is really her knowledge being preserved
+and sent back to me.
+So, that's one other thing I wanted to share.
+Okay.
+Thanks, guys.
+That's awesome.
+All right.

@@ -1,0 +1,1489 @@
+Document: Design Sprint Debrief + n8n & Claude Code deep dives
+Lecture: Session 12
+Date: April 7, 2026                                                     
+Course: BAIM 3300 - AI & Automation for Tomorrow's Societies
+Topics: Design sprint debrief and reflection (NUCU program), International team collaboration challenges (CU Boulder + Nagoya University), Cross-cultural communication and consensus-building in global teams, Asynchronous collaboration strategies (Discord, social outreach), Team voting systems and decision-making frameworks (heat maps, supervote), Problem framing vs. solution framing in innovation (adapting to demographic change vs. solving population decline), Startup ideation within constraints (shrinking societies, aging populations), Field research and experiential learning in Japan (site visits, user interviews, healthcare systems), Industry exposure in Japan (healthcare, robotics, autonomous vehicles, startups), Rural vs. urban innovation challenges in Japan, Site visit planning and stakeholder coordination (Tanaka-sensei collaboration), RAG (Retrieval-Augmented Generation) system architecture (Makoto-kun 2.3), Data ingestion pipeline (transcripts → GitHub → workflow automation), Text preprocessing and cleaning for knowledge bases, Text chunking strategies for LLM processing, Embedding generation and vector databases (semantic search), Vector similarity and semantic retrieval (dot product, high-dimensional space), Limitations of RAG systems (retrieval errors, prompt sensitivity), Prompt engineering for retrieval accuracy, Token efficiency and cost considerations in RAG systems, Discord as AI interface layer for conversational agents, AI agent architecture (LLM + database + tools integration), Transition from RAG systems to agent-based systems (Makoto-kun 3.0 vision), “Second brain” systems and personal knowledge management (Obsidian, OpenClaude), AI-assisted software development (Claude Code), No-code/low-code development workflows, Full-stack deployment pipelines (GitHub → Vercel → production), Rapid prototyping of applications using AI agents, Platform-as-a-Service (PaaS) tools (e.g., Railway), Building micro-businesses with AI (low-cost startups, automation), AI-driven entrepreneurship and lean startup execution, Concept of ultra-small teams scaling large businesses (AI leverage), Risks and limitations of AI-enabled startups (trust, verification, compliance), Japanese language fundamentals for cultural integration (itadakimasu, gochisosama, hajimemashite, yoroshiku onegaishimasu, dozo, domo, gambatte), Cultural etiquette and communication norms in Japan, Role of cultural literacy in international business environments
+
+As you know, Professor Brady is in the Valley this weekend.
+So I'm running solo today.
+It's actually been a while since I've taught class on my own.
+I'm trying to think of when the last time we did one in person.
+And it must have been back in Japan, I believe,
+We'll get going.
+So today's agenda, I switched it up.
+I know we were going to talk about knowledge building and epistemology.
+It just didn't make it on the schedule.
+I'll touch on that point a little later.
+Today's agenda, I want to talk about, kind of do a
+debrief of the design sprint that we just did for the last four weeks with Nagoya.
+And then I have a video to share of last year's trip to Japan.
+And I want to have kind of a brief discussion on
+site visits that we'll try to do in Nagoya.
+I want your guys' input.
+During that time, both of the design sprint debrief
+and the Nagoya field trips, Tanaka Sensei will try to
+zoom in from Japan.
+So I might move that, and we'll wait until she comes
+in, and we'll talk about that piece.
+So we'll probably begin with the demo.
+I want to go deeper.
+Under the Hood with Makoto -kun.
+Give you guys really a good look of NAN and how I built it.
+Or sorry, how I used it to build Makoto -kun.
+And then I'm going to do a Claude code demo and how I used it to build some of my websites.
+And then at the end, I kept skipping these slides during the design sprint.
+Some basic Japanese vocab.
+I'm going to share with you essential survival words.
+If we have time, I'd love to.
+I'd love to share.
+So with that, we'll skip this.
+We'll come back until Tanaka Sensei comes in.
+Let me make sure she's not here.
+Actually, I'm going to pull this out.
+Yes, I'm still here.
+Okay.
+She's not there yet.
+Hopefully, she'll come in.
+Come back here.
+Okay.
+Okay.
+So.
+Let's dive into this guy I keep talking about.
+He's kind of my pet project here, Makoto -kun.
+Makoto -kun is in its second iteration.
+It's now Makoto -kun 2 .3.
+Makoto -kun 1, as I shared earlier in this semester,
+he was built using chat GPT or GPTs.
+Makoto -kun 2 .0 version or 2 .1.
+Makoto -kun 2 .0 version or 2 .1.
+It's very similar to how I built in chat GPT where I
+just put a bunch of text for Makoto -kun to look at.
+And then he kind of just regurgitates out the information.
+So, like, if I put in a brochure about this program
+and you ask Makoto -kun, tell me about this program,
+he'll say word for word what was on the brochure.
+He doesn't kind of create it his own.
+He's just regurgitating the information.
+And if you ask a question.
+If it doesn't match exactly to what's in his knowledge
+base, he'll just kind of throw an error.
+So, this version of Makoto -kun 2 .3, I implemented a
+system called RAG, which means retrieval augmented generation.
+Anyone know of RAG?
+Has anybody done anything in RAG?
+Okay, cool.
+RAG allows a way for Makoto -kun to answer your questions.
+And then he can then respond to your questions more dynamically.
+And also respond with not just regurgitating verbatim,
+but kind of respond with an answer that he pulls from his knowledge base.
+I'm calling it he.
+I don't know.
+His name is Makoto -kun.
+So, I'm picturing it as a male.
+Maybe I should call it it.
+But Makoto -kun is a RAG version right now.
+So, I'll walk step by step how I built this.
+And I have this diagram on the side.
+Which I think you guys can see.
+There's two phases into building this Makoto -kun with a RAG system.
+Let's talk about phase one first.
+The first phase is ingestion.
+So, putting the text, the documents into Makoto -kun's knowledge base.
+And then this is the second piece.
+And this is where it's different from maybe just
+uploading a text document to an LLM.
+There's something called text chunking.
+Where it breaks out the text into easily.
+Digestible pieces for the LLM to understand.
+And then it embeds it into a vector database.
+And I'm going to actually try to show you, visualize
+what that embedding in vector database is all about.
+And then it stores it into the actual database.
+So, let me, let's just do this.
+I saved a document from one of our lectures.
+And I had to clean it up.
+So, this is a text document from session one.
+And this is session six.
+Where I gave the lecture about Japan after World War II.
+It was called Reinvention Without a Reset Button.
+We gave it way back in February.
+Wow, it's already April.
+This seems like ages ago.
+But here is all the text transcript.
+Because, right, this classroom is equipped with microphones.
+And I have a mic too.
+It's listening to all of us.
+Interestingly, I could hear all your guys.
+It's transcribing all your guys' texts.
+It's transcribing all your guys' conversations before class.
+So, I pick up what you guys are talking about.
+I scrub that out of this information.
+Because I don't think Makoto -kun needs to know that.
+But also at the end too, right?
+When you come up to me or Professor Brady and ask some questions.
+Let me just.
+It's at the end here as well.
+So, down here.
+This is all kind of.
+Kind of conversation that we don't need into the database.
+So, what I'll just do is I'll delete all this out.
+Because it's kind of random chatter.
+So I had to clean up the text a little.
+And I did this with every transcript so far up until the design sprint.
+A lot of chatter on this one.
+Okay.
+There you guys.
+So delete that.
+Just clean it up.
+Okay.
+Now we're just with the transcript of my lecture.
+Let me save that real quick.
+And then one other thing I realized is still even
+though this is kind of a vector database
+storage of the text.
+It still needs help.
+So I want to give it some keywords of this whole
+lecture to feed into Makoto -kun.
+So he has some reference points.
+So what I'm going to do is highlight the text.
+I could do control all.
+But I don't want the headers on here.
+Just go up.
+It's really interesting to see your actual
+transcription of your lecture.
+It really makes it easier.
+And I've taken down the click here as well.
+Itichazuma vol.
+So there you go.
+So what I'm going to do is we are going to set
+the demographicł and the lists.
+He knows what we're doing here.
+And I'm just going to ask it for keywords,
+which I have already prompted.
+So my, and I don't know if your guys' chat GPT has an attitude,
+but I've programmed mine to have some.
+I tried to program it to talk like Igor from Young Frankenstein.
+So he always gives me a little attitude at the beginning,
+but then he does the job.
+So here he's giving me some topics.
+And I'll just copy and paste this.
+Oops, not the whole thing.
+It's a little harder to do on this.
+Okay.
+So you can see topics from my lecture.
+Oh, sorry.
+You can see some topics.
+You know, Reiwa, right?
+That was the era.
+Karoshi, remember we talked about that?
+Death by overwork.
+Some other, I guess we talked about a little bit
+about venture capital in this discussion.
+But basically, it just, it read through that transcript
+and gave me some topics, which I'll just paste right here.
+Okay. And so now this is a Word document, text document,
+that I'm going to upload into MakotoCount.
+Real quick, someone texted.
+I want to make sure Tanaka sensei didn't text me.
+No.
+That's someone else.
+So let me throw this in.
+So again, source text documents.
+Now we got to get it into some sort of text chunking.
+Well, how do we chunk this text?
+Well, I can show you my NAN workflow that I built
+to do this specifically.
+And by the way, how did I do this?
+I learned this on the fly just using Clod and ChatGP.
+
+So we've got a far open sense of that.
+So I'm going to do this this same time.
+chunk it up into digestible bits, vectorize it,
+which I'll show you what that means,
+and put it into Makoto -kun's knowledge base.
+Well, the first thing I need to do is
+upload it to my GitHub.
+GitHub is kind of a repository that sends
+all the data to all my systems.
+Anybody use GitHub here?
+There's a GitHub, okay, got a few people.
+Great.
+So I have a repository called Nuku Docs,
+and you can see I've already uploaded
+some of previous lectures.
+So Makoto -kun, this is basically
+Makoto -kun's knowledge base so far.
+I have about five sessions,
+and also an overview of the program.
+So I'll just simply upload that text document
+that I just did.
+Before I did that, I wanna make sure I saved it.
+I did save it, right?
+Let's save it one more time.
+Okay.
+So let me upload this.
+And it was the one on the 17th, I believe.
+Yeah, this one right here.
+Okay.
+Sure that's...
+There it is.
+And that's right, right?
+The 17th, yeah.
+So I'll put that into my GitHub.
+Let it upload that file.
+It's not that big of a text file,
+but it does take some time.
+Okay, there it is.
+And so then I'm going to go into just the raw URL
+that I need to put into my NAN workflow.
+So it gets...
+the basic, basic text without any other markups.
+And I'm just going to put this into my URL panel here,
+or my node.
+See, it's right there.
+Okay, yep, looks good.
+And now I'm going to execute the workflow.
+And again, what this is going to do,
+it's going to pull from my GitHub,
+and it's going to put it into a vector database.
+So let's do that.
+Let it do its thing.
+Boom, okay, it worked.
+71 items.
+If I dug into it, you can see on the right -hand side
+how it's taken the text from the left -hand side
+and chunked it.
+It chunked it into digestible bits.
+It also converted it into numbers,
+which is a part of the vectoring, which I'll show you.
+So then what I'll do,
+is go back here and into actual Makoto -kun.
+This is Makoto -kun under the hood.
+This is a webhook that's hooked up to the Discord.
+It feeds into my AI agent.
+So you can see I have actual instructions of Makoto -kun,
+of how I want it to act.
+You know, you're a quirky, nerdy,
+digital intern assistant for the Nuku program,
+and then I kind of give it how to respond, what to do.
+I tell it not to go on the web to search.
+I tell it just to look in its knowledge base for answers,
+and if it doesn't know, offer to email the team.
+So you can see it's also connected
+to kind of a mock -up Gmail.
+That's how it has the email function.
+It does also, supposedly, I have,
+I think my tokens have,
+or my APIs have expired,
+but it can also set up meetings for me.
+And it's connected to, in this case,
+an OpenAI ChatGPT model,
+but you can switch the AI, which is cool.
+And then, as I said,
+this is where it stores it into the database.
+I'm just gonna go to this quick SQL query,
+just to make sure it's in there.
+And it's a simple term, just to make sure,
+I'm not sure my count is above from the last count,
+which I believe was in the 200,
+so now it's up to 347.
+So I know that it's been uploaded into the database.
+And so let's go to the Discord channel,
+and let's talk to Makoto -kun.
+Now you guys can do this too, in our Discord channel.
+I recommend if you can,
+please talk to it in the off -topic room,
+just because I'm curious to see
+how you guys are working with it,
+and how it responds, and what you guys think.
+And when it throws errors.
+But let's talk to it.
+So I'll say, hey, Makoto -kun.
+I'm gonna ask a question from this lecture.
+Well, this was about Reiwa, right?
+Was one of the parts.
+So I'll just ask him that.
+When did we talk about Reiwa?
+Reiwa era.
+Okay.
+It's thinking, it's typing.
+It's going into that workflow,
+looking into that vector database,
+and I hope it gives it an answer.
+We haven't discussed it.
+Great.
+Live demo, it fails.
+Let me try a different way though.
+Because I know it's there.
+Sometimes, and this is the problem with RAG.
+It's not all perfect.
+You kind of have to figure out how to do it.
+Sometimes, you kind of have to pull out key things.
+So let me try something else.
+Oh, I know.
+We were talking about,
+it was one of the topics where
+I talked about overwork, right?
+Kuroshi.
+We have a lecture discussing
+overwork.
+Let's see if it pulls it up.
+Oops.
+You always have to at the bot to do that.
+Let's see if this is,
+let's see if it pulls it again.
+There it does.
+Session six, February 17th, 2026.
+So it is in there.
+And there it is.
+Yep, we talked about it.
+So I can say something like,
+tell me more
+about session six.
+Oops.
+So let's say you missed the class.
+Sorry, you got to add the codependent.
+Hopefully, Makoto -kun will put it together
+and give us a summary of this session.
+Yep, there you go.
+And then he, so the date, the title, the date, the course.
+In this session, we explored how large language models
+can drive societal change in Japan's current Reiwa era.
+Framed both as a case study and a live tech dom.
+That's right, that lecture, I also did a live tech demo as well.
+Let's see if you can tell me a little more.
+Summarize, tell me more.
+I'm afraid to ask it too many questions,
+because I know it's going to throw another error,
+but hopefully it goes through.
+Yeah, okay.
+Again, so this is a problem with RAG.
+It's not perfect, but it's enough where you can get some answers
+if you talk to it kind of in a right way
+to get the answers you want.
+You got to prompt it though, which is annoying.
+But let me explain this RAG system,
+and then I'm going to explain why I'm kind of moving
+to a new system after this RAG Makoto -kun version.
+So, let's say I'm going to talk to you about this RAG system.
+So, what is RAG?
+And this is related to how LLM models work in general as well.
+Remember when I talked about tokenization
+in my technical lecture on LLMs?
+Again, they take words and they chunk it.
+The computer itself, the LLM itself can't read words.
+It doesn't understand language.
+It understands numbers.
+So, it takes the text and chunks it into numbers.
+And then it's a prediction machine.
+So, it tries to predict the next word
+based on what comes before it.
+How does it do that?
+Well, it does it by weighing the numbers, right?
+We talked about how it turns the knobs
+so you can get it just right to predict
+the correct next letter or word.
+So, in this example, a king is a man
+and a queen is a, right?
+How does it do that?
+Well, imagine right now when I put all the text
+into the vector database,
+imagine it as a third.
+It's a 3D dimensional space.
+It's actually multiple dimensions.
+And it positions words in that 3D space
+based on its meaning
+and puts words next to it
+based on its relative association to that word.
+So, for example, the classic man, woman, right?
+These two words are related about this distance.
+And remember this example, a queen is a,
+what it will do is take a number,
+numerical distance between king
+that's probably similar to the distance
+between man and woman.
+And then that spot should be the word queen.
+And that's how it produces those next words.
+I'll do that one more time
+because it's kind of hard to wrap your head around.
+So, it takes a sentence, a man is a,
+a king is a man and a queen is a,
+takes all those words, puts it into numbers,
+and then it puts it in the next word.
+Maps those numbers into a vector database.
+This is what a vector database looks like.
+Imagine it as a 3D space.
+And the relative position of the words to each other
+allows it to predict that next word.
+Okay?
+Similarly, this is called a dot product.
+So, words that have similar meaning
+will have a high correlation.
+So, these words are close together.
+In this case, the dot product is plus four.
+Words that have an opposite meaning
+will have a negative correlation.
+So, these words kind of have an opposite meaning.
+It's a negative four.
+Words that have no relation,
+it's actually a 90 degree angle,
+is a dot product of zero.
+It's an interesting thing to think about,
+and I still don't completely grasp it,
+but that's what it does when you're talking to an LLM
+and it's pulling that next word.
+It's, it's a, it's a, it's a, it's a, it's a, it's a,
+it's pulling the words from a vector database,
+which is a 3D, although it's more than a 3D dimensional space,
+to correlate those words
+and to predict the next word in a sentence.
+And that's what we just did with RAG.
+I took this, this content,
+I, I uploaded it into Makoto Kun's vector database,
+and then ideally it spits out something close to my,
+what my query is.
+So in summary, again, I put that,
+put the document into GitHub,
+it loaded it into a vector store,
+and then when you talk to Makoto Kun,
+in this case 2 .3 through Discord,
+it, it gives an answer off of that database,
+off of a vectorized database,
+not just a flat Word doc,
+it's a 3D vector space.
+So play with it, I encourage you.
+He, he will, you know, do random,
+sometimes gets confused,
+but if you talk to it enough,
+you'll see he actually provides valuable content.
+You can see I've had previous discussions
+with him directly,
+which you can also do if you don't want other people
+looking at your conversation,
+you can just talk to Makoto Kun directly here.
+And, you know, like I asked,
+did we discuss Carpathian in a session?
+Yes.
+When was that session?
+I don't know.
+I do know because it was about transformers.
+Oh yeah, that was session five,
+and then he gives a summary on it.
+Okay.
+We can give you more detailed information.
+Not perfect, but getting there.
+So again, this version of Makoto Kun
+is a RAG -based version,
+which stands for Retrieval Augmented Generation.
+I put the, the text documents in,
+it chunked it,
+and then it embedded it
+into that 3D vector space,
+and then it added it into its database.
+And then when you go to Discord
+and you ask it a question,
+like what is MIDI?
+Remember we talked about MIDI?
+Let's ask it.
+Let's see if it does it.
+What is MIDI?
+It shouldn't go to the web,
+it should be looking,
+oh, sorry.
+Oh, there it is.
+Actually, I'm talking.
+There it is.
+MIDI stands for
+Japan's Ministry of International Trade and Industry.
+Here's a quick overview.
+So it's pulling on our knowledge base
+relevant to our class
+instead of going to, you know,
+the internet and pulling a random acronym
+that MIDI stands for.
+So like if you asked the question,
+what is MIDI?
+It goes and looks in that,
+it embeds the question temporarily
+to find a similar search
+in that vector database.
+And then the LLM itself
+actually builds the query
+and retrieves the answer.
+And then the LLM spits it out,
+in this case, chat GPT,
+which gives you the answer
+through Discord.
+So this is a high -level overview
+of how Makoto -kun looks like.
+Under the hood.
+Now, as I showed you,
+there's kind of,
+it's not perfect, right?
+So I'm thinking Makoto -kun 3 .0
+I'm gonna play with.
+It's probably gonna go to an OpenClaw version.
+I've been reading a lot about this.
+Is anybody familiar with OpenClaw?
+You probably guys,
+some of you are, right?
+This is a new way where you're creating bots
+to actually do the work.
+There's an idea out there
+about using a bot
+to create a second brain,
+which essentially captures
+everything that you do.
+So let's say you're reading content,
+you take a screenshot,
+you're listening to a podcast,
+you throw that audio file in,
+you're writing a report,
+you throw that report in,
+all into one giant folder.
+And then this bot will take that,
+all that content,
+put it into a Wiki doc,
+and then,
+pull the information out
+that you want when you want.
+So it's cool.
+You're creating your own knowledge base,
+your personalized knowledge base,
+that you can reference at any time
+using this OpenClaw system.
+Love to do that for myself.
+I'd also like to do this
+for a future digital intern.
+And that would be Makoto -kun 3 .0 version.
+So that is Makoto -kun at a high level.
+Let me see if tonight,
+Mako -sensei's here.
+She's not.
+Okay.
+Before we move on to the next tech part,
+any questions on this guy, Makoto -kun?
+You guys okay?
+Yeah?
+All right.
+Has anybody tried to build their own bot,
+or their own...
+What did you build?
+Exactly,
+second brain thing,
+user -seeing.
+What's that?
+The second brain...
+It's like Obsidian.
+Oh, you did.
+You did this.
+Okay.
+Because this just came out like a week ago, right?
+Yeah.
+How'd it go?
+I've been too caught up with school
+to really follow through with it.
+Okay.
+Yeah.
+And you used Obsidian as your dashboard?
+Obsidian as the knowledge base.
+Okay.
+You can link it with Claude code.
+Right.
+And it creates a neural web.
+It links all your different things together.
+It's way better for tokens.
+Better for tokens, right?
+Yeah.
+That's another thing with the RAG system,
+pulls a lot of tokens,
+token intensive.
+So you're not finished with it yet, though?
+It's all on my PC at home,
+so I haven't linked it all to everything yet.
+Awesome.
+Cool.
+Yeah.
+A lot of talk about this second brain.
+It's recent,
+but it uses kind of this open -claw agent bot system.
+Okay.
+Let's move into Claude code.
+So I wanted to also show you how I use Claude code.
+So I'm going to show you how I use Claude code.
+Anybody, you guys use Claude code?
+Anybody here?
+Yeah, a few.
+One, two.
+Okay.
+All right.
+The difference between Claude code and Claude
+itself on the web is Claude code is more designed
+for actual coding, and it lives on your computer.
+So I have Claude installed here on my Linux, and I've
+been using this instance to help
+me with my website.
+Okay.
+So I'll just resume my session.
+So it's basically, if you don't know how to code or
+know little about code, this will
+basically do it for you.
+So let me show you my website, which I built using Claude code.
+And we'll do a demo here.
+I have this applied now, but actually this program
+was already started, so ideally we
+should maybe update this.
+This text right here.
+There's many different ways, but I'll show you how I can do it with Claude code.
+So I'll just simply ask it, please change the text
+Claude or apply now.
+Apply now.
+I guess it doesn't matter, but yeah.
+Two.
+Okay.
+So we'll just do it.
+Applications.
+Okay.
+And how this is set up, just so you have a visual of it.
+My websites all sit on Vercel, which is kind of a
+free, well low, it's not that expensive
+hosting platform.
+And just like how I use GitHub to connect to
+Mocotocoon, I use GitHub to also connect
+to Vercel.
+Okay.
+So, in this case, it is hosted in my repository
+right here.
+Here's my website.
+So this is the documents that are used to build the website.
+And it's also locally on my computer.
+So, Cloud Code can find the documents that need to
+be updated, the text needs to be updated,
+change it, send it to my GitHub, and then send it to my website.
+So let's do this.
+So it's asking me right here, can I edit this page text?
+Yep.
+Edit it.
+And then it's asking me, do you want me to push it to GitHub?
+Yes, please.
+And then it's saying, well, actually, it's changed the GitHub file.
+Now it's going to actually push it.
+Yes, please.
+So it's sending it up to GitHub.
+And then GitHub will talk to my Vercel database.
+And shortly, this should change to applications closed.
+Isn't that amazing?
+I just did this all by text.
+No code, no nothing.
+I can read a little bit of HTML.
+So it helps me.
+But I built this whole website, and you guys could
+too, without knowing any or low code.
+So it went through my GitHub probably already.
+Let's see if it's updated on my Vercel, which is
+where Vercel is hosting my website.
+Let me look at deployments here.
+OK.
+You can see right here it's building.
+So it's sending that new code up to my website from GitHub.
+And soon, it will change the text on my website.
+Give it a few seconds.
+Shouldn't take long.
+OK.
+Ready.
+I think it got sent.
+Looks like it's current.
+So if I go to my website.
+OK.
+And refresh.
+There it is.
+Applications closed.
+So just like that, I use Cloud Code to change some text.
+I know it's a simple demo, but I use Cloud Code to program this entire website.
+And I didn't even know about Vercel and how to
+host it and set up the architecture behind it.
+It walked me through that as well.
+Why is this cool?
+Why is this relevant?
+Well, there's many ways.
+One is, I don't know.
+I don't know.
+I don't know how to use it.
+For example, using Cloud Code, it taught me how to
+use this, which is called this company
+called Railway, which is a platform as a service.
+You've heard of SAS.
+This is PaaS.
+Platform as a service to set up platforms like my
+NAN instance, my vector instance.
+But it also has Makoto -kun, which sits right here in order to talk to Discord.
+And then I'm playing with the new code.
+I'm using the new Open Cloud, which will be just hosted in the cloud and not locally.
+But also, I'm using Vercel to host other websites.
+I have a new idea of a company that I just built
+one evening or one weekend of tech support
+for seniors.
+I wanted to make some extra money.
+Maybe I could just set it up in Longmont.
+Seniors in the area could reach out to me.
+And I could go to their house and fix their computer.
+Simple business idea, right?
+But look, I just used Cloud Code.
+Pretty decent looking website.
+Minimal cost.
+I used Google, what is it, phone to mask this number.
+This number actually goes to my cell number.
+This email goes to my Google Workspace.
+So I set this entire company up for probably
+less than $30, if that.
+And the know -how was just taught to me step by step using LLM agents.
+I have another website that I built.
+It's also hosted on Vercel.
+It's called, my daughter, she's 16.
+So she's learning to drive, right?
+Remember, you got to get your hours on your permit before you get your license.
+I know I could download this own app.
+But I decided to build my own app and host it using Cloud Code.
+Walk me through it.
+Let me show you.
+Should come up.
+Cool.
+Yeah, I can show you my phone.
+So this is Team Drive app.
+I probably made this app in like less than an hour.
+So whenever I'm in the car with my daughter, she's driving, we got to track her time, right?
+I just, you know, allow it.
+Okay.
+And there it is.
+It's tracking the time.
+We're going to target, whatever.
+And we finish.
+And it saves and it kind of summarizes, you know,
+her total hours, how many hours.
+Oh, she's gotten all her night hours done.
+Great.
+Good for her.
+And then each log that I could spit out into one
+document that she can take the DMV when she gets her driver's license.
+So this is an app that I built, again, in less than two hours.
+I could go on the Internet and download some stranger's app and probably do the same thing.
+But I don't know if it's pulling my data.
+I don't know what it's doing.
+I really think this is kind of the future of how
+we're going to interface with computers where we
+just build it ourselves with these simple tools.
+Instead of going out on the App Store and looking
+for something that kind of fits what you want, you could really just build it on your own.
+So, again, that's another app that I built using Cloud Code.
+Those are the three.
+This is Open Cloud I'm experimenting with.
+So, again, going back to my point, why is this relevant?
+Well, I posted this article in Discord.
+I also put it in our discussion forum on Canvas.
+But this is new.
+This came out like a week ago.
+There's a discussion about the fact that soon there
+could be a trillion -dollar company ran by like less than five people.
+Well, we're getting there.
+This guy, he's built a company just with his brother.
+It's a $1 .8 billion healthcare company that he
+built on his own using tools like Cloud Code,
+using other tech tools that he didn't know too much about.
+But it walked him through it step by step.
+And set up his whole entire company for minimal
+cost to get to a point where it's a $1 .8 billion company.
+I used to think that they're using the
+technology, something like cutting -edge technology, to
+reach that trillion -dollar threshold, that idea of
+less than five people could build a trillion -dollar company.
+In this case, he just used these tools to build all the back -end stuff.
+His company sells the Ozon.
+He sells the Zempic drugs.
+But it's all automated.
+And the marketing and all of that is automated that
+he set up bots and agents to run to build and get
+the exposure out nationally to reach $1 .8 billion.
+And at a cost that's way lower than like a
+competitive like HIMS or those other online
+marketplaces for those kind of drugs.
+Amazing.
+Check out this link.
+This is one way.
+This is one way if you're thinking about in the
+future to run your own company, not necessarily
+using technology to make the cutting -edge thing, but
+using the technology to build all of your back offices at minimal cost.
+Yes?
+Not to be like a party pooper or anything, but I
+was just curious if you followed up on this because I saw this too.
+But after this came out, there's a bunch of people that would do it.
+And he's getting under fire for a lot of different issues right now.
+What is it?
+Faking medical doctors.
+Oh, no.
+Things like that.
+Yeah, issues like that.
+All right.
+I just was curious if you heard about that.
+I haven't.
+Thanks for letting me know.
+So follow this.
+But the concept is there, right?
+Like he built it out back in on his own.
+Maybe he fakes some stuff now.
+So did he fake his financials?
+Yeah.
+People think he might go to jail.
+It's what I read up last night.
+All right.
+Well, then it's still out there, the idea of less than five people reaching a trillion dollars.
+I mean, it's a $1 ,000 company.
+But the concept's there.
+I think the concept's legit and it can be done.
+And it could be done and not too far in our future.
+If you don't mind, post some of that follow up in Discord.
+I'd love to read it or into our discussion.
+All right.
+So going forward, I don't...
+Let's see.
+It's about 7 .40.
+Let's see if Tanaka Sensei's here.
+I don't know.
+I don't know.
+I don't see her.
+So she might be running late.
+No worries.
+We can continue.
+Let me check my email real quick and make sure she didn't send me something.
+Oh.
+I hear someone right on time.
+There she is.
+Okay.
+Perfect.
+All right.
+Okay.
+Mojumash.
+Tanaka Sensei.
+Koimore masuk hat.
+Morning.
+Sorry.
+Ah, good morning.
+Morning.
+Good morning.
+I don't know how to show you for the rest of the class, but you're in class.
+Here's everybody.
+And they can see you on the screen around us.
+So what I'll do is I'll just sit here, Tanaka Sensei, so you can see my face.
+but I'll be looking out to the class, okay?
+Okay.
+So let's, so perfect timing by the way,
+because we just were going to, yeah,
+we're just transitioning to the discussion.
+Okay.
+So let me share my screen.
+Your mic is on, so at any time, feel free to chime in.
+Yeah.
+All right.
+Sharing screen.
+There we go.
+Okay.
+Okay, perfect.
+So let's go back here.
+Tanaka sensei, can you see my screen okay?
+Okay.
+Okay.
+Yeah.
+Okay, great.
+I can't see you, so if you have anything,
+just please speak up.
+Yeah.
+Okay.
+So I want to do a debrief on the design sprint.
+A couple of things.
+One, I want to reiterate,
+it was a good question I received last session.
+When you guys are building your startup idea,
+don't think of it as necessarily a solution
+to solve a problem.
+It's not a solution to solve population collapse, right?
+That's too big of a problem.
+We're not trying to save the world in such a big challenge.
+What we're trying to do, again, as the program challenge states,
+as a global team, design a tech -enabled solution
+that helps societies adapt to demographic change.
+Okay?
+So this is the idea of coming up with solutions using technology
+to help issues such as labor shortage
+and erosion or the aging population,
+challenges that appear from a shrinking society.
+So again, don't try to come up with a solution
+to solve shrinking societies.
+I don't know if that's even possible.
+And we also discussed maybe some cultures are okay
+with demographically shrinking.
+They just want to do that in a comfortable way
+or try to solve the challenges around it.
+And this is relevant to you guys, right,
+because it's kind of a snapshot of the future.
+Some of these issues will come up,
+and then we'll come back home here in the U .S.
+So you kind of get a first taste of trying to solve
+some of these challenges in Japan,
+which is kind of a look in the future,
+and maybe bring it home and start a new business here in the U .S.
+Or, who knows, maybe build a business in Japan, too.
+I have a video from last year,
+and I'm going to just play it locally,
+that overviews kind of the program challenge.
+Too bad Muskan's not here tonight,
+because she's in this video.
+But I wanted to play it,
+and it's going to show some of the site visits
+that they went to last year.
+When we're watching it,
+I'll try to explain some of the places we went to.
+And the reason why I'm showing this to you
+is because I want your guys' input
+on what you want to see when you get to Nagoya.
+And that's also why Tanaka -sensei is here tonight,
+because she's going to help arrange those site visits as well.
+So let me play this video here.
+Also, I did not make the soundtrack to this video,
+just an FYI.
+Okay, so this is XR Center.
+It's inside Nagoya University,
+and it shows you the medical technology
+that they use using VR.
+So applications for surgery using virtual reality.
+This is Nagoya University Hospital.
+This is the hospital.
+This is the actual hospital that we took teams in
+to do market research and field surveys.
+So with their teammates,
+they went to patients or caregivers
+just sitting in the waiting room,
+showing them their idea
+and asking questions about it
+and getting their response,
+so doing surveys.
+Just getting, hanging out,
+getting to know some of the Nagoya students.
+Thank you very much for attending today's recital!
+This is a lecture that Hatsugawa -sensei did.
+I think he gave it to you guys already online.
+These are actual entrepreneurs that live in Japan.
+They were so kind to come to the university
+and share their startup that they built.
+This is Station AI. It's a giant building that allows
+collaboration space between Japanese companies and startups.
+Again, still Station AI. This is a lecture by a
+university professor on autonomous vehicles. And
+then we went across the hallway to see his lab.
+Another university professor giving a lecture.
+Idea Stoa is kind of the collaboration space where
+you can hang out with your Nagoya teammates to do your group project.
+And then you can have a conversation with your students.
+Day three, we went to a rural area and we rode in this autonomous vehicle.
+This is, you know, when I saw this originally, I was
+like, well, we have Waymo out here. Why don't they have something like that?
+This is interesting because it's in a small rural town
+that's very hilly that needs autonomous vehicles.
+But they don't have that.
+And they don't have the resources to actually afford something like a Waymo.
+So this is their solution to that.
+Essentially, it's a golf cart with LiDAR.
+And it's a public utility that the townspeople use.
+This is a public utility that the townspeople use.
+Oh, it's always a good time.
+Oh, it's always a good time.
+Oh, it's always a good time.
+Oh, it's always a good time.
+Oh, it's always a good time.
+This is an old school that we visited.
+It's now been renovated as a community space where we
+received another lecture from a professor.
+He gave it on rural cities and the aging dynamic.
+This is, again, we rode a bus.
+This is Nagoya University.
+This is part of the campus.
+But we got on a bus and, again, went to a rural
+location in Japan to visit a health clinic and a community space.
+This is one of the towns that is shrinking.
+So the local townspeople and public figures shared information about their town.
+This is the doctor that runs the health clinic.
+So we got to learn about running a rural clinic in a shrinking town in rural Japan.
+This is a senior home that we got to visit as well.
+We got to really understand the labor shortage challenge
+and how to take care of an elderly population.
+They were very kind.
+They were really great.
+Really into having us and showing us around the senior center.
+Music
+Music
+Music
+Music
+Music
+Music
+Music
+Music
+Music
+Music
+Very formal, you can see people are dressed up a
+little more than casual for this meeting.
+There's the mayor himself.
+He shared a little bit about his town and then he
+asked the teams to share their startup
+idea.
+Also, you gotta learn formal business and how business is done at a very high level
+here.
+Business card exchange, all of that.
+That's Tanaka Sensei's little boy.
+That's Tanaka Sensei.
+This is back on Nagoya campus.
+This is a drone company that we visited in Nagoya.
+Unfortunately because of R &D, they couldn't share.
+We couldn't tell you.
+We couldn't take pictures inside, but we really learned about their startup, which
+was a drone company.
+And then this is the last day where they went.
+Again, back to Idea Stow.
+We might use a bigger space, but each team
+presented their ideas in front of academics,
+the public, and government figures.
+Did you know the
+technologies can be utilized?
+They did.
+Yes, sir.
+They can be used.
+used to there's no man is terrified it's the man who
+stands to lose you so
+there's each team Q &A as well there was some judging they actually did nominate
+the best team from the pitches again you can see they're dressed up a little more
+formal for the final pitch day judges gave feedback
+and nominated the best
+team they got certificates
+that's kind of it in a nutshell really briefly of the Nagoya portion of the
+visit the Tokyo part we can talk about later but
+that's kind of an overview of
+the
+what we did last year now there's a couple of challenges this year one it's
+being completely integrated into a class two there were five last year there's 20
+of us this year so what we're going to do is we're gonna put together a kind of
+a survey with another document that kind of explains some of the sites that we
+have visited last year and get your feedback on places you would like to
+visit this year I know it might be challenging because you're like well we
+have no idea what Japan and Nagoya offers but if we could try to think of it
+in broader concepts like if you look if you're interested in this industry
+specific to healthcare or this industry specific to
+robotics and try to think of
+it in that broad scape scope it'll be easier
+Tanaka sensei do you have anything
+to add here
+no okay oh wait I have one more question I'm gonna go to the next one so just to
+get everybody's الص enemies we have twelve meter long
+media and I
+don't think I can do all of these or whatever I was describing that I thought
+it was kind of
+discord and then have you guys fill it out this will help Tanaka sensei because
+she's kind of the key person in setting up these site visits is that correct
+Dr. Sensei
+Dr. Perfect okay great so yeah again we're putting the finishing touches on the survey
+I'll try to put it in discord as soon as possible
+so monitor discord for the site visit survey also
+I want to talk about
+one more thing related to the design sprint itself.
+Hopefully my computer is not going to die on me.
+Back up here.
+Right now we're kind of in this third spot.
+Honestly, we ran out of time.
+Another challenge of running this design sprint in class with 20 students.
+We ran out of time to actually choose a direction, which means voting.
+The issue about that is I'd like to vote today or online in Discord,
+but we're concerned that the Nagoya students,
+who essentially have finished their...
+They finished their virtual program,
+and now they're back in class full time,
+won't give us input until May.
+So I want to present this to you guys.
+This is actually one of the challenges with working internationally and globally.
+Sometimes, right, people don't do what you would like them to,
+and there's also cultural barriers.
+I think the American perspective would be that we just go forward
+and we vote on our own idea,
+because I see lots of your teams,
+have put up your solution sketches,
+and there's some great ideas out there.
+But another cultural perspective is to try to get all consensus.
+So I'm posing this question to you guys now,
+and I'll open it up to discussion.
+How can we get consensus from your teammates in Nagoya,
+even though some of them weren't participating in the last session even,
+which I know is not your fault,
+but it's something that you will face in the real world,
+how are you going to reconnect with one of your teammates
+to try to get their input on voting for one of the solution sketches?
+Does anybody have any ideas?
+This is a real challenge.
+This is a real life challenge.
+We got to get consensus from your teammates,
+but some of the teammates, yes?
+I mean, just reach out over Discord,
+and I need, like, I mean,
+our team is also,
+we also shared, like, other ways of contacting each other,
+so reaching out on maybe some of those more personal forms of contact as well,
+and then just have everyone vote,
+do an asynchronous vote in your own team.
+Love it.
+That's a great idea.
+You think you guys can do that, each team?
+I know, and if they don't respond, they don't respond,
+but at least can you make an outreach to try to get them to vote?
+And if they even want to,
+if those who haven't updated,
+or,
+uploaded their solution ideas,
+get them to do that,
+but if they can't do that,
+that's fine.
+At least get them to get their input on what your
+team is going to decide to present in Nagoya.
+Even if you go to Nagoya and you pivot to a new idea,
+it's nice to have, like, some direction, right?
+What do you guys think?
+Is that something that you can take on, each team?
+Yes?
+No?
+I'm seeing some heads.
+Yes?
+Okay.
+Awesome.
+Then I encourage you to do that,
+and I'll post it.
+I'll post it in Discord as well,
+the instructions on the actual voting process and how it's done.
+But again, in your Miro board,
+you'll see your solution sketches,
+and then you have those little sticky dots.
+Put the sticky dots, as many as you want,
+onto whatever solution sketch you like.
+You can vote on more solution sketches.
+So I think you have, like, 20 little green sticky dots.
+Let's say solution sketch one you like,
+so give it five.
+Solution sketch two, not so much, so you can ignore it.
+Maybe solution sketch three you love,
+so you can give it 10 sticky dots.
+And then we're trying to create a heat map of your interests
+in each of those ideas.
+And then there's a final, like, on your Miro board,
+like a red star that you'll put on,
+and that will decide the final idea, all right?
+I'll put these instructions in Discord for you to share
+with your Nagoya teammates, because they might not understand
+the voting process.
+But I'll put it on you guys as each team in your Discord channels
+or other means, which I think is a great idea
+if you have their Instagram or whatnot, to reach out to them
+and try to pull them back in,
+to try to get consensus all around.
+Does that sound cool?
+Yeah? Thumbs up?
+Yes? Yes?
+All right?
+Okay. All right.
+Thank you.
+It will really help the program.
+And again, it's a real -world challenge.
+Thank you.
+And I hope that you will face in the future as well.
+Tanaka Sensei, do you have anything to add here?
+No? Okay.
+Great. Real quick, a couple last things before we break.
+Whoops. Go through here.
+This knowledge creation, I wanted to do this lecture so bad.
+Ran out of time.
+I'll tell you what.
+This book, if you, does anybody know this book?
+It's a great philosopher, genius mind.
+He's still alive today.
+David Deutsch, The Beginning of Infinity.
+This book bases my kind of current philosophy
+and mental models on how knowledge is created
+and how we can use that to leverage LLMs,
+although he doesn't talk about LLMs specifically
+because this book was written in 2011.
+If this philosophy or any of this, you know, is, you know,
+epistemology is interesting to you,
+I encourage you to get this book.
+Thumb through it.
+It's a big book.
+It's a thick book to read, not in size, but just in concentration.
+And I'm happy to talk to you about it in Japan.
+We did over sake or whatnot about this idea.
+I love this stuff.
+So I'll leave that as a note.
+It's something to pin.
+Work groups.
+A couple of people have reached out to me.
+Thank you for that.
+I will circle back.
+Two work groups.
+So I'm going to talk about the work groups that I'm offering.
+One is Nuku Code.
+So if you want to get involved in creating an ethics document,
+this is something that I want to create
+and have every student sign before we go to Japan.
+Kind of just good behavior, ambassadorship,
+representing CU in Japan.
+I want your input on creating that document
+because you're going to sign off on it anyways.
+If you're interested in that sort of thing,
+kind of a code or a code of ethics,
+reach out to me and you can be on the work group.
+We already have a couple people that are doing this.
+Tech support.
+Thank you.
+I have one tech person that's awesome.
+If any other techies want to get involved,
+don't need too much tech help yet,
+but I want you guys in my back pocket.
+So feel free to reach out to me for that as well.
+Okay. And then lastly, with the last 10 minutes,
+I have some survival Japanese.
+Who speaks Japanese here?
+Anybody?
+No? Okay.
+All right.
+Except Tanaka sensei and me a little.
+So we have a couple word pairs and then one word at the end.
+So the first word, so these are words that you will hear often
+in Japan that I think you should know.
+The first word is itadakimasu.
+All right.
+Let's do a language class.
+Everyone repeat after me.
+Itadakimasu.
+Itadakimasu.
+Itadakimasu.
+Itadakimasu.
+Itadakimasu.
+Itadakimasu.
+Itadakimasu.
+Itadakimasu.
+Anybody know what that means?
+Thank you for the spoon.
+Thank you for the meal.
+Awesome.
+Yeah. Good job.
+Yeah. Itadakimasu is commonly said before you eat.
+It's kind of like a, it's not exactly grace or a prayer,
+but it's very similar.
+It's more of a ritual or thing that you say before you eat.
+Shows respect, especially if people are giving you the food.
+My wife always gets mad
+if I don't say this if she cooks me a meal and I start eating
+without saying itadakimasu.
+So one more time, itadakimasu.
+Itadakimasu.
+All right.
+And then the second word, gochisosama.
+Gochisosama.
+Gochisosama.
+Gochisosama.
+Anyone want to take a guess on this word?
+It's after you eat.
+Then it's like good stuff.
+Perfect.
+Yeah. Gochisosama.
+This is what you say after your meal.
+Yeah. Great meal.
+I use this in a lot of restaurants.
+Like if I go to a great sushi place and I'm walking out,
+I'll say gochisosama.
+If you want to make it even nicer,
+you say gochisosamadeshita.
+It means, hey, that was great.
+There's a link here if you want to understand more
+about these two words.
+All right.
+Let's do another one.
+Please repeat after me.
+Hajimemashite.
+Hajimemashite.
+Hajimemashite.
+Hajimemashite.
+Anyone want to take a guess on this?
+Yeah.
+Like nice to meet you.
+Ping pong.
+Very good.
+Nice.
+This is what you say when you meet someone for the first time.
+Nice to meet you.
+One more time.
+Hajimemashite.
+Hajimemashite.
+Okay. Great.
+And then,
+Yoroshiku onegai shimasu.
+Go ahead.
+Yoroshiku onegai shimasu.
+One more time.
+Yoroshiku onegai shimasu.
+Yoroshiku onegai shimasu.
+Hajimemashite.
+Anybody want to take a guess on this one?
+Yes.
+Like you also say it when you're introducing yourself.
+Like right after you introduce yourself.
+Like, nice to meet you.
+But like, very like.
+Yeah. This is a very cultural word in Japanese to me.
+And I encourage you to click this link to find out more.
+Literal translation is please take care of me.
+So you're like, you show up.
+Hajimemashite.
+Nice to meet you.
+Maybe a little like my name is.
+That sort of thing.
+And then,
+you will say,
+Yoroshiku onegai shimasu.
+Which is a very cultural way of like saying,
+hey, thank you for taking care of me.
+Please take care of me.
+Let's be friends.
+That sort of thing.
+Very common.
+These words often go in pairs.
+So check that out for a little cultural background on it.
+Two more word pairs that I find very helpful.
+Please repeat after me.
+Dozo.
+Dozo.
+Domo.
+Domo.
+Domo.
+Dozo.
+Domo.
+Domo.
+Domo.
+Domo.
+Anybody want to guess?
+Yes.
+It means please.
+Thank you.
+Yeah.
+Good job.
+Dozo means please.
+So and then, what about domo?
+Does anybody know domo?
+Yeah.
+It's a formal way.
+Kind of.
+It's actually more informal.
+Domo means thanks.
+But these words are very versatile because you can use it
+in many situations.
+Dozo, like if you're offering someone.
+Dozo.
+So please.
+Please.
+Here you go.
+Like if I'm offering a chair.
+Dozo.
+Please sit down.
+And then that person would sit down.
+And they would say domo.
+Like thanks.
+Thanks.
+OK.
+Yes.
+.
+So yeah.
+Kudasai is actually please.
+Dozo is more like here you go.
+More like an offering.
+Here.
+Like if you say, yeah, in English you could say please.
+Like please.
+I don't know.
+Please go here.
+That's using please.
+Or eat this please.
+But you could also say please like please.
+Like please offering.
+And it's the latter.
+The offering.
+The please.
+Click that link to find out information more
+about these two words.
+But very convenient.
+Also I find at the, when you go to the convenience store,
+a lot of foreigners like when they, at the register,
+they get their stuff.
+And they'll give them the whole formal thank you.
+Like domo, .
+You don't need it.
+You're at the convenience store.
+He's just giving you your change.
+It's his job.
+A simple domo is fine.
+It's like thanks.
+And then the last one, gambate.
+Everyone repeat.
+Gambate.
+Gambate.
+Gambate.
+Gambate.
+Gambate.
+Anybody want to guess on this one?
+Yes.
+Do your best.
+Try hard.
+Awesome.
+Yep.
+You'll hear a lot.
+This is a word you can use with your teammates.
+Gambate.
+Gambate.
+Let's do it.
+Go for it.
+Do your best.
+Gambate.
+Also very cultural word to understand.
+It's used a lot in Japan.
+So check out that one as well.
+So that is my cultural Japanese survival language in 10 minutes.
+I'll post this slide deck so you can check it out in more detail.
+Tanaka sensei, do you want to add anything?
+We're about going to close class here.
+So after the survey, we will discuss where we basically.
+I think I'm going to talk to you in about 10, 15 minutes.
+And I would like your input on making the survey.
+And then I will post the survey.
+And then we can discuss further.
+Does that sound OK?
+OK.
+All right.
+I'll speak to her.
+OK.
+All right, guys.
+I'm going to finish a little early.
+Unless anybody has any questions for me?
+All good?
+OK.
+Again, please reach out to your teammates.
+I'll post instructions on voting procedures in Discord
+this evening.
+Let's try to get them back involved,
+even though the virtual session is officially over.
+I really want consensus for each team,
+if possible, once you guys decide your direction
+for your team idea.
+OK.
+Thank you.
+Bye, guys.
+Have a great evening.
+Bye.

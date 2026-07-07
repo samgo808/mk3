@@ -1,0 +1,1054 @@
+Document: Japan's Aging Society & Healthcare in Japan
+Lecture: Session 7
+Date: February 24, 2026                                                        
+Course: BAIM 3300 - AI & Automation for Tomorrow's Societies
+Topics: Japan’s super-aging society and demographic trends, End-of-life care and quality of life vs. longevity, Home-based medical care systems in Japan, Team-based healthcare delivery (multidisciplinary care: doctors, nurses, dieticians, therapists), Palliative care and patient-centered care models, Ethical considerations of euthanasia and end-of-life decision-making, Mental health and loss of purpose in aging populations, Community-based care vs. institutional care, Long-Term Care Insurance system (Japan, 2000), Universal healthcare coverage in Japan (1961 system), Cost-sharing structure (age-based co-payment, caps, subsidies), Comparison of Japanese vs. U.S. healthcare systems (cost, access, pricing models), Healthcare affordability and financial burden in aging populations, Healthcare system sustainability challenges (aging population, shrinking workforce), Workforce shortages in healthcare (especially geriatrics), Urban vs. rural healthcare disparities (access, staffing, infrastructure), Transportation and mobility challenges for elderly populations, Social support systems for elderly (community programs, intergenerational assistance), Cultural attitudes toward aging, death, and dignity, Overutilization of healthcare services and system strain, Policy trade-offs (access vs. cost control), Role of innovation in healthcare (care coordination, caregiver support, workflow efficiency), Technology adoption barriers in healthcare (cost, usability for elderly, infrastructure gaps), Rural healthcare innovation (autonomous transport, local support networks), Economic and social implications of demographic decline, Patient autonomy and dignity in end-of-life experiences, Case study: Dr. Ryoichi Ichihashi and home hospice care model
+
+Okay.
+So let's start the video clip.
+This is Japan's home medical care system in
+action, supporting patients in their final days.
+Let's change slowly.
+The patient is a man in his 70s with severe lung disease.
+Oh, thank you.
+Thank you for your hard work.
+Thank you.
+Dependent on an oxygen mask and unable to leave his home,
+he has recently begun to say things that worry his family.
+He has been sick for 18 months.
+But he can't live like this.
+I can't live like this.
+I can't live like this.
+I can't live like this.
+According to a national survey,
+nearly 30 % of people in Japan now say they don't view longevity as a good thing.
+I think everyone is struggling with what they
+want to do with their lives.
+Marking 100 years since the beginning of Japanese broadcasting,
+this series explores Japan's ongoing challenges.
+This episode focuses on a key question.
+What constitutes a good death?
+With over 1 .5 million deaths a year,
+Japan is now a high mortality, aging society.
+With medical advances and expanding social support,
+people in Japan are living longer, healthier lives.
+Yet more people are finding it difficult to sustain the will to live
+as they reach life's twilight.
+Make it a better life for yourself.
+You've got the power to make the future you want to see.
+One physician at the forefront of home medical care
+is facing this harsh reality.
+I think we need to respect our wishes.
+We need to respect our limits.
+This is the time to live longer.
+He visits advanced medical facilities around the world.
+Seeking approaches that help patients live life to the fullest.
+Seeking approaches that help patients live life to the fullest.
+It's a long journey.
+Do you think you see?
+Yes, it is right.
+Across Europe, the legalization of euthanasia
+is steadily advancing.
+Why do some people choose death over life?
+The doctor is confronting the question of euthanasia,
+to which he is strongly opposed.
+How can we reach the end of life without losing hope?
+We'll explore one of the most profound questions
+that each of us must face.
+The
+Ichihashi Ryoichi is a doctor specializing
+in euthanasia.
+He runs a clinic that's known for its team -based approach.
+It's not just made up of doctors and nurses.
+Dentists, dieticians, a music therapist.
+About 100 people from various professions
+are part of the team, one of the largest in Japan.
+He does muscle training and exercises
+for defense, that replace Edu and other professionals.
+His movement DID include effort and energy.
+In what ways do you see him progressing?
+It's very simple.
+He is becoming a good team in a regular basis.
+He்? better than the
+he's gotten better at twetzung .ніn ? After you get better, you will quickly recover,?
+He focuses on team -based care to meet each patient's
+individual wishes and maximize their quality of life.
+A man in his 70s struggles to eat by mouth due to the lingering effects of illness.
+I don't really enjoy it, so I think I want to eat something delicious.
+I'll take out the tongue. More, more, more.
+Ichihashi works with dentists and dieticians to
+accurately measure chewing and swallowing ability.
+Then they provide meals with texture and size.
+Carefully adjusted for each patient.
+How much can you crush it with this?
+It's a little bit hard, but it's easy to crush with your tongue.
+Ichihashi's meticulous care methods have drawn attention.
+And more.
+More than a thousand visitors from Japan and
+abroad have come to his clinic to observe and train.
+I'm hungry.
+I'm hungry.
+Thank you for watching our video.
+Let's move on to the slide.
+So can you hear my voice?
+It's good?
+Yes, I think I can hear you.
+All right.
+So let me quickly introduce the doctor you just saw.
+Dr. Ryoichi Ichihashi.
+He's a graduate.
+Actually, he's a graduate of our university, Nagoya University School of Medicine.
+And he's an actor.
+So originally he was a specialist of hematology.
+And so I remember for a long time.
+He specialized in hematology.
+But he changed his specialty from hematology to
+this home care treatment.
+And I know him very well.
+I know him personally.
+And he's one of the hardest working doctors I know.
+A Japanese TV station, NHK, Japan Broadcast Corporation.
+A few actors featured him in 2020 for last year.
+Because Japan is facing a super aging society.
+And home medical care is becoming more and more important.
+And Dr. Ichihashi is on the front line leading a
+large team -based clinic to support patients and families at home.
+And here are the key takeaways.
+First, Japan has one of the world's highest life expectancy.
+People live longer.
+But the real question now is how do we live well in a super aging society?
+Second, the goal is not just longevity.
+Living longer is quality of life.
+Especially near the end of life.
+Living longer doesn't automatically mean living happier.
+Third, aging at home can be great for patients.
+But it can be tough for families.
+That's why strong support systems and team -based care matter.
+Very, very important.
+Japan is right on the front line of this challenge.
+So the next question is what makes this kind of care possible in Japan?
+First, Japan has universal coverage, practical coverage
+and predictable cost of sharing.
+So people can get care without the fear of loss.
+It's easy even if you don't have a
+virus.
+carry everything by themselves.
+So the system provides a foundation, but there's still a pressure point.
+And that's where innovation can help.
+So now let's talk about innovation, because that's what this program is about.
+In this context, innovation doesn't mean raising doctors or the healthcare system.
+It means making care easier in the real world for
+patients, for families, for care teams.
+In supervising society, the biggest opportunities are
+really usually in point of coordination,
+hospital to move, hospital to call, and caregiver
+support, and workforce efficiency, and mobility
+also matters for people who can travel easily.
+So here's a question I want to keep asking.
+Where is the biggest pain point?
+Who feels it most?
+And what could actually help?
+So let's talk about the Japanese medical history.
+Here's a short history.
+Japan began adopting Western medicine in the late 1700s.
+So modernized rapidly after the major dissolution,
+expanded modern universities and medical training,
+and then built public insurance systems step by step.
+And reaching universal coverage in 1961.
+So that's the foundation of the system today.
+So what did this history lead to?
+So Japan achieved universal health coverage in 1961, as I said earlier.
+It's made a real difference.
+Japan now has one of the world's highest life expectancy.
+So what's the difference?
+Well, the success creates a new trend.
+People living into their 80s and 90s, they live longer.
+So we need to support them.
+And often at home, with a long time here, the community support.
+So my life expectancy is .
+So my life expectancy is .
+Okay.
+So now here's the interesting point.
+Even though Japan achieved a strong health outcome, we actually have a cure doctor for
+1 ,000 people compared to many other OECD countries above.
+And so you might wonder, how does this still function?
+A big part of the downside is the way care is organized.
+So for example, the clinics, hospital, and the community started working as a network
+team, as a team.
+And so for community.
+It's not just about the health.
+It's about the community -based care.
+But there is a story involved.
+The system works very well, but often at the cost of people's time and energy.
+Many health care workers face long memories and a heavy workload.
+So actually, so now they, so regulations have improved in recent years.
+But in the end, the situation is still pretty tough.
+I know very well.
+And this is against the way innovation marches, not
+to repress clinicians, but to reduce the
+risk of friction and workload while keeping care safe and human.
+So why does Japan's system feel so different compared to many other countries?
+It will come down to three things.
+First, everyone is covered.
+If you're still a long -term resident, you have
+insurance, no matter your age, income,
+and medical history.
+So second, access is really easy.
+In most cases, you can go to many clinics or hospitals.
+But the directives, which are the strict gatekeepers,
+keep giving without expensive cost.
+So third, you don't pay everything yourself.
+You pay sure at the visit, and insurance cover the rest.
+So for most people, the pocket costs may stay manageable.
+Honestly, you choose extra, additional treatment.
+Like a private room or a private office.
+And you can get the insurance out of the
+insurance, official insurance covers.
+But here's the actual trade -off as well.
+We access this easy and let's be affordable.
+People may visit more often, and that adds
+pressure on the workforce and the total cost
+of the system.
+So in Japan, everyone has to join the public health insurance.
+If you work for a company like me.
+So you are on the employee insurance.
+You are a public client, and you usually share the
+premium with your company for four
+minutes for University.
+So we share the premium with University as mine.
+And you see it on your paycheck.
+When you get a cure, you pay sure of around 30%.
+And the insurance cover the rest, 70%.
+So next, I like to see how the percentage is changing by age.
+So this is the first step.
+So now let's look at what patients actually pay when they go to the clinic or hospital.
+In Japan, a patient does pay the full cost.
+They pay a payment, a part of the full amount of the cost of therapy.
+And the rate may depend on the age.
+As you can see, for children under six, it's usually 20%.
+In many cities, it becomes 0%.
+The same with the elderly.
+In the city of Nagoya, it's the center of Japan.
+It's a kind of a bigger city.
+But the government, municipality, local
+government, support almost all of the hospital fee.
+So until they become high school students, around I remember 18.
+So the local government covers all hospital fee, treatment fee.
+Okay.
+So that's it.
+And so as I said, the local government subsidize how patients care.
+I just say many areas, not only in Nagoya, but also
+Tokyo and also our local cities,
+care is really free.
+That's a really good thing.
+And for most adults like me, the compayment is usually 30%.
+And for age 70 to 84, it often drops to the 20%.
+And for 75, over 75 and over, it's the most common.
+10%.
+But high income seniors usually sort of pay more.
+So I just show that you can see the idea is really simple.
+The treatment adjusted by age, income to keep care
+affordable, especially for children and
+older adults.
+But here is the key question.
+30 % of what?
+To answer this, we need to compare the total price level of care.
+It might be very interesting.
+To answer that, let's compare the price level of
+the medical service in Japan and the US.
+Even for the same case, for example, surgery and
+the seven day admission and full lung
+test, total charges in the US are often much higher than in Japan.
+The main reason is how prices are set.
+So in Japan, actually it's largely stabilized.
+Okay.
+So the nationwide through a case schedule.
+So the base price is relatively controlled and
+predictable by government in the US.
+Other price are more fragmented and negotiated by
+hospital, by insurer, and by network.
+And so the underlying price is very, very changed widely and it can be much higher.
+So to be honest, I would never live there.
+And that's where I saw that.
+I checked.
+I investigated this price using the internet.
+But I know that for the US, the hospital fee is really expensive.
+So the takeaway is the people.
+The base price is really very different.
+And then the next slide, we'll look at what matter for patients.
+How insurance changes what they actually pay out of pocket.
+So in Japan, as I said earlier, like the
+So the age of the adult typically pay about 30%.
+And then also monthly cap.
+Monthly cap.
+It has an income.
+So there is a critical limit on what you pay in given months in the US.
+So even if you are insured out of pocket cost depends
+heavily on your plan, mainly the deductible
+and the coinsurance and annual cost.
+So the total amount of out of pocket maximum and also whether you stay in network.
+So for example, imagine that from with 2 ,000
+deductible and coinsurance 20 % and 8 ,000 maximum
+and your out of pocket max.
+Actually, if something big happens, you may pay a lot
+quickly and you reach the cap.
+So Japan actually, so to be honest, Japan really do a good job.
+Of protecting individual with the little bit predictable out of pocket cost.
+But here is a bigger question.
+As the population ages and people need more care, can
+the whole system stay sustainable,
+keep sustainable or not?
+So that's why Japan created a special dedicated system
+for the over 75 population.
+This slide shows how the system works.
+Japan set up a special system for very old age.
+The key point is simple.
+Very simple.
+In 2008, Japan created separate insurance program
+for people 75 and over.
+Once you turn 75, you are automatically enrolled.
+And most people pay a smaller share of the bill
+of around 3 % and they also pay a monthly
+premium that depend on the income.
+Japan did this because most medical needs and culture and culture are not the same.
+So the system is not concentrated in the old age groups.
+So now that we look at the medical cost, especially for people over 75.
+So let's move to the other essential part of aging in Japan.
+Long term here, you saw in the video clip.
+People live longer.
+So many, actually many older people eventually need help, not only with medical treatment,
+but with daily life.
+Things like bathing and dressing and eating and moving around safely.
+So Japan supported this through the public program
+called Long Term Care Insurance.
+Introduced in 2008.
+Sorry, sorry.
+Introduced in 2000.
+It covers everyone.
+65 and older.
+And also some people who are age 64 with certain age -related conditions.
+After the cost is shared across the society through the tax and the premiums.
+After an assessment, people are assigned a care rental
+and the insurance covers most
+of the cost.
+The user typically pays 10 to 30 percent of the cost.
+So the next question is, in practice, why does Japan emphasize age -related conditions?
+And why is it so important to keep people at home?
+So actually, there are three main reasons.
+The first is the age and how.
+So first preference.
+Many older adults simply want to stay at home.
+It's familiar, emotionally more stable for their peace of mind.
+So for example, the other, I actually saw that I
+heard that more than 8 percent, depending
+on the people, die from the disease.
+They die at home.
+But actually, more than 8 percent of patients die at hospital.
+That's a really fortunate discrepancy.
+Second, cost.
+Home -based care is often cheaper than a full -time facility care.
+And third, Japan doesn't have enough nursing home beds and public facilities.
+And for the public facilities, they often have a long waiting list.
+So staying at home is sometimes not just a choice, but a necessity.
+So that's why the system supports home -based services.
+Home -based services, nursing visits, home health, meal delivery, and regular programs.
+In short, Japan is trying to support older adults in the community where they live.
+And when home care isn't enough, facilities become imperfect.
+So next, we'll look at those options and how they fit into the system.
+So, as I said earlier, home -based care is default, normal, in Japan.
+But it doesn't work for everyone.
+If someone needs 24 -hour care, they can come to the hospital.
+seven days support or if the family can't manage
+care at home so the
+telepathy becomes necessary very very important it's an important
+important moment for the elder people
+so the you actually saw the you watch the doctor Ichihashi, he is really different
+actually so his mindset is completely different if it's medical self let's
+keep the patient at home this is his mindset he even brings equipment to the
+home like a photobooth scope and a scooby or a
+mobile X -ray so patients don't have
+to move unless they really have to anyway so in Japan there are different
+type of long -term care facilities one key option is the public special nursing home
+often called Tokyo they are generally more affordable
+but waiting list can be
+long private facility may offer more
+facilities than the public one so it's not a big deal but it's a good idea to
+have a private facility and comfort but they can be
+much more expensive so after
+the inter -tournament public option are cheaper but
+there are enough spots private
+option have more openings more available but they
+cost a lot more so family also
+have to choose what possible not what the ideal
+so far we will look at the cost in order A
+but that leads a simple question how do people
+afford it older people pay for
+that maybe senior rely on Japanese public patient
+system this is a risk
+proclive patient and on your daily support on very hurtful people who work
+and contribute to the other agrees so for many details total amount situation is a lot
+office can you know cash is going to take anyone
+would not in this industry
+it's not money literally not for anyone has to
+change a little bit it usually
+takes about a day or two's it depends on an individual because what people
+already they get snapshot of what they were be Colon for example signage
+president in those patients has one card left and then the condition works
+good you are like you care your staff especially interest rate like an
+uncomfortable for example the category work
+people better this is the silicone variety services like here to work much less
+That means some older adults struggle to cover
+prepared medical visits or long -term care,
+especially if they live alone or have limited family support.
+To be honest, aging is not only a medical issue, it's
+also a financial and social issue.
+The Japanese health care system is often praised for
+being accessible and relatively affordable.
+But it also faces some serious challenges.
+First, rapid aging.
+To be honest, the nearly 30 % of the population is
+over 65, and the number is still rising.
+The demand for chronic care and long -term care keeps growing.
+Second, shrinking personal.
+Fewer working -age people are paying into the system
+through tax and premiums, so financial pressure increases.
+And third,
+overuse.
+We're actually seeing easy and medical costs are low.
+People may be more often for minor issues.
+For example, it is said that older people often
+visit the hospital to get a cold patch or something like that
+to ease their pain in the knee or leg or something like that.
+So that's the work -related understanding.
+And finally, sustainability.
+And of course, why?
+It becomes harder to keep the same level of coverage without late phone.
+So the system works very well today, but the big
+question is whether it can stay sustainable for the next generation.
+So now let's take a closer look at one key reason why
+Japanese health care costs are so hard to control.
+It's the way the system allows doctors to operate
+freely, both literally and financially.
+I'm not sure about the US case, but for example, the
+UK or German staff, they are not allowed to open
+their clinic without any after -ball or something like that.
+But actually, this freedom is part of what makes the system convenient.
+But it's also being a serious consequence.
+Japan's doctors are free to open their own clinic
+wherever they like, whenever they would like.
+Maybe there are many private clinics throughout
+the country, throughout the city, especially our area.
+But this freedom also causes a major problem.
+Actually, it's the uneven distribution of doctors.
+Some areas, especially rural regions, don't have enough health care providers.
+Because of that, doctors tend to open their clinics
+in advance to get more money.
+Of course, for patients, this system is really
+convenient because patients can easily go to the clinic.
+So patients can easily find a good clinic hostel nearby.
+But actually, they can go directly to any clinic and
+hotel without needing a after -ball.
+And they receive treatment very, very easily.
+So this freedom increases access and fairness, but
+also leads to more frequent doctor visits and a higher medical spend overall.
+Today, Japan's medical costs are rising every year.
+And without some form of regulation, the system may become unsafe.
+But it's not sustainable in the future.
+So, alright, let me wrap up.
+Japan has a health insurance for almost
+everyone and it's easy to see a doctor.
+Let's help the people.
+Living longer.
+But living longer brings a new problem.
+More people need care in their 80s and 90s.
+Many want to stay at home and the family needs support.
+That's why home care and long -term care are so important in Japan.
+The system is working.
+But it's under pressure.
+There aren't enough workers and the costs keep rising.
+That's where new ideas can help.
+So we can make care easier.
+We can make it easier for patients, families, and the people who provide care.
+So one more thing is the U .S. is not just all about Japan yet.
+But it's heading the same way.
+It's heading the same way for the rest of the world.
+It's heading the same way for the rest of the world.
+It's heading the same way for the rest of the world.
+So, before we finish, let's watch our last article.
+As we think about this, what do we need to help
+people live well and live the end of life with hope and dignity?
+The way we face the end of life is inherently
+connected to how we choose to live.
+Ichihashi wants to be the kind of doctor who helps his patients live.
+I think my goal is to make life as interesting as possible.
+To make it something that can be provided instantly.
+I think my goal is to make life as interesting as possible.
+It's not just about medicine.
+There are many things that are beyond medicine.
+I think it's good to be able to do something.
+I think it's good to be able to do something.
+Excuse me.
+Yes, hello.
+Yes, hello.
+Yes, hello.
+Ichihashi now cares for about 50 patients.
+On this day, he visited Hayashi Shigeru, who once
+said there was no point in living a long life.
+What are you most concerned about?
+What I'm most concerned about?
+Ah...
+I think I can't move if I want to.
+That's true.
+I want to move.
+Right?
+Yes.
+Ichihashi decided to put into practice something he'd observed in the Netherlands.
+Encouraging patients to assess their own condition and express their wishes.
+Hayashi confided that he wanted to go outside
+just for a change of scenery.
+He said he wanted to go to a different place.
+If I were to go, I wouldn't go anywhere.
+I don't mind going anywhere.
+But I don't have anything to buy.
+No, no.
+If you go outside, you'll feel better.
+Yes, I'd feel better.
+Well, well.
+If I had a long -term diagnosis, it would have been difficult.
+But my diagnosis has been reduced.
+I can't go anywhere.
+I'm going to go with my nurse this time.
+Yes.
+Yes.
+Anyway, let's go.
+Yes.
+Please take my nurse with you.
+Yes, nurse.
+Yes.
+For Hayashi, this life was completely different from the one he'd experienced while traveling
+around the world for work.
+Even so, he held on to one small wish.
+To go out wearing his favorite hat.
+Mr. Shigeru, would you like to choose a hat?
+Yes, the one with the white thing at the bottom.
+The white one?
+Yes.
+It's amazing.
+It's amazing.
+I'll put it on for you.
+Okay.
+You're always like this.
+It's wonderful.
+Is it?
+It's cool.
+I see.
+It's nice.
+I'll put it on for you.
+It's cool.
+I'll put it on for you.
+Okay.
+Thank you.
+Thank you.
+I'll put this on for you.
+Okay.
+One more.
+One more?
+Let's put it on for her.
+Okay.
+Let's put it on for her.
+Let's put it on for her.
+For the first time in four months, Hayashi was able to leave the house, even do a bit
+of shopping at the local supermarket.
+The
+peanuts are so fine.
+The thin ones are the best.
+You like the thin ones?
+Yes.
+I haven't had them in a while.
+It's been a while.
+The peanuts are great!
+You like them?
+Yes.
+I'll come again.
+Thank you very much.
+Thank you very much.
+How did you like it?
+Did you enjoy it?
+I haven't been to a supermarket like this in a while.
+It was great.
+That's great.
+I hope we can go again soon.
+I hope so too.
+Hopefully, we can go to see a michigan fry game,
+but we wouldn't be able to even
+to see it resolve what has been so difficult for Mr. Nagasaki.
+It's a joint effort.
+Two months after that outing,
+Hayashi passed away at home.
+We are living in a time of shifting attitudes toward life and death.
+How can we build a society in which everyone can face the end with hope?
+Finding the answer to that question
+is a task for each and every one of us.
+We need to understand how we can easily
+And this sharedelly's lessons were
+Thank you so much for watching and for your attention.
+Joining this class, from me, the message that even
+small wishes can bring home at the end of life.
+So Japan is trying to build systems, medical care,
+long -term care, and community support to make that possible.
+And if you want to watch the full clip of the
+video, please scan the QR code.
+Thank you.
+Hasegawa -sensei, can you hear me alright?
+Yes, I can hear you.
+Great, thank you. And we'll try to move the camera around as well.
+What I first wanted to do was thank you for that beautiful presentation.
+That was really informative and also really touching.
+So thank you. That was tremendous, very impactful.
+I wanted to take a moment to introduce your colleague, Tanaka -sensei.
+If she is able to turn her camera and microphone
+on, we wanted to also thank you for joining us
+from the Entrepreneurship Program.
+at Nagoya University.
+Would you take a moment to introduce yourself?
+I've shared some of your background as well with our students, but would love to hear from you.
+Hello, nice to meet you. My name is Sawako Tanaka.
+I'm doing the Entrepreneurship Program at Nagoya University.
+We have been running the program for like 10 years,
+collaborating with 28 universities in the Nagoya,
+like Aichi, Kyu -Fu, like central Japan area.
+So our program is for free, but whoever wants to
+learn about entrepreneurship, they can participate.
+So last year was the first time we collaborated with
+CU University and Welcome to Nagoya.
+So we are looking forward to having you this time again. Thank you.
+And we are looking forward to being there very soon.
+I think we would probably all travel immediately if we had the choice.
+But we have a few more quizzes and a final exam to take first.
+So let's pursue some of these concepts of
+healthcare, insurance, aging, the notion of hope, and some of the other things that were covered.
+So I'm going to pass a couple microphones if you could try to speak into it.
+It will make it a little easier.
+We do have some microphones in the room, but we would love to ask you some questions.
+And I just want to reiterate that Asagawa Sensei,
+was very specific in communicating his desire to
+hear your ideas and your opinions and some of your questions.
+So please don't hesitate to pursue some of these topics.
+And again, if someone has an initial question, and
+then I'll put one on the other side of the room as well.
+You can just flip the button up so that's on, and then you can turn it off afterwards.
+Is it on? Okay, awesome.
+Thank you so much again for the presentation.
+Really enjoyed it.
+I just had a quick question.
+I think Japan is interesting to me because
+it seems like sometimes new technologies get adapted
+really fast.
+And sometimes the old technologies stay around for a while.
+Like, for example, fax machines I know are
+sometimes still used in government buildings and things like that.
+So like from your perspective, what causes
+like a new technology to be adapted versus to not be adapted?
+And how can we like come up with ideas that people
+will actually want to use to make their lives better?
+Excuse me.
+I think I heard it too late.
+I think it was noisy.
+Oh, is it?
+Could you just say, okay, I'm sorry.
+Is it on?
+Hello?
+Asagawa Sensei, can you hear me better than you can hear Conor?
+Maybe I'll repeat that.
+I like the question.
+So a portion of the question is how should we
+think about innovation if technology moves either more
+quickly than we expect or sometimes more slowly than we expect?
+How should we approach that?
+How should I?
+Yeah, actually sort of, yeah, innovation is really important we think.
+And sort of, but to be honest, for example, this
+area, medicine, and also the, you know,
+care area is a little bit delayed to adapt to such kind of new technologies.
+For example, when you visit the, for example, Japanese,
+actually sort of you are going to visit the real, for example, nothing,
+care home or something, the hospital.
+But actually sort of they don't have such kind of
+new technologies due to the kind of lack of the budget
+or kind of lack of the human resources.
+And of course, we try to, for example, we, the
+government subsidize such kind of budget to promote
+such kind of clinics or government, local government
+to kind of innovate such kind of things.
+But that's due to such kind of environment issues.
+So actually sort of we have a budget.
+We have to adapt to such kind of innovation, the latest technology.
+That way sort of in the future, so actually sort of there is a possibility.
+Actually sort of, to be honest, sort of big possibilities.
+So we can change this situation.
+Actually, I'm not sure the U .S. situation, but in
+Japan sort of the situation really kind of delayed.
+And that's the real situation.
+So we need to kind of improve.
+We need to see the kind of situation in the future
+to change this situation.
+And of course, on the local side, the rural side,
+a little bit, they have a very high priority to adapt
+to such kind of a new technology because there are a lot of the old age people.
+So they cannot use such kind of technologies.
+And that's why sort of we have to think about this matter more specifically.
+And even sort of such kind of older people, even kind
+of people can use the latest technology.
+We need to change our technology for their kind
+of knowledge, for their kind of availability, for their situation.
+Is that answered?
+I'm not sure I answered or not.
+Yeah.
+So if I'm understanding correctly, some of the pain
+points were, you know, the fact that we have to change the technology.
+The fact that we have to change the technology.
+technologies when adopting new technologies is a high
+In the current context, the cost of having new
+cost for these institutions because they are government
+subsidized and also making sure that the technology
+can be easily used for an older population that does
+not know exactly how to use them.
+Is that correct?
+Yeah.
+Yes, exactly.
+OK, gotcha.
+OK, thank you.
+I'm sorry, so that, a little bit, yeah.
+The microphone, a little bit, for me to do.
+That's OK.
+I'm more than happy to repeat the question if need be.
+Go ahead, Ian.
+I had a question.
+Yeah, what's the question?
+It was regarding Ichiachi's point in the documentary
+to focus more on end of life hope
+compared to just making sure that people actually
+stay alive.
+I noticed, like, you mentioned one of the first slides
+was 30 % of the society doesn't value longevity
+as a good thing.
+Are there social programs with the population
+so that for the elderly people to get out and do the things
+that they want to do?
+Any type of programs that work alongside
+with doctors?
+And the populace to make sure the seniors have some hope
+and the long lives they do live?
+If you could repeat.
+Sure.
+Andrew's question was about the slide that
+indicates that 30 % of the aging population in Japan
+lacks hope to live or a reason to live.
+And so his question has to do with how you see that potentially
+shifting and if there are ways of helping the elders
+in your community to do things like get outside
+or have other experiences.
+Other than the social.
+Other than the community center.
+Other than the community center.
+Are there other ways of these patients
+experiencing other things?
+On the side.
+Outside community.
+It was mentioned that you had community centers located
+around these nursing homes where elders could go in
+and socialize.
+On top of socializing, are there any other types of activities
+that they can sign up and go do?
+It could be as simple as taking a train to a beach
+or something along those lines.
+Like just maybe.
+Maybe visiting another town or is it pretty much
+to the jurisdiction of the caretakers?
+Sorry.
+Could you?
+Yeah.
+What types of activities would a senior,
+someone in the aging population, what options do they have?
+Do they have access to public transportation?
+Do they live near activities that would be safe and enjoyable
+for them?
+Whether it's a beach or something in the city, a play or a musical?
+What choices do they have to experience life outside
+of their care facility?
+All right.
+So I understand.
+Thank you so much.
+And so yes, the situation is completely different
+from the Lombardo side and the city side.
+And so for example, the city side.
+So the.
+I think I understand.
+So different transportation is really well organized.
+For example, busing and also the underground, some way,
+and also the other kind of train systems.
+So they can easily reach out to such kind of other kind
+of facilities.
+For example, the hall, community hall,
+or other kind of medical facility.
+And then also, for example, nowadays,
+we have a big issue that for the older ages.
+So actually, in Japan, we have no limitation
+of getting driver license.
+For example, over 65 or 75 people, they can drive easily.
+And that's called the big trouble traffic issue.
+They easily have an accident, or it occurs, and sometimes hit them.
+So you don't really need that requirement
+for the older people who are personally and or something
+like that.
+But we saw the type of transformation
+that older people need to have,
+return their driver license at the Además,
+whenever they think that their driver license,
+as long as they do that.
+But so the, usually older people don't want to get to 첫
+kind of privilege because the car is really
+convenient and that is the
+government's try to decrease the traffic accidents that
+was the government to promote the elder people to return that kind of driver's
+license and that's why the government try to more well organize our public
+transportation not only the bus, not only the subway,
+not only the train system and
+also the taxi system as well and so for example
+nowadays so the older people
+can easily get a taxi, private taxi as well with
+kind of cheaper price
+and the city side is very very well organized they
+can easily reach out to such kind of specific place
+or so they can easily have an opportunity to get sort of enjoyable things
+but
+you know,
+the issue is that rural side, rural side is already really big issues
+to be honest they don't have much kind of
+opportunity to get in touch with such kind of
+enjoyable cities, enjoyable things and so public
+transportation is really really limited
+and that's why so as I said earlier so the older
+people in rural side don't want to return their driver's license
+and so they continue to drive by themselves but it
+is a really big issue that sort of they kind of have
+a big traffic accident around the inter community
+and that way so the concerning such kind of situation so the government local government
+tried to change the situation and they tried to
+learn their community versus very small not big so very
+small inter community and
+also the kind of helping system each other in the
+small community so for example the
+of course even in the rural side there are some
+younger people right and so the older people easily
+they had the local government establish kind of
+system so the older people can easily ask the younger people to take the drive
+drive them to the hospital or other things
+and so that should get up to when meal owners or other way place the system
+so I just mentioned one very much kind of specific
+issue is that totally different government
+tried to run an auto driving tecnielle bus or
+something like, in rural gonna try, let's call it auem camping site
+current the outer
+to to alt jul enemies or disease
+and then yeah交渾
+the situation is completely different and also depend on the
+for the public aeronautics
+transportation but also the government uh for example
+nowhere and also the other along the
+most government although the japanese government tried to
+change the situation and also the
+kind of they tried to uh give the provide the more good opportunity for elder people
+during the end of life and for example so they have
+they subsidized kind of a kind of event
+in the community and also the they try to kind of
+establish a small community for for each rural
+side or something like that to uh for you know promote
+the elder people to enjoy their life
+during the end of life
+and that was a situation
+great thank you thank you very much last question
+uh okay well let's see if we can get to it go ahead and blake and then jizz off
+without turning the microphone on hasagawa
+sensei can you go ahead and ask your question blake we'll
+just see if that the ceiling microphones pick it
+up otherwise i'll repeat it yeah so my question is
+about the per capita doctors in japan compared
+to other countries and i'm just curious like as
+japan continues to age as a society do you guys see
+that as a growing concern and then furthermore
+what are some reasons as someone with a medicine
+background in japan as to why you guys are seeing
+this issue i was going to say did you hear any of
+that question actually it's an art crowd
+before the pandemic for me i think that's a very good question i think the thing that i want to
+i think it's very important to say i'm happy to repeat
+it so the the question is there's two
+questions um first your per capita doctor count is only about 2 .5
+uh do you see that changing and how does that
+affect the planning for the aging society and then the
+second question blake had to do with it was just as
+someone with a medicine background in japan what
+are some reasons as to why you guys might see this issue
+Why, from a medical background, why do you
+think that that ratio is currently the case
+and will it change over time?
+Excuse me, could you repeat the first question?
+Yes.
+The number of doctors per 1 ,000 people in Japan is not very high.
+It's about the same as the United States and China.
+Do you see that changing?
+What are the reasons from a medical background that
+the number would not be higher given
+the high aging population?
+In particular, as I said earlier, the number of
+doctors ratio is almost the same as other
+OECD countries.
+That's right.
+And in that situation, and so the doctors are actually sort of providing
+the, maintaining the older kind of society, not a problem.
+And the question that, could you say again?
+Do you see that number changing?
+Are you, if there are fewer working people in
+your society, does that mean there are
+going to be fewer doctors even as there are more people who need medical care?
+Yeah, yeah, yeah.
+To be honest.
+I think that's a very, very important issue that, so the kind of doctor system.
+I think completely different than the U .S.
+What are the doctors, Japanese medical students
+can really choose their specialty.
+It's not depend on the academic score.
+It's not depend on the kind of the academic score and also the limitation.
+Because we don't have any kind of limitation.
+We don't have any limitation for each specialty.
+I think that's, I thought that the U .S. side is
+kind of medical student cannot easily
+choose their specialty, depend on their
+competitiveness or availability or something like that.
+And that's why, so to be honest, so young medical
+student actually don't want to choose
+such kind of geriatrics areas.
+Yeah.
+To be honest.
+And so of course the government try to change
+this situation and for example the government
+provide kind of project but not scholarship.
+When the medical, young medical doctor choose their
+specialty as the geriatrics, so the
+government provide, for example, society or medical
+societies provide such kind of scholarship
+for the young doctor or something like that.
+Yeah.
+So, that's why, so the number of the generation is really low.
+Actually, to be honest, the geriatrics department, the
+area is not so popular.
+And that was sort of that promote our student to be worse.
+Because as I said earlier, the number of the older
+people is increasing and the person's
+generation is decreasing.
+And that was sort of now.
+So the generation is higher.
+So, the way we work, we work hard and we maintain this kind of a system.
+But in the future, so for example in the future we
+needed to change, we needed to kind of
+change the dissipation.
+For example, we needed to increase generation to
+accommodate the more older people and more
+kind of provide treatment for the older people.
+And that was sort of, yeah.
+So, that's the kind of, not only the kind of
+patient number issue, but also the kind
+of doctor's number issue is also very, very important in Japan.
+That's why we try to change.
+For example, this coming March, we are going to
+host the data attrition from the University
+of North Carolina.
+We are going to hold international meeting,
+collaborating with the Nagoya and North Carolina
+University.
+So, how to kind of change our society in the future, we are going to talk about it.
+We are going to discuss about each other.
+And I do like, obviously, the situation is really kind of difficult.
+We see the situation is going difficult and we try to change the situation and we try
+to kind of see the solution for the future situation.
+And the next question is...
+Giselle, did you have a question?
+I'm happy to repeat it.
+Yeah.
+I was just wondering about the, with the shrinking
+workforce, how is that affecting rural versus
+urban populations?
+Masakawa Sensei, Giselle's question is, with the
+shrinking workforce, how does that affect
+rural versus urban populations?
+Is it...
+Yeah.
+Is it consistent or is the workforce shrinking more
+rapidly in one of those two areas of
+your society?
+Yeah.
+Shrinking kind of workforce is really affect our society.
+And also, maybe the kind of time is changing because of the...
+After I saw that...
+Yes.
+Younger people.
+Younger people nowadays tend to kind of move to the city side, you know.
+And so they actually just don't want to stay at rural side.
+And that's why sort of that kind of a very
+unbalanced, the population is really affecting
+our society.
+And if so, sort of rural side...
+But it's a rural side number.
+And rural side number of the elderly people is increasing.
+And that way sort of, for example, to maintain the
+workforce at the rural side...
+So for example, university, for example, the 10 tried
+to change the situation and university,
+kind of a medical university, for example,
+provided their doctor to the rural side to
+maintain their medical situation.
+For example, that's one kind of a strategy or project.
+And also the government also, they kind of provide
+a collective for the such kind of
+medical doctors for not only the medical doctors
+but also other workers who drive to work
+at the rural side.
+And...
+Yeah.
+So that way sort of, yeah, shooting kind of operation
+is a really important kind of
+issue in Japan.
+And but that's sort of, you know, so the birth rate is still very low.
+So we cannot relate it easily.
+And that's why we try to kind of manage the
+situation without a good kind of solution.
+But that's sort of, for example, the government.
+And also, for example, the university.
+So that's one kind of a strategy.
+And also, the public health sector and also the public
+health facilities try to change
+the situation using the...
+To be honest, to be using the money for the...
+Yeah.
+All right.
+Well, Hasegawa -sensei, Tanaka -sensei, thank you so
+much for taking the time to speak with
+us this evening and your morning.
+Hasegawa -sensei.
+I hope that you continue to feel better.
+And...
+Oh, it's honestly...
+No, it's very kind of you to take your time and to share your expertise with us.
+Tanaka -sensei, we look forward to working with you
+closely to come up with entrepreneurial
+ideas and ways of using innovation and AI and
+automation to help the aging society and
+to collaborate with our colleagues at Nagoya University.
+So thank you both very much.
+That was a pleasure.
+It was an excellent presentation and we're
+honored to have the opportunity to learn from
+you and we look forward to this being the beginning of a long working relationship.
+So thank you very much.
+Thank you so much.

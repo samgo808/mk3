@@ -1,0 +1,1225 @@
+Document: LLMs: Transformers & AI, a deep dive into technical building blocks
+Lecture: Session 5
+Date: February 10, 2026                                                        
+Course: BAIM 3300 - AI & Automation for Tomorrow's Societies
+Topics: Large Language Model (LLM) architecture and lifecycle, Transformer architecture fundamentals (GPT-style models), Pre-training process using large-scale web data (Common Crawl, FineWeb), Data curation and filtering (language selection, deduplication, PII removal), Tokenization (text → bytes → tokens, compression, pattern encoding), Tokens vs. characters vs. words, Neural networks and parameter tuning (weights, probabilities), Next-token prediction and probabilistic language modeling, Inference vs. training modes, Hallucination in LLMs and causes (probabilistic generation, missing knowledge), Knowledge cutoff and model limitations, Context window vs. long-term memory, Supervised Fine-Tuning (SFT) using human labelers, Synthetic data generation for training, Prompt structuring and few-shot prompting, Instruction tuning and assistant behavior modeling, Reinforcement Learning (RL) and Reinforcement Learning from Human Feedback (RLHF), Reasoning optimization and “thinking” models, Efficiency vs. accuracy tradeoffs in reasoning, Token efficiency and step-by-step reasoning (chain-of-thought), Limitations of token-based reasoning (counting, string manipulation), Use of external tools (Python execution, internet retrieval), GPU infrastructure for AI training (H100, B200), Compute cost and scaling laws, Data center energy consumption and infrastructure demands, Parameter scaling (billions to trillions), Context length scaling, Open-source vs. proprietary models (LLaMA, DeepSeek), Model evolution (GPT-2 → GPT-5), Human vs. machine-generated training data,
+
+Good evening, class.
+Quick show of hands.
+Who's visiting?
+Who's visiting, enjoying the food and pizza?
+Okay.
+I got a couple of hands back there.
+Awesome.
+So briefly about myself to those who are new, I'm kind of the co -team with Professor Brady
+on this course.
+I'll be the one leading the Japan portion of the program.
+But I'm also doing a few guest lectures in the
+module as well as today.
+So today we're doing a deep dive into LLMs and
+transformers with AI.
+It might be some overlap with Professor Brady's
+lecture last time, but I think there'll be
+a lot of stuff that will be expanded on.
+And then I've already done two lectures on the history of Japan.
+One on the Meiji Restoration.
+So, kind of how Japan came from isolation and reinvented itself.
+And then I did one on post -war miracle, how Japan
+reinvented itself again after World
+War II.
+I'll have one more historical context lecture
+on Japan, which I'll be doing next week, which
+talks about Japan's challenges right now and if they'll be able to reinvent themselves
+one more time with a shrinking society.
+Okay.
+So, this is a little different kind of lecture.
+Basically, I'm going to go through this workflow.
+And I've heavily borrowed from Karpathy, Andre Karpathy.
+If anybody knows, he's a rock star in the LLM world.
+He was one of the early engineers with OpenAI.
+Now he's more on the education side.
+So he gives amazing content out there for all of us to learn.
+And I'm borrowing from his workflow that he did about
+a year ago, which is like an AI
+time 10 years ago.
+So I've updated it some.
+I've modified it some.
+But the flow of it is kind of the same.
+And what we'll discuss is basically how you build an
+LLM, how it works under the hood,
+so to speak.
+Those who might be CSWs.
+Those who are in high school majors or minors
+might be already familiar with this.
+Those who are not as technical, maybe this will
+be kind of eye -opening on how language,
+large language models work.
+So let's go into three stages that the LLM is kind of devised.
+One is pre -training.
+The second is what's called supervised fine -tuning, or SFT.
+Okay.
+And then the last, which is kind of the hot area
+right now in AI, RL, or reinforced learning.
+So let's just go through it step by step.
+We'll see how we are on time.
+If I don't finish today, I'll try to cover the rest next week.
+All right.
+So step one.
+So how are these things made?
+Well, as Professor Brady was talking about, they
+start with a huge data set.
+Most models nowadays have taken information just off the web, off the Internet.
+So, for example, you can go and get something called
+FineWeb, which is a filtered database of the Internet.
+It's actually 44 terabytes of data, about 15 million tokens.
+And how they make this data set is they pull from
+a nonprofit called Common Crawl, which every few
+months, this organization just scrapes everything out there on the Internet.
+So 300 billion pages that they've done for about 20 years they've captured.
+And so what this organization was doing was they were trying to get information out there.
+And what they did with FineWeb is they filtered it.
+So instead of just having all the raw data, they
+went through a few things to make it a little more kind of curated.
+So what did they do?
+Well, they did, of course, they extracted the text, but they also filtered the language.
+So, for example, they removed adult content.
+They also preferred content that was in English.
+And then they removed repetitive data.
+And that's how you get to this data set of what's known as FineWeb.
+So imagine taking this massive data set.
+Oh, and one more thing.
+They also take out personal information that's out there
+that they have that the Common Crawl has crawled.
+So you take a large data set, for example, like FineWeb.
+And I think the LAMA metas are pretty good.
+So this open large language model, this is actually the data set that they use.
+And then they do something called tokenization.
+I know you guys have heard of tokens before.
+I'll try to explain it in a little more detail.
+So we can go in to actual the data set of FineWeb.
+And I can pull out a document.
+Let me see.
+So this is it.
+I mean, this is the actual text that's been scraped.
+You can see the sources.
+A lot of interesting stuff from Tumblr, which is interesting.
+But let me pull something out.
+This just looks like a random blog post.
+Looks like a review of The Hobbit, the movie The Hobbit, right?
+So I'll take this as an example.
+I'll copy this.
+And in my demo, I've already pasted it into a text doc.
+So this is something that's been crawled.
+Put into the data set.
+But a computer can't understand words yet, right?
+It's still in the ones and zeros of the world in what's known as binary.
+So this text is the exact same thing as this in binary code.
+These are bytes, right?
+Ones and zeros, on and off.
+This is what a computer can understand.
+So we've gone from a text clump, which is about 1 ,400 characters.
+Into a binary code, which is roughly, well, precisely
+11 ,744 bits.
+So we've expanded.
+We don't want to do this.
+We want to get it smaller.
+Because we're trying to compress this data.
+So they convert the bytes into bits.
+So interestingly, like, this first sequence of eight
+-digit numbers, this means the letter T.
+This next one of eight -digit numbers is H and so on.
+So this is essentially the binary code for the word the.
+But for one set of binary numbers that are eight
+digits long, it can be only written in 256 ways.
+So you can take a number like this.
+And it corresponds exactly like this.
+This is what's decimal or a byte.
+So the byte 84 is the same thing as this.
+Okay?
+I know this gets pretty deep dive.
+But just follow along.
+It all makes sense.
+So now what we've done is we've gone from something
+that is 11 ,000 bits into something that's more compressed.
+About 1 ,468 bytes.
+Which coincidentally is the exact same number as Roman characters.
+So now we need to compress it even more.
+Because computing is expensive.
+So what do you do?
+Well, you start to find patterns.
+So, for example, if we look for the pattern 32
+and 116, we realize that there are roughly 18 instances of this pattern.
+So they can shrink this even further.
+And they do this multiple times, finding patterns and
+assigning a new number to those patterns.
+Those patterns eventually are what would be called a token.
+So this is 313 tokens.
+It's the exact same thing as this text.
+It's now just shrunk into a code or a format that the computer can understand.
+And a more efficient and condensed form.
+And I can prove this by if I took these, this
+passage, this data set, and I throw it into a tool
+called a tokenizer.
+You can see right there, 313 tokens.
+And these are the tokens that the computer can now understand and digest.
+This is what's fed into a large language model.
+When you're training it.
+All right?
+Interestingly, it's case sensitive.
+So, like, the word the hobbit.
+So the is token 791.
+You can see down here.
+Space, H -O -B -B, corresponds to token 37876.
+And then the end of it, B -I -T, is token 4590.
+So this word, the hobbit.
+Is represented in token form or tokenized into these three tokens.
+Okay?
+So what do they do with these tokens?
+Now that it's tokenized.
+Well, now you can start feeding it into a neural network.
+And this is where the fun happens.
+So, like, you can take a phrase.
+Like, right here.
+A few weeks ago.
+And it corresponds.
+A is token 32.
+Space few is token 2478.
+Space weeks is token 5672.
+Now we feed it into neural net and we start to train it.
+We know, actually, the next token.
+Because we have the token set.
+So the next word should be ago.
+A few weeks ago.
+But when you're trading it into a neural network, you're going to have to train it.
+And when you're trading a neural network, at the beginning, it doesn't know.
+So it just comes up with a random token.
+So it might come up with a token 3010, which is later.
+Or token 892, which is time.
+Or token 4227, which is ago.
+Which is the token we want.
+This is the correct form according to the training data a few weeks ago.
+So once it spits out these words, what you would do is just adjust the probability.
+So you're like, I want this word.
+I want ago to be presented more.
+So you might up the probability on this and
+decrease the others to get to a word you want.
+So it's just predicting the next word.
+But you are fine tuning it to get to the word you want.
+Because you already have the training set, which
+comes from something like this.
+A giant data set like FindWeb.
+Right?
+Basically teach it to form sentences.
+To form words.
+Just through this process of tokenization.
+Okay?
+But it's not a person that's like churning these knobs for probability.
+It's actually math.
+I think this is a calculus expression that works
+through the probabilities or what's known as weights.
+And it fine tunes.
+These numbers automatically through math to get to the
+answers that it's supposed to get to.
+Through at first guessing.
+But then as it's fed over and over again, it gets
+more and more accurate to the answers you want.
+So I have a visualization of what that kind of looks like.
+This is a picture of a transformer.
+This is actually GPT -2.
+Or 85 ,000 parameters or weights.
+And, you know, if you zoom in, just to get one token,
+just to get the next letter that you want.
+For example, the input would be these series of letters.
+And let's say then you want to get a next letter like an A.
+You run the math through this transformer.
+It.
+Turns it into tokens.
+And again, this is a visualization of the hardware.
+It doesn't really look like this.
+But as the data is going through, it embeds into positions.
+It pays attention.
+It vectorizes it into space.
+And in this example, it'll continue and do it about
+three times to eventually get down to the result that might be right.
+It's kind of stuck.
+It's still a random guess.
+It might be wrong.
+But this process of going through a transformer and
+some other things that I'm not going to get into to
+guess the next letter is spit out A.
+You already know the answers.
+Again, for example, through that data set that you have.
+And you can say, yes, that's right.
+No, that's wrong.
+We need to turn these knobs a little more or
+leave the knobs alone because it's producing the right answer.
+They do this for every letter in every word in
+every sentence through the whole data set to get to the desired result.
+And that's how you train or pre train an LLM to
+start to just form words or sentences.
+Okay.
+And.
+So, again.
+Adjusting the expressions, the probabilities.
+And once it gets to a level where it's starting
+to form coherent sentences, it's kind of past the pre training stage.
+And then you go to a stage of what's called inference.
+And this is when you get into an LLM like ChatGPT,
+you're talking to something that's just doing inference.
+It's not the training data.
+It's still kind of flipping a coin and giving sample
+answers based on the tokens in front of it.
+But it should be somewhat relative to the words in front of it.
+So, for example, 32, right?
+We already went through this.
+We know 32 is A.
+You feed that into the neural network.
+It might spit out 2478, which is few.
+Yep.
+And then you feed these two tokens back in.
+It'll spit out 5672.
+Oh, yeah, that's weeks.
+Okay.
+And again, this is just still it's a flip of a coin.
+It's still randomly producing.
+But you tune the knobs to a point where it should
+get something coherent to what you want as a result.
+However, it might still do something random.
+So in this case, in the inference mode, after 5672,
+it spat out 3010, which really I was supposed to
+go for a go, which was token 4227.
+Well, that's interesting.
+What is 3010?
+Well, I already know this because I.
+Set this up.
+So it's a few weeks later.
+Token 3010 is later.
+Hmm.
+That's interesting.
+Why did it do that?
+Does that even make sense?
+It's still coherently.
+And in English, it makes sense.
+And it might be just randomly flipping a coin to come to that.
+Or it might be pulling stuff from its passive
+training set data that you fed into it.
+In this case, it's, you know.
+That SpongeBob meme that we all know three weeks later.
+Right.
+So it's pulling other data sometimes to spit out the answer.
+But if you've trained the data enough, it should be a coherent sentence.
+I'm going to stop here because I know this is
+this is challenging to communicate.
+But I want to see if this makes sense.
+Some of you guys seem confused or lost.
+You don't have to understand this completely.
+But do you have.
+Generally, the gist of it.
+Do you have any questions?
+Yeah.
+See a thumbs up.
+All right.
+Okay.
+Interestingly, these GPUs, right, that you use to train them on.
+It looks something like this.
+And they can go into a rack like this.
+This holds eight of these GPUs.
+Which goes into a server cabinet.
+One of these GPUs.
+I think this is.
+I think this is the 100.
+Yeah.
+This is H100.
+You can now.
+You could build your own LLM.
+You could trade your own LLM without buying a GPU.
+You can rent the GPU.
+So the H100 is going for right now $2 .20.
+Right.
+$2 .20 an hour.
+Through this organization Lambda.
+There's a lot of them out there.
+Where you can rent your own GPU time.
+The newest.
+Sorry.
+Model or GPU is a B200.
+Which is about $3 .79 an hour.
+If you were to buy these straight out.
+Right.
+Like I think one of these systems.
+100.
+Let's see what the price is on these.
+If you can even get them.
+One of them is.
+About $25 ,000.
+$25 ,000 to $40 ,000.
+Just for this.
+That one piece.
+If you go to the higher ones.
+If you're going to buy it.
+Not rent it.
+Which is the.
+This is the cutting edge.
+The B200 system.
+I think those are maybe double the price.
+Yeah.
+About a price of a car.
+For just one GPU.
+$45 ,000 to $50 ,000.
+This is why.
+The biggest market cap.
+Is Nvidia.
+Right.
+Right now.
+Because.
+They're selling.
+GPUs for 50 grand a piece.
+If you can even get it.
+This is also why.
+The.
+It's come down to the more.
+GPUs you have.
+The more processing power you have.
+The more accurate this pre -training stage is.
+The better model you'll have.
+And so you get something like Elon Musk.
+What's Colossus data center.
+I think he had Colossus.
+One which he has.
+200 ,000.
+Of these GPUs.
+In his data center.
+He's now building Colossus.
+Two.
+Which I think is 500 ,000 GPUs.
+And there's talks of Colossus three right now as well.
+The amount of.
+Energy.
+Used to power.
+These is insane.
+So if you look at.
+Colossus two, which I believe is almost finished.
+It is.
+Over 1000.
+Megawatts.
+So this is a gigawatt.
+One nuclear power reactor.
+Produces.
+One giga or a thousand megawatts of power.
+So he's already over that.
+Roughly.
+These data centers are now consuming more power than a
+medium sized city like San Diego or Denver.
+Just to train.
+Their AI models.
+Which to me is just insane.
+So.
+Just a thought on these GPUs.
+But why it's so important to get as much power and speed in here.
+Is because essentially you're.
+The more power, the more speed you put into it, the
+better talking machine you'll get to.
+And again, you can run these.
+At home.
+The GPT two that we were talking about.
+Is.
+1 .6 billion parameters.
+So again, that's a lot of power.
+And you're thinking 1 .6 billion of these knobs.
+That you're tuning.
+That was GPT two.
+GPT five.
+Is up to 3 .5 or three to 5 trillion.
+It's estimated.
+We don't know exactly.
+Of the knobs that they have tuned.
+The context link.
+The window that you've trained it on.
+For GPT two is 1024.
+GPT five is up to.
+400 ,000.
+And then.
+The token size.
+Again, the data set.
+GPT two is trained on about a hundred billion tokens.
+Now it's estimated again.
+We don't know because they don't publish this anymore.
+GPT two is a real last.
+Dataset that we had.
+50 to 70 trillion tokens.
+It's been trained on.
+So just massive size.
+Just to get to the pre training.
+Part of.
+An LLM.
+All right.
+Yeah.
+Pre training.
+Yes.
+Total non tech person.
+I think what I heard you say.
+Is that basically.
+You're putting in.
+All the curated content of the internet.
+And training it on probabilities for how likely it is that information will come up.
+So if you ask it a query.
+Like.
+Tell me about.
+It's going to look at everything that it's finding on that.
+And find the most likely answers.
+And so.
+It's going to.
+If.
+You know.
+There's fringe theories.
+There may be not.
+As high probability.
+Less likely to come up.
+It's going to spit back out.
+Whatever the most common information.
+In the training set was.
+Perfect.
+Exactly.
+That summarizes it completely.
+Just in.
+A token.
+The token is the key.
+To feed that probability.
+But yes.
+It.
+Through.
+The math.
+Through the.
+The parameters.
+That.
+Is weighed.
+It should.
+Predict.
+One of the top.
+Top.
+Like five or ten.
+For example.
+Tokens.
+Or words.
+After that sentence.
+But it's just.
+A word prediction machine.
+At this point.
+So.
+I can give you some examples.
+But this pre -training.
+Let me see here.
+So.
+This is.
+Llama 3 .1.
+So this is an older model.
+This is a base model.
+Which means.
+It.
+It's just been pre -trained.
+There's.
+Hasn't been fine tuned.
+Or anything else.
+And I can ask it.
+A question.
+I got some set props.
+That I want here.
+Oh.
+First I'll just ask it.
+A random question.
+Like.
+Why is the sky blue?
+Okay.
+And it will just.
+Kind.
+It's producing.
+Words.
+But it's not actually.
+Giving us an answer.
+I should.
+Actually.
+Make this token.
+Size.
+Just to save the tokens.
+Let's do 128.
+So.
+It.
+Doesn't really.
+Give us an answer.
+But it gives us.
+A coherent.
+Sentence structure.
+So.
+It's.
+So.
+The next stage.
+After pre -training.
+Is to train it.
+To have.
+A conversation.
+Like an assistant.
+And give us.
+Actual.
+Factual.
+Answers.
+So.
+It's.
+A way.
+To.
+Give us.
+A sense.
+What.
+It.
+Is.
+And.
+It.
+Works.
+So.
+It.
+Is.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+A.
+So if I did something like this, it should give me the correct answer.
+And again, it's still in the random part, so it's
+not always giving me the answer I want.
+But, oh yeah, there it is, Sensei.
+So Teacher, it gave me the answer, Sensei,
+and then it kept going on randomly generating correct answers,
+but it'll just keep going as many tokens as I assign to it.
+Interestingly, as I mentioned, this is Lama 3,
+which the base model was built in 2024.
+This is the base, and then the instruct means it's fine -tuned.
+So we're talking to the base model here.
+The presidential election happened after that date.
+It was in November.
+So if I copied just from Wikipedia the president, who
+was his running mate?
+Presidential elections were held in the United States on November 2024.
+The Republican Party's ticket, Donald Trump,
+Trump, who served as the 45th president of the United States,
+and Donald Trump, who served as the 45th president of the United States,
+the answers J .D. Vance, but this model was trained before that,
+so it doesn't know that answer.
+Let's see what it does if we feed it.
+I'll just copy and paste this straight in.
+And the vice president is Mike Pence.
+Interesting.
+Okay.
+So Donald Trump and Mike, it's just creating answers.
+It doesn't know the answer.
+It doesn't know, but it's still, it can talk.
+So at this stage, this would be known as a hallucination, right?
+Let's do it again, see what it comes up with.
+And Ron DeSantis, Donald Trump and Ron DeSantis was the ticket.
+So it's, again, it knows, it has that information of
+who a Republican is out there,
+just been scraping the web.
+But at this point,
+in the pre -trained stage,
+it hasn't been instructed to,
+if it doesn't know the answer, say it doesn't know.
+Instead, it will just kind of ramble off.
+And then one other thing that you can do with these models that's interesting,
+which will lead to kind of the fine -tuning stage,
+is what's known as a few -prompt shot.
+I made this just actually from ChatGPT.
+To kind of give it a model, and you guys might do this yourselves
+when you talk to ChatGPT or any other language model,
+kind of a template for it to follow.
+So in this case, it's a human and an assistant,
+a human and an assistant in a conversational style
+of specific terms,
+like explain a complex idea in a simple term.
+What is a blockchain?
+Answer questions honestly.
+And say when you're unsure.
+Who invented the internet?
+So if I fed this into a base model that hasn't been trained,
+this is kind of the way that you start training the model,
+is you give it examples for it to mimic.
+So I fed that in.
+And then if I was to add,
+human, why is the sky blue?
+There it goes.
+It starts giving me an actual answer.
+And it'll keep going on.
+But here, this is a way that you start training a base model
+to actually give you the answers you want.
+Again, it now knows how to talk, how to put letters together.
+This is going into the post -training,
+or SFT stage, where you're giving it examples of conversations.
+So now you're teaching it how to have a conversation with you as an assistant.
+Okay?
+Give you another example.
+So how does it work?
+Well, you just feed it questions and answers.
+But then I can take out this answer.
+And it should kind of come up with the answer on its own.
+But again,
+the computer or the language model is looking at it from tokens.
+And the way, I don't know if I want to get too technical in this,
+but the way you train it as a conversation is you
+start introducing code into the model.
+And this code is actually tokenized too.
+So this is like the IM, I believe is the internal monologue.
+So internal monologue start, internal monologue end.
+So that's how you frame it.
+So you frame a question.
+And then the user, internal monologue start again, internal monologue end.
+That's how you get the answer.
+So using, now you're not only feeding it words,
+but you're also starting to feed it a template of a
+conversation into the model.
+And that's what's now known as supervised fine tuning.
+So we are in the training, the post -training,
+the training.
+After the pre -training mode,
+we're in the fine tuning stage of teaching it to give,
+to how to have a conversation, to be like an assistant.
+Yes.
+So if you were, like theoretically just gave it a bunch of tokens,
+would it be able to, like if you gave an LLM a bunch of tokens,
+would it be able to interpret the tokens instead
+of like taking language and processing into tokens?
+You mean reverse?
+Yeah, like if you just gave it a bunch of tokens,
+would it be able to like understand them?
+I don't know now, but it does.
+I don't know how, if it's based because now the info,
+they know what tokens are because it's been scraped
+or another way.
+I'm not sure how it works,
+but I was doing that to prepare this lecture today because like it's,
+I was doing this example of token 3010 and I didn't know,
+and I didn't know how to know what token 3010 is.
+So I just said, what is token 3010?
+And it'll tell me.
+So, oh, well, actually,
+it's not going to tell me based on chat GPT 5 .2
+because every token is different per model.
+But I did figure this out through another model.
+I think it was Gemini and it knew the answer to that one.
+But I don't know why.
+So I say answer your question.
+I'm not sure you can do it now,
+but I don't know the method of it,
+how it's doing it.
+So how do they do these conversations?
+How are they feeding these conversations into the model
+to train it to start having like an assistant like conversation?
+Well, they actually use humans for it.
+Which called our human labelers.
+So if I go looks like something like this.
+Let me go here first.
+So this is a document that talks about how to do how
+to train a language model using human laborers labelers.
+This is for GPT 3.
+And this training was.
+It's called instruct GPT.
+And I think on page 27.
+It gives you examples of how the human laborers have
+labelers have fed into GPT 3 conversations.
+These are humans, human experts, but they have
+created conversations that they're feeding into the
+base model to train it to start having a conversation that would be useful.
+So for example.
+This is a summary of a Broadway play.
+Translate this sentence to Spanish.
+You know.
+Help me answer a question about the following short story.
+Answer the following question.
+What shape is the earth?
+So a human is creating these questions, feeding it into the model.
+And then it spits out either a right answer or a wrong answer.
+If it's wrong.
+They tune that parameter that weight that knob to try to get it more to a right answer.
+And through that feeding it into the neural network.
+They eventually get to a point where it can have a conversation.
+In addition, because humans are slow and expensive,
+they're the most expensive things compared to a GPU.
+They also actually use synthetic data where they're
+feeding information into a chat model.
+To come up with dialogues.
+To feed back into training base models to train it.
+So this is an example.
+Of synthetic data.
+Interestingly, there's a section in Japanese culture.
+Let's see what they have in here.
+That has been created through a chat model that
+they then take the dialogue example and feed it into
+whatever model they're training.
+Is this.
+Can you explain the history and cultural significance of
+the traditional Japanese tea ceremony?
+Okay.
+And then somewhere down here there'll be an answer.
+So.
+Nowadays, they also, it's not just human labelers.
+It's also data that they pull from what's called
+synthetic data, which they pull from other models.
+One other thing I want to talk about.
+With the human labelers.
+And I don't know if you guys have seen this.
+I've seen job postings out there.
+But there's.
+I've seen job offerings on where you could become a human labeler.
+But they prefer to have experts.
+Like if someone, if they're doing conversations in math, they want a math expert.
+Japanese history.
+They want a Japanese history expert.
+But they also, they have guidelines for the human labelers.
+To follow when they're creating these conversations.
+So they want them to be helpful.
+They of course want them to be truthful.
+They want the humans when they're creating these conversations to be harmless.
+Interestingly, they don't want them to be toxic.
+So they train the humans to properly have nice
+dialogues that they create.
+And then they feed into the model.
+During the supervised fine tuning stage.
+So it can start looking like the actual assistant
+that you are talking to.
+When you boot up chat GPT.
+But it'll still hallucinate.
+Right?
+It'll still sometimes come up with answers that just aren't true.
+So for example, this person, Orson Kovacs, is not a real person.
+If he fed it into old models, it might create
+like a fictional character from this.
+So what they've done is.
+They've trained it in two ways for it not to hallucinate.
+One is.
+If it produces an answer for someone that's not real.
+Like it just creates a random answer.
+It tells them not to do that.
+By turning those weights again.
+Giving it a penalty saying please don't do that.
+Or option two.
+It tells it look on the internet for the answer.
+Okay.
+Again using a token code.
+To go out.
+Connect to the internet.
+And pull that answer.
+And using this.
+They will model it.
+Going through the neural net.
+To teach it not to hallucinate as much.
+The earlier models used to do it a lot more.
+Now that the supervised fine training has gotten better.
+It does it less.
+The challenge of this is how do you know.
+What the language model doesn't do.
+And what the data set doesn't know.
+You can't go through everything that is pulled from the internet.
+And see what it doesn't know.
+That's impossible.
+So what you do is.
+You do like 10 or 20 examples.
+Of for example creating information.
+That doesn't actually exist.
+Like this person's name.
+And then telling it.
+If you see something that you don't have in your data set.
+Just say you don't know.
+You do that 10 or 20 times through the neural net.
+It learns.
+Okay.
+Finally I should say I don't know.
+If I get to this point.
+Okay.
+Also.
+The knowledge when you're talking to a model.
+And you guys probably know this.
+But what it's been trained on.
+Think of it as kind of like long -term memory.
+Something that you just know.
+That you can recollect.
+But something that's inside the context window.
+That's short -term memory.
+So I was talking to.
+Gemini.
+A lot.
+Just to prepare for this lecture.
+On questions that I had about large language models.
+And so if I say something like RL.
+In this.
+Window.
+It knows the answer.
+Because it knows we're talking about reinforced learning.
+Because it's already in it.
+It's in this short -term memory.
+This is helpful.
+If you're using.
+A language model.
+For your studies.
+Or your homework.
+Or let's say you have a book report.
+On war and peace.
+And if you fed that chapter into the context window.
+And then ask it a question.
+The results will be better.
+Than if it just was trying to pull from its long -term memory.
+Of what it scraped from the internet.
+During its pre -training days.
+So just something to know.
+With these models.
+And then also.
+I think.
+The knowledge of self.
+If you ask it.
+Who are you?
+You know.
+And you expect it.
+I'm chat GPT 5 .2.
+Or whatever.
+That is hard coded in.
+It doesn't know itself.
+You have to physically tell it.
+Either through a system prompt.
+Or through.
+Like a token.
+That you don't see at the very beginning.
+In order for it to answer that question.
+And then also.
+The way tokens work.
+So.
+If you look at this question.
+Emily buys three apples.
+And she's a salesperson.
+She has three apples.
+And two oranges.
+Each orange costs two dollars.
+The total cost of all the fruit.
+Is thirteen dollars.
+What is the cost of apples?
+Which do you guys think is the better answer?
+The answer is right.
+In both of them.
+But what's the better way to.
+What is the better answer?
+Or the way it's presented.
+And we want to take a guess.
+Yeah.
+The one on the right.
+Oh, you're right.
+Yeah, sorry.
+Yeah, I already had the thing on there.
+Sorry.
+Yes, but why?
+Well, obviously the check mark.
+But if I'm taking a guess, I'd say probably because
+like the last sentence,
+it gives you like just clear, here it is, the answer is three.
+It doesn't give you like the whole therefore and all the math behind it.
+Like you can just go straight to the end and it'll give you the answer.
+Yeah, yeah, I think that's it.
+But also it comes down to tokens.
+If you want the answer at the very beginning, the answer is $3.
+Again, going back to this transformer.
+It's very token intensive for it to produce the answer right at the beginning.
+It actually works a lot like maybe how you've been trained in lower,
+like elementary or junior high school to do math problems,
+to work the problems out step by step.
+That is a lot less token intensive and helps the
+transformer produce the correct answer
+by walking it through with fewer amount of tokens until it gets the answer.
+So it thinks through it.
+Yes.
+But is the model actually doing the math or is it
+just predicting what next best?
+Yeah, good answer.
+Good question.
+That actually leads to my next section.
+But did, so hold, pause that.
+Did you have a question in the back?
+Yeah, I was just going to say, does that also hold true then for when you're asking,
+like giving context to a problem then as well as like putting the question at the end
+and the way it starts with the context that you give it and works its way down then?
+Okay, great question.
+I have the answer to that too in this.
+So let me answer your question.
+Your question first on the math part.
+So the earlier models really, it was a question if they could count.
+Because remember, it's seeing everything as a
+token, not as a number, okay?
+But they've gotten better.
+However, I wonder if I have an earlier model.
+I don't have an earlier, do I have a, no, I don't have an earlier model pulled up.
+So I'm going to ask you a question.
+So to answer your question with the math problem, it can do easy math.
+Like if you think about it, you can do math in
+your head, the easier math, without, it's
+even harder for the language model because it's doing it through tokens.
+But what it does is it looks at that token and
+then the corresponding number and then
+does the math and then pulls it back to a token and then gives you the answer.
+So simple math questions, it can do.
+When it gets to more complicated math, it will
+pull a Python script or another code
+and run it through a code machine and then pull it back for the answer.
+So the answer is yes for simple math equations.
+It actually does the math through tokenization.
+For more complex math equations, it will, like how it can search the internet,
+it will pull its math tool and like run the Python
+script to do it, okay?
+And the thinking piece, I'll come back to that
+later because that actually leads to
+the last section, which is reinforced learning, which I'll go to now.
+But I do want to pull one thing.
+I know we don't have too much time.
+Oh yeah, here.
+It still makes mistakes.
+So if I was going to go to an earlier one.
+If I was going to go to an earlier model.
+Actually, I think it makes a mistake on the newest model too.
+But let me go to like GPT -4.
+And I ask it a question, what is larger?
+9 .11, what was my example?
+I think it was 9 .9.
+What is larger?
+9 .11 or 9 .9?
+Does anybody know the answer?
+You guys know the answer, right?
+What's larger?
+What's larger?
+Say it out loud.
+9 .9, right?
+So let's ask.
+Oh, it did it.
+Okay.
+Let's try it again.
+Maybe it knows it because I have a new chat model.
+Try again.
+Oh, it still knows.
+Okay.
+This one knows.
+Earlier models would not be able to do this.
+It would because people aren't sure.
+Maybe it was looking at Bible chapters instead.
+But some of the earlier models were unable to do this.
+Interestingly, ChatGPT is shutting off 4 .0.
+So in a few days.
+Let's try this.
+Oh, okay.
+It still knows.
+It used to not be able to do this, one, because the
+way it was trained, but also the second
+reason is because it's looking through tokens.
+Same thing as counting the number of Rs in the word strawberry.
+It was unable to do that because, again, it's going through tokenization.
+Let me try to give it another harder problem.
+I had a good prompt example.
+Okay.
+Here's another one.
+I'm going to ask it a question.
+Let me do a new chat.
+In the legacy model.
+And I want it to tell me every third letter in the word ubiquitous.
+Okay.
+So I want it to look at every third letter.
+And then pull it back.
+Let's see if it gives me the right answer.
+No.
+It's completely wrong.
+Right?
+The answer should be U, right?
+And then 1, 2, 3.
+Next one would be I.
+1, 2, 3.
+Next one would be T.
+1, 2, 3.
+The next letter would be S.
+It completely messed that up.
+Why?
+Well, because of this word.
+It's looking at it not like how we're looking at it.
+It's looking at it as a token.
+So it's looking at it like that.
+So it's looking at these three tokens.
+And it can't really count through to the third letter
+because it's already into the second token.
+So there are still challenges.
+I wonder if I could do this for the newer model.
+Let's just go to.
+This.
+Copy the same question.
+U.
+I still got it wrong.
+Interesting.
+Oh, no.
+I got it right.
+U, Q, 1, 2, T, 1, 2, 3.
+Yes.
+So the newer models can do it.
+Older models couldn't, though.
+So they have some answers.
+So we somehow programmed it or through conversation
+modeling to understand this in better context,
+maybe some math code to string the tokens together
+in order to count the letters accurately.
+And this, again, is all done during this supervised
+fine -tuning stage.
+Yes.
+Okay.
+I have five minutes.
+We'll try to get through reinforced learning because that will answer your question.
+Which is the most exciting part?
+So, again, just to quickly summarize, pre -training is
+scraping all the data, tokenizing it, and
+through a prediction machine or prediction modeling, it's guessing the next letter in
+order to eventually form coherent sentences by doing this multiple iterations through
+massive processing and powering.
+Once it's able to form words, then you teach it to get the right answer.
+And then you give the conversation by models.
+You model the conversation.
+You feed it into the neural network.
+And then it's starting to able to mimic or, yeah, to
+copy a conversation and become an
+assistant.
+Okay.
+The next and last stage is something called reinforced
+learning or RL.
+And to look at this one more time in another way.
+This is just a chemistry book.
+It really works a lot like how we learn.
+So if you open up a chemistry book and you're
+learning chemistry, first you learn just how
+chemistry works, the basic knowledge of chemistry, maybe the chemical structures.
+That's pre -training.
+And then in a chemistry book, you might see
+examples of how to work through a problem
+with the answer.
+How those conversations, quote unquote, work.
+That would be supervised fine tuning.
+And then the last stage, which you would also find
+in a chemistry book, is where you get
+the problem and then you have the answers in the book, in the back.
+But the important thing is how you work through the problem.
+How do you come to your answer?
+And that is the reinforced learning stage.
+So you have the problem and you have the answer.
+It's the solution.
+This is the part of fine tuning that we're working on.
+How can it get to a solution the most efficient way?
+So if I, and I don't have time to do it, but if I
+fed this prompt into an earlier model,
+it might come up with many different ways to get to
+the answer three, right, of Emily
+buys three apples and two oranges.
+And what you do is you look at the most efficient
+way it came to that answer and through the
+parameters, through the way it came to that answer.
+And then you would tune it and say, yes, that's the best way to think about how to
+get to this answer.
+And that would be the reinforced learning stage.
+Interestingly, that and that would be done kind of at the human level.
+But now we're also again doing it at the machine level.
+So I don't know if you guys heard about deep seek,
+which is a Chinese model that was made.
+This is the one of the white papers for it.
+But they were doing, they were training their model through reinforced learning.
+And they realized it was getting more accurate.
+But actually, when it got more accurate, it was
+thinking longer about that answer.
+And they weren't sure why until they saw things like this.
+They could see the model, how it was thinking about a problem and how it was answering it.
+And then this is an example of the actual model.
+It flagged it.
+It said, oh, I could do this better.
+I could answer this math equation better.
+And it taught itself how to answer a question more accurately.
+And you can see this in action.
+If I go over here, let me just copy this question.
+And if I go right into the deep seek model, which I think is right here.
+So this is deep seek, another large language model.
+This one's in China.
+Open source.
+And I feed it.
+Oh, wait.
+Hold on.
+I want to do that again.
+I want to turn on the deep think, the thinking part of it.
+And then you turn it on.
+And you can see it's thinking.
+And it's thinking on how to answer the problem.
+And then it answers it for you.
+This is amazing.
+This thing is trying to think to itself on how not only to give you the correct answer,
+but how to give you the correct answer most efficiently.
+And there was big press reports and everything.
+They're like, oh, my God, deep seek, even though their hardware is more limited,
+they found a trick to make it more efficient just by this stage of reinforced learning.
+And everyone thought deep seek was going to take over.
+But now you'll find.
+All the models have a thinking portion in their model.
+Interestingly, chat GPT doesn't show the thinking anymore.
+They think it's kind of a trade secret.
+But some of the open models like deep seek do.
+So I think I hope that kind of answers your
+question on the thinking piece.
+It comes in during the reinforced learning portion of it.
+Does that is that your question?
+Yes.
+And then, like, if you are in the thinking mode,
+if you're kind of thinking about it,
+you might have a question somewhere in the middle.
+It would like analyze what you gave it and then
+understand the actual output that it's give versus like it was in the instant mode.
+But maybe not.
+You might have a harder time figuring out where to put the answer.
+You might take more tokens to do it.
+Right.
+And it depends on the question.
+If it's an easy question, then you could just do the quick answer.
+But if it's a really complex question,
+you would want to go in that deep thinking mode to get not only the correct answer,
+but the correct answer most efficiently.
+And just like again,
+just like how it takes place in the pre training
+stage where you're just adjusting these knobs to get to the right answer.
+You're doing the same thing in the reinforced learning
+stage where you're adjusting the knobs to get to the right answer,
+but also the right way or the most efficient way to get to that answer.
+I have a lecture that I might be able to give at the end of the day.
+If you have any questions,
+I'll be able to get to the end of this course
+about the philosophy on this on the knowledge of
+knowledge or the way knowledge is created.
+Epistemology that ties into this really well.
+But for that,
+I think I'll stop because we're at time.
+I'm sorry I threw a lot at you,
+super technical.
+This is hard for me to teach,
+honestly,
+but I will share this resource with you with all the links.
+And then if you have three and a half hours,
+you can go back and do something else.
+I recommend watching Andre Carpathi's video.
+He goes over this just like how I did.
+And I will put that in all of the links as well, okay?
+Which will be on this document here.
+And you guys can play around with it.
+You can also see my workflow.
+And you can really geek out if you want to.
+All right?
+Thank you, guys.

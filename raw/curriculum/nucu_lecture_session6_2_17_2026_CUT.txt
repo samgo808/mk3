@@ -1,0 +1,1249 @@
+Document: LLMs: Reinvention Without a Reset Button: Societal Redesign, Japan in the Reiwa Era: A Case Study / Tech Demo (Makoto-kun intro)
+Lecture: Session 6
+Date: February 17, 2026                                                        
+Course: BAIM 3300 - AI & Automation for Tomorrow's Societies
+Topics: Reiwa era (current Japanese imperial era) and cultural timekeeping systems, Japan’s demographic decline and shrinking population trends, Fertility rate decline and population replacement threshold (2.1 vs. ~1.2), Aging population and inverted population pyramid dynamics, “2025 problem” (mass aging of baby boomers), Economic stagnation post-bubble economy (Lost Decades), Wage stagnation and cost of living trends in Japan, Decline in marriage rates and cultural linkage between marriage and childbirth, Changing family structures and breakdown of traditional systems (arranged marriage, lifetime employment), Women in workforce and gender role imbalance in Japan, Cost of raising children and economic barriers to family formation, Work culture and karoshi (death by overwork), Work-life imbalance and its impact on fertility, Rise of “ohitorisama” (solo lifestyle culture), Social isolation and individualization (solo dining, solo activities, virtual relationships), Technology substituting social relationships (AI companions, virtual partners), Silver economy and market adaptation to aging population (elder care products, services), Innovation in elderly care products (assistive foods, adult care goods), Loneliness and solitary death (kodokushi) and related services, Real estate challenges (ghost homes, aging population housing), Rural depopulation and urban migration trends, Infrastructure decline (school closures, municipal extinction risk), Government interventions (rural incentives, dating apps, subsidies), Immigration policy limitations and cultural resistance, Limits of immigration as a demographic solution, Comparative demographic trends (Japan vs. U.S. vs. South Korea), Economic and societal impacts of population decline (labor shortage, military recruitment challenges), Concept of “shrinking gracefully” vs. growth-focused economies, Kintsugi philosophy as metaphor for societal adaptation, Startup ecosystem development in Japan (government funding, unicorn targets), Venture capital and IPO vs. M&A exit differences (Japan vs. U.S.), Cultural risk aversion and “salaryman” legacy in entrepreneurship, Society 5.0 vision (integration of AI, IoT, and physical society), Role of technology in addressing demographic challenges (automation, robotics, AI), Digital nomad and startup visa policies in Japan, RAG (Retrieval-Augmented Generation) systems and AI knowledge retrieval, Practical implementation of RAG (chunking, embeddings, token efficiency), AI assistants in education (Makoto-kun system, Discord integration), Knowledge base structuring for AI systems (transcripts, documents, retrieval workflows)
+
+Today we're going to talk about Reiwa.
+Reiwa is the current era of Japan right now.
+Interestingly, Japan goes on a Western calendar,
+but they also have an imperial calendar.
+So they're tied to what emperor is in reign.
+Right now, the current emperor has
+been in reign for eight years.
+So when he first came to Japan, he was a emperor.
+But now he's coming back.
+So the first emperor that came in, they called the age Reiwa,
+which roughly means beautiful harmony, I believe,
+technically, in English.
+And so this is Reiwa 8.
+And it's funny.
+Even I've had experiences in Japan,
+where especially when I go to a town office
+and I had to fill out some government document, instead
+Instead of asking the year I was born based on the
+Western calendar, they asked me based
+on the Imperial calendar.
+So I have to think, okay, I was born Showa year 50,
+which means the emperor during that
+time of Showa era had been in reign for 50 years.
+So Rewa is the name of the current era.
+Right now we're in Rewa 8.
+So, let's talk about Rewa in more detail.
+And it's all about shrinking society, population collapse.
+And then the end will discuss ways that maybe
+they can get out of it or maybe not and reasons
+why.
+I'm going to start with this.
+Maybe you guys have seen this before.
+There's a town outside of Kyoto that has a population less than 50 people.
+And one of the townsmen there started making puppets
+because it's gotten so lonely and
+has decorated the town side with puppets just to make
+it more, like, make it feel like there
+are more people.
+I think the 60 Minutes or something did a special on this, so you might have seen this
+before.
+And this puppet master says there'll probably be a time
+where more townspeople die off and
+there'll be more puppets in this town than actual people.
+So this is an example.
+Highlighted.
+Highlighting an example of Japan's really shrinking
+population and some of the things
+that are happening with it.
+We'll talk about reasons why this is happening.
+But first, let's talk again, as we mentioned
+before, the post -war divide, right?
+In 1960 and 1980, Japan capitalized on the baby boomers.
+It's always the baby boomers.
+And that salaryman lifetime contract that they had.
+We discussed this in my last historical talk.
+During that time, roughly in the 1960s, Japan had a
+birth rate of 3 .3 fertility rate, which
+is well above the 2 .1 that's needed to maintain status quo.
+Today, and then we talked about how in the 1980s,
+Japan had that huge economic swing
+up, and then the bubble collapsed.
+And we had just, like, the lost decades that have followed.
+They had followed that time period.
+And this is roughly a graph showing that.
+You can see the real wages, and then the cost
+of living, factoring in things like taxes,
+social insurance, housing, education, et cetera.
+Relatively flat for most 30 -some years.
+Recently though, like here in the US, they're facing some inflation as well.
+And, you know, this is a big problem.
+And this is actually in US dollars.
+So look, even back 2015, so 10 years ago, the
+average wage was 38 grand, which is pretty
+incredible if you think about it compared to the US.
+Today, in 2024, I think it's around 40 grand, although that seems a little high to me.
+Or sorry, just, yeah, about 40 grand.
+So this is pointing out, again, things have been stagnant.
+Nothing has really changed since the 90s after the population, after their economic
+bubble collapsed.
+And so let's look at the kind of the demographics of Japan.
+In 1950s, this is a very healthy structure.
+You have lots of young people supporting a smaller demographic on top.
+Today it's kind of going towards the inverse.
+You don't have as many young people.
+This right here, these two points, those are the baby boomers as they're aging.
+And then kind of still a smaller workforce or demographic on top.
+Eventually, this probably will form to an inverse
+triangle where you have very, very
+small younger generations supporting a large older population.
+Interestingly now in Japan, every minute, 1 .7 people.
+Yeah.
+Pass away.
+So the population shrinks by 1 .7 people every minute in Japan.
+In 2024, there are 730 ,000 versus 1 .58 million deaths.
+So that's a population or replacement rate of 1 .2,
+which is enough to, as I mentioned
+before, to maintain the status quo of 2 .1.
+2 .1 children for every couple.
+Okay.
+In addition, marriage is also shrinking.
+People are getting married less and less.
+And this is very important in Japan because actually
+only 2 % of births occur outside of
+wedlock.
+So why is this?
+Well, there's a couple reasons.
+One, arranged marriage, which is known as omiyai,
+that was in existence all the way
+up until the early 1980s.
+That has gone away.
+And then we talked about the birth control.
+that salaryman lifetime employment, often in Japan, you meet your spouse in the workforce.
+But with the lifetime contract, the social
+structure broken, that's also going away.
+People are getting married less and less. And it's
+expensive, too. It's more of a luxury these
+days to get married. So that affects the birth
+rate, just because the culture is tied so much
+to having children inside marriage. And then women. I think women have entered the workforce
+now. Forty -five percent of the workforce are made up
+by women. They're more independent
+financially. But at the same time, Japan is a very
+male -dominated society still. So what
+happens is the burden of the household and raising
+the children still falls on to the
+woman.
+So not only is she working full -time, but she also
+has to take care of the family. Many
+women choose not to go that direction and just
+work independently and not get married
+and have kids. And in addition, 50 percent of a
+typical couple's income is devoted to
+raising a child, which is quite high. In the U .S.,
+I think it's around 30 percent. So these
+are other reasons why Japan is having fewer and fewer babies.
+And then there's just and this doesn't apply specifically to women. This applies to women
+and men. There's a term in Japan called kleroshi, which
+means death by overwork. Even though
+the salary or social contract has technically
+been broken, they still work long hours. It's
+still pretty much in the culture where you can't
+leave before your boss even if you have
+nothing to do. You're kind of sitting at your desk waiting for your boss. And that's a big
+waiting for your boss to leave first, and then you can leave.
+So long hours at work.
+There's a famous case by a woman who worked for NHK,
+which is equivalent to our kind of PBS, National Broadcast Network.
+Her name was Miwa Sato.
+She was covering the election at that time in 2013
+and was logging close to 160 hours of overtime alone.
+And they found her on the floor of her apartment holding her phone.
+She had a heart attack from overwork.
+So this karoshi still exists today of just complete,
+no time other than just your work to support yourself.
+This also makes family formation and to have children very difficult.
+And then as this kind of culture,
+of less and less children evolve,
+this hitori -sama or ohitori -sama type culture is evolving,
+which means doing things all by yourself.
+Solo dining, solo weddings.
+There's a famous case where a gentleman, his name is Akihito Kondo,
+he married his holographic girlfriend, which is great.
+It was all in the news and everything.
+He's quite proud of it.
+And this is becoming more and more popular
+where it's just too expensive and stressful
+to kind of meet people and go out in the real world, quote unquote.
+And so technology is more and more starting to fill that void.
+And so the market's responding.
+You have solo dining.
+You have solo karaoke.
+You have even solo weddings where you can just marry yourself
+and still be able to accomplish all that.
+That happens at a wedding, but not worry about all the time
+and commitment it takes to find a spouse.
+I mean, imagine going to, I still can't picture it,
+but going to karaoke and just singing by yourself.
+They have that now, just one rooms.
+This solo dining, this is a picture of the ramen.
+I've actually been into this ramen shop.
+This particular ramen shop, it's not about eating by yourself.
+It's more about focusing completely on the meal
+because it's delicious ramen.
+You want it to be quiet.
+You want to enjoy the smell of your noodles and taste.
+But I have been to restaurants where, for example,
+barbecue shops where it's traditionally you share a grill
+and you roast meats all together with your friends.
+That now you can just go and get a mini barbecue set
+and grilled meat by yourself.
+So that form of solo dining is starting to become more popular.
+So it's interesting seeing how the market's responding
+to this trend of being by yourself.
+So that's interesting.
+So that's interesting.
+And then the 2025 problem.
+So this is in last year, officially baby boomers turned 75.
+So Japan has officially become a super age society.
+What does this entail?
+Well, back in 1990 where you had about four people
+to support a retiree, now you roughly have 1 .2 workers
+to support a retiree.
+So that demographic that we saw earlier where it's starting
+to become that upside down triangle is starting
+to happen more and more.
+And the tax base just simply can't support them.
+Also, interestingly on this, the average,
+the age to retire officially is 65, like here in the U .S.
+Although many companies encourage them to retire at 60,
+but officially at 65 you have to retire.
+That's going to probably change
+to be the next generation.
+So it's going to become 70 or even 75
+to help counteract this issue here.
+And then another issue from a shrinking society is just
+defending yourself as a country.
+The Self Defense Force, which is Japan's military,
+they missed their target by 50 %
+on recruiting more people to fill the army.
+The economy, right?
+It used to be the number two economy threatening the U .S.
+It's the number one economy in the 80s.
+It is now the fourth largest economy,
+which I think fell just behind Germany now and China.
+And then again, going back to that social contract,
+the burden of supporting the elderly is really crushing the
+younger generation.
+And so how is the market responding
+to this silver economy?
+Well, some things that you might see when you go
+out to Japan, the company Unicharm,
+they're actually more, they're making more product
+for adult diapers than baby diapers.
+So if you go out in Japan, if you go to a pharmacy
+or wherever, you might see more adult diapers being
+on the shelves than baby diapers.
+Also, Itoen, which is a famous drink maker,
+they're making now a tea that's more gelatinous
+to help seniors.
+So it's a little bit of a change.
+And then there's the other thing that's happening
+because seniors, some seniors have a harder time swallowing.
+So this thicker textured drink makes it easier for them
+to swallow.
+So this is how some of the companies out there are shifting
+their product and service to, or product or service to meet,
+which is now approaching 30 % of the population being over 65.
+Another service that's now becoming popular is something
+called the Houseboat Club.
+And this goes back to, you know, your solo dining,
+your solo karaoke, your solo wedding.
+Well, also solo dying, as dark as it seems.
+You know, it's a little bit of a change.
+You know, nobody will be there to bury you.
+So there's a service where they'll take your ashes out on boat
+into Tokyo Harbor and with dignity spread your ashes
+into the bay.
+They can do about 28 people at once.
+So just the idea of this is quite interesting
+of this funeral service as a growth industry.
+I actually have an acquaintance back in Japan.
+She manages real estate.
+She's a developer.
+And one of the issues she has with her apartment
+buildings is finding people
+who have died alone in their building.
+Nobody knows.
+So until some, you know, a manager or housekeeper comes in and finds them,
+they might be there for months before they find them.
+So it's quite sad.
+And so a lot of people point to immigration as one solution.
+So it's not always the same solution to a population decline.
+Well, remember, right, we talked about the Sokoku where Japan's been locked
+for 200 years of isolation and how fiercely Japanese they want
+to hold their culture.
+The population, the immigrant population in Japan is less than 5%.
+I think it's actually less than 3%.
+The government is quietly trying to change that to
+10 % immigrant population.
+But opening the door to that is really not easy.
+And so there's a real psychological barrier to the
+local populace who have lived
+for so long in a Japan way.
+This is an example of a service.
+There's a town that has a lot of Indian IT workers.
+And so they started a little volunteer cafe to
+bring in some of the Indian populace to work
+at the cafe and also integrate and get to know the Japanese who live there.
+And so that's a little bit of a story.
+In addition, with the shrinking society, we have
+the infrastructure that's retreating.
+450 to 500 schools are closing annually in Japan.
+These are mainly in the countryside as everybody is going into the city.
+On that same note, the towns themselves, the
+municipalities are closing up as well.
+It's estimated 896 municipalities will face extinction by 2040.
+So how does Japan face that?
+Where everyone's going to the city and essentially the countryside is drying out.
+I saw a recent article on a school that they recently closed.
+There were only two students in the whole school.
+And so once they graduated, they closed the school.
+Imagine being in a school, in a high school where you're, it's just you and one other person.
+And so the government's trying things.
+They, they're making incentives.
+They give cash handouts to live in the countryside.
+The city of Tokyo themselves have created a
+dating app, which is actually quite hard to register and get into.
+You have to prove that you truly are single.
+But it's been mixed results because that's not necessarily an issue of finding the mate.
+The issue is the core problem is just a
+structural lack of time and work -life balance.
+And so I want you to think about that problem as you develop your product
+and service of how to maybe create more time for
+people or how to make a better work -life balance.
+So maybe they can go out and live a life as a family.
+And we'll, we'll explore this more next month when we do our design sprint.
+One point, I'll say this again.
+I don't necessarily think we should try to solve the problem of population collapse.
+I think we should look at.
+I think we should look at ideas around the challenges
+that occur from a shrinking society.
+We come up with products or services to that.
+Because it will also face our home market here in the U .S. quite soon.
+Going back to immigration, and you'll see this out in Japan when you go to the convenience stores.
+A lot of immigrants work the convenience stores out there.
+But again, Japan's 98 % homogeneous, right?
+So how, how does the government, how does the populace,
+deal with the influx of immigrants?
+Especially most, still everything is in Japanese.
+They don't have dual languages like we see out here where you have English and Spanish.
+So that's another obstacle.
+And immigration is not necessarily a solution anyways.
+There's a study here, and I have a link to it,
+where they found that immigration only slows a shrinking society.
+It does not reverse it.
+Because the immigrants themselves get worse.
+And then in addition, often if they do have children,
+they'll send them back to their home country.
+So it's not avoiding the still issue of low birth rates and aging.
+And then there's still some young people who are trying to go out,
+leave the city, and make a life of themselves in a
+much more comfortable area in the rural side.
+But it's kind of still niche.
+Not many people are doing it.
+That town I mentioned at the very beginning where
+there were dolls in the town,
+they just had their first birth in 20 years.
+One baby had appeared in the town after 20 years.
+Imagine that kid.
+So this model, this Tokyo success model,
+it's hopeful, right?
+Where the government is trying to give you money to more live out in the countryside.
+And I'm sure you guys have all seen the price of these ghost homes.
+You can buy a house for practically nothing.
+But how do you work, basically?
+There are no jobs in the countryside.
+So how do you survive out there?
+And also, are you okay to live in an area where there's not many,
+or if any, young people or children?
+And so as I point out why we're doing this,
+this relates to you guys too,
+because this trend is coming to the U .S.
+So Japan, right, is at 1 .2%.
+2 % fertility rate.
+The U .S., I think they're at 1 .6,
+although it's kind of hard to see with immigration right now.
+And South Korea has just fallen off a cliff at 0 .7 fertility rate.
+What makes Japan unique is that they face this issue longer,
+and it's more of a gradual decline.
+So this is why I really say that Japan is a snapshot of the future,
+because we can see the challenges that they face now,
+that may be faced in our country in the near future.
+And so I want to leave with this on this last slide.
+The paradox is despite 30 years of stagnation
+and a demographic time bomb that's just ticking,
+Japan has not collapsed.
+And this is important.
+They've kept social stability,
+which I think you need to keep in mind when you come up with your startup idea
+around aging societies, how to keep social cohesion,
+because it's super important.
+That's why Japan has still been successful.
+Obviously, their health is world class.
+It actually counterintuitively increases the demographic problem
+because they're aging longer, so there's more old people.
+But health is world class.
+Their health care system is world class.
+And the economy is still competitive.
+So the takeaway here is, right, the challenges.
+It might not necessarily be how to grow infinitely,
+but how to shrink gracefully.
+And then I have this picture here of a pottery that's common in Japan.
+It's called kintsugi.
+And this is the Japanese art of repairing broken pottery
+by mending the, you put the pottery back together with lacquer,
+and then you dust the lacquer with gold or silver.
+With the idea that, you know,
+it's just a part of the life of the pottery.
+And not necessarily to hide the breakage,
+but have it as showing the history of the product as it moves forward.
+So, yeah, it's something that treating breakage and repair
+as part of the history of the object rather than something to disguise.
+So just keep that in your mind from a philosophical perspective
+as we approach creating pottery.
+This sort of preferable to be like a nastier work
+that looks like a raised project and storage.
+But with this, I was trying to squeeze all they Здесь
+Teachers traditionally in Japan, they work long, long hours.
+They're responsible for after clubs.
+They're responsible for tutoring.
+Now there are less and less of those teachers to do it.
+So what's happening is it's becoming privatized.
+Companies are coming in to run the clubs or to run the tutoring.
+But now, as the shrinking population is happening more and more,
+even the tutoring companies can't survive.
+So they're going away as well.
+One of the reasons why education is so expensive
+in Japan is you have,
+it's interesting, in Japan you get a big exam your junior year of high school
+that places you into the university.
+If you want to get into a good university, you have to nail this exam.
+But once you're in the university, going back to the idea you have this social contract,
+if you get into a good school, you can just kind of party and have fun
+because you're in a good school and you're going to get hired by a good company.
+But that's becoming more challenging because those, what's known as cram schools
+where you study for the test, they can't survive
+because there's not enough young people going into that school.
+So how technology can replace that, you know, AI is a great tutor.
+I think I learned so much by talking to AI how that could come into this equation.
+I think it's really interesting.
+Yes.
+First, you mentioned real estate.
+What are the rules for?
+You mentioned ownership from an ex -patriot and non -expatriate perspective.
+Yeah. Traditionally, it wasn't a problem.
+It was quite easy.
+Actually, I have a friend who bought an apartment in
+Tokyo about 10 years ago.
+Now, they're finding that some immigrants, not to call it out but particularly from China,
+are not necessarily buying property to live in but as kind of investment
+or speculation.
+And so they're really trying to crack down on that.
+So it's starting to become more and more difficult as a foreigner to buy real estate.
+You can still do it, but there's some extra steps because they don't want you just to come in
+and speculate on the real estate.
+Sure.
+And then a similar question around digital nomads over the last five years since the pandemic.
+Yeah.
+I know skiing is really a hot topic.
+A lot of people will find that it's less expensive to fly to Japan and ski than it is to ski.
+Yeah.
+Along I -70.
+Yeah. Thanks to Vail, right?
+Right.
+Yeah.
+We appreciate their contributions to the school, but.
+Sorry.
+The Vail is listening.
+But what has that looked like, the knowledge worker and just the, you know,
+the nomadic society using Japan as a world -class base for telecommuting?
+So I really like the idea.
+And I think Japan is open to it if you're a skilled worker.
+You got to show.
+That you have the skills to justify the visa.
+So they do have a startup visa system, which actually has some slides on it.
+So if you have the skills and some resources, you can
+justify a visa to be a digital nomad in Japan,
+which is really exciting.
+And I, the current administration, interestingly
+though, they're, it will see what will happen,
+but the administration before them was very open.
+So they're open to increasing that startup visa system.
+It's to be determined with the new administration on what they're going to do with that.
+So, yeah.
+Sanae San seems to, who's the current prime minister,
+she seems to be going more the direction
+with Trump it feels like, but we shall see.
+Any other questions?
+All right.
+Let's go into our breakout sessions.
+How are we doing on time?
+Let's do about five minutes.
+Can someone read the first question to me, please, to the class?
+Yes, we may.
+Is population decline an economic failure
+or a market correction toward a sustainable society?
+Okay, good.
+Yeah. So this goes back to my last slide, right?
+Maybe it's okay to age gracefully, right?
+Or should we really try to correct this?
+And then somebody want to read the second question?
+Yes, please.
+So, for example, Japan has arranged marriage, institutional lessons,
+and is made to .
+Are you seeing similar institutional breakdown in American family relations?
+Great. Yeah.
+So, right, Japan really traditionally had arranged marriage,
+also finding your mate in the workforce.
+That has degraded.
+Likewise, and maybe in the U .S., right, where we're
+swiping, swiping right and left
+with dating apps, is that breaking the prospect of finding a long -term marriage?
+I think that's kind of an easier ending for many companies than this one.
+It was .
+It's not an easy thing.
+Once again, in order to do well in the success of a new opportunity,
+one can set political requirements for their型 .また
+is, I don't think there are temperatures enough is for Trump and
+ban Trudeau, who on his way to Biden's president office. Are
+chair kra at one point in time. I
+am. Yeah.
+Okay, raise your hand.
+You guys, vanilla, ice cream.
+So let's do this.
+You guys can stay here.
+How about you two and Sebastian, you guys go on this side of the room,
+and you guys can stay in the middle.
+Raise your hand if you liked strawberry.
+Oh, only two strawberries.
+Oh, three strawberries.
+Okay, please go to this side of the room,
+and you two go to this side of the room.
+And then what was the other one?
+Chocolate.
+Lots of chocolates.
+Okay.
+How about you three go to this side of the room,
+and you two come into the middle.
+Maybe that mixes up.
+Raise your hand if you forgot your flavor.
+Okay, all right, Lewis, how about you go to this side?
+All right, mix it up.
+I'll give you guys about five minutes to go over your questions.
+Also, introduce yourself.
+I'm trying to do this.
+So you guys get to know each other.
+How's it going?
+Just this side of the room.
+Finished it.
+Hello, everyone.
+What's up, guys?
+My name's Blake.
+I'm Caden.
+Oh, I know you, dude.
+I know you.
+What's your name?
+No, Xander.
+Xander, nice to meet you.
+Don't kid him.
+Matt.
+Yeah, yeah, yeah.
+My name's Blake.
+Yeah, sit down.
+Xander.
+Xander.
+Xander.
+Xander.
+So, is it an economic failure or a market wreck?
+I'm going to go with economic failure for creating the culture of faith.
+It's kind of like, I don't know, like a broad question for the first one.
+I feel like a family building, not even an economic one.
+Yeah, I don't think it's economic.
+I just think it's a failure.
+Yeah.
+I wouldn't say it as much economic as just society.
+Yeah.
+That's, I think it's like...
+Yeah.
+It's like, the economy could be a factor, but...
+Or I guess maybe that's a social factor.
+Yeah, like it's more of a social factor more than an economic.
+The economic failures are happening because of the decline.
+They're not causing the decline.
+I agree.
+But yeah, I wouldn't say it's a market wreck.
+I feel like it's a society.
+Yeah.
+That's like, not...
+It's like devil talk.
+I'm not going to throw up.
+I love people, man.
+We need a bunch of people.
+Yeah.
+I mean, again, I could, like, people see it like that because, like, you know, technically...
+I would actually kind of agree with the second question, though.
+Wes is losing dating despite being a similar
+institutional breakdown in American family
+for me.
+Okay.
+Well, to each their own.
+Just because, I don't know, just a lot of people are so used to technology nowadays
+and, like, talking to, like, their AI girlfriend.
+Not that it's, like...
+Going outside.
+I would say that.
+But, like, and two, it's just...
+I think that's a weird topic because it's the complete opposite.
+Like, you know, like, a cycle.
+Yeah.
+They have a lot of one, but then...
+I think the U .S. has lost their original tradition and also...
+Yeah.
+I mean, that's, like, the best way to put it, though.
+Because I don't know if there's, like, a causative factor to that.
+But I think it's more of a failure right now.
+And the market is just trying to adjust to that.
+Yeah.
+So, like, it stopped growing.
+It's failing right now.
+And the market is just trying to survive and adapt to what...
+Yeah.
+There are good stories.
+Because you cannot change it.
+Yeah.
+Like, just because you swiped on them first doesn't mean it's, like, a bad thing.
+I don't think we're...
+The office is on curl for...
+Just another option.
+Right?
+Yeah.
+It's...
+Yeah.
+Yeah.
+I feel like a lot of people don't use it.
+They're not dating anyway.
+Yeah.
+I know.
+But they are in this phase of correcting it.
+And once they get it, they're like, oh, yeah.
+And then once they start seeing that those values are just going up, even with...
+But it's dating each other anymore.
+Yeah.
+I mean, why not?
+I mean, if you don't want...
+Right now, I would call it failing.
+Because I'm guessing they have written numbers.
+So, you're saying you...
+Like, you could...
+You could be a success as long as...
+As long as the economy is continuing to grow even...
+I don't know.
+I haven't been there.
+Yeah.
+I haven't been there.
+Yeah.
+I got...
+I think it's hard to...
+Yes.
+This is great.
+I feel like it's hard to...
+Centers where people can have, like...
+Yeah.
+I've been there.
+Like, a new startup.
+I've been there.
+Yeah.
+I've been there.
+It'd be awesome.
+You're like...
+And then the ideas start flowing in, but...
+Which makes it really hard to, like...
+On the way for a new developer.
+For a new developer.
+Also, like, farming.
+We have run...
+Like, that's what...
+But, like, a city on farmland, like, that's not...
+Urban, it's a bartender.
+That thing can only grab one bottle at a time.
+You can grab two.
+Farmer.
+But let's spend $30 ,000 for them.
+Yeah.
+And the government is advised...
+Yeah.
+And, like, they're transportation.
+Yeah.
+And, like, they're transportation.
+Like, they're a lot of caretakers for bond caretakers, just because there's not enough
+people to take care of them.
+Yeah.
+And then, like, when I'm in retirement home, and everything, I know, like, they have a
+lot of, like, infrastructure and stuff that they're leaving behind.
+Like, a lot of people just...
+I would hate that.
+I feel like I would be in an insane asylum.
+Yeah.
+What do you guys think about the Western comparison?
+The arranged marriage?
+You get to see, like, all these, like, sorts of perspectives, like, you get to...
+You also get to talk to caretakers.
+Well, I guess it's up to the increase, and there are...
+But, like, there's a lot of people that are, like, you know, like, you know, like,
+if you're in a hospital, you're like, you know, like, how are you going to do this?
+I feel like that's the only thing that, like, I think is going to, like, really, really
+get green on.
+Does anyone else notice the grapple?
+Oh, absolutely.
+All right, dude.
+I don't know, man.
+Would you hate that?
+I would hate that.
+Rather than a human, though, like, I would rather...
+With the babies.
+And, like, I feel like...
+I feel like if the robot goes crazy, bro.
+I feel like...
+And, like, grandparents hate the retirement home, it's because they only talk to their
+caretaker.
+Yeah.
+And, like, maybe they're two or three friends, but, like...
+But like if the caretaker is a robot and you're just chilling in your room all day
+That's true. I've rotted enough at this age. I don't need to do all that.
+It's like you're on your deathbed with medical things pumping through you instead.
+Yeah.
+They can just talk to you instead.
+How are your veins, meanwhile?
+Dude, that's probably our future though. So you guys better get ready for this fucking thing.
+I was like...
+Yeah, I'm beating up that robot.
+Fight a robot.
+If I have Chad GPT just walking around, I'm not...
+That'd be so annoying.
+What ever is Tesla calling the robots? Optimus?
+I don't know.
+I think it is Optimus.
+It might be Optimus.
+Oh.
+You're like on your deathbed.
+I would never trust that.
+The last thing you see is a robot.
+The last guy you talk to is Optimus.
+Like, shut up. Like, come on.
+Alright, let's give it about one more minute.
+Optimus can do my dishes though.
+No, I'm not. I mean...
+Optimus can do that.
+Or he can just use the dishwasher.
+There is the shit from dating and swiping, but I
+think it's not the same stuff because people still want to be like social in a relationship.
+I've seen a couple where they like rose up.
+They just put a pen on the ground, like a bowl of food.
+I think that's really a honey bear or a range bear.
+The average population that happens is 80 % of them.
+The government is just taking their money once they die.
+And then for those very rich people, probably it's under a company or something.
+I tried taking one. I tried taking one. What are they called?
+No, it's not...
+Full hell, half my friends have transferred into a job.
+Smaller?
+It's scary, dude.
+But I wanted to take one, but it's like it only
+would like pick you up from like four certain spots.
+There's so much advice.
+There's so much.
+I had just kind of assumed that there was.
+I haven't taken away, though. I wanted to, but...
+I'm not getting in that damn car.
+I'm not getting in that car, no.
+But, um...
+Small town.
+Yeah.
+That's probably the biggest shit that's happening.
+It's different.
+But they're texting.
+Well, I mean, it was working, but like...
+They have people...
+They pick up elderly people and like take them to the hospital.
+The United States is almost the opposite problem.
+So, I mean, that was cool. That was like their...
+And that's right in it.
+Yeah, yeah.
+It was kind of, yeah.
+As soon as they mention they're testing it, I'm not getting off.
+I'm not your subject.
+Your test, don't be.
+Well, it was an operation already.
+I mean, they were just trying to improve it and stuff.
+And then they like kept asking us if like...
+They need money.
+They're just like, I don't like working...
+Straight up. Like my fraternity brothers are like...
+They're like, that one is cool.
+Yeah, just stop showing up one minute.
+Yeah.
+Like, what?
+Like, he was like, you were there for three weeks, dude.
+He was like, yeah, I just didn't want to go anymore.
+Like, okay.
+That works.
+But...
+Most likely due to...
+It's like a smirk.
+Yeah, they just drive around.
+I think Japan's like situation is a lot more extreme.
+That's cool.
+Because like...
+The person that I do...
+Snooks.
+Snooks.
+Yeah.
+Oh, yeah.
+Like, I don't know if that would ever come to the case now.
+I mean, I don't know if that would ever come to the case now.
+Right now, I pretty well know we're still repelling
+holy grails on принターオト shock.
+Like, if we get to those Belagico is that gonna
+break my serendipity level?
+We're still getting there.
+I mean, I agree with G Med, she stopped doing those broccoli and soup with this.
+Like did she?
+Yeah.
+delivering a lot, you know what I'm saying?
+Like, despite alwaysまた looting when she gets the money, she always...
+She keeps saying, will we have a economizing temple?
+Yeah.
+Hmmm, I was wondering...
+So...
+prepared to compare?
+Like, really, I don't know why you asked, but we're gonna...
+Dating one person and like following that through
+something evil like no more blinkers
+All right, let's
+Move back to your seats if you want or stage
+For a lot of great conversations
+All right cool who wants to share any group had some interesting points
+conversation
+Please sure. Yes
+So we were saying if it was a failure or not
+We argued that it's like hard to determine if it's a failure or not
+Is this wait are we talking about the first one or the second?
+You've like the economy it's like a failure or not because I think
+It is defined a failure if right now the numbers are
+going down which is a failure, but the economy right now
+It's also adapting to those numbers
+So it's shifting
+to adapt into like a shrinking society and like
+serving other needs and just the needs of our growing society
+So if that change in the market and in the economy
+Starts showing like positive numbers and in that case it wouldn't be a failure
+But if it's keep if it keeps on declining then it would be a failure
+Yeah, awesome, I think that's why I call it I try to call it shrinking society I know
+Elon must
+Calls it population collapse, but that term
+feels to me that it it's determined to fail
+So shrinking society to your point Sebastian, maybe
+it's not necessarily or maybe it could correct or something might change. Yes, please
+I thought it was
+Totally an economic failure just out of out of a workplace
+environment
+like
+For that system to be in place so long where hey, yes, you're gonna work here and
+You should have realized hey, wait a minute
+We have a lot of people fit that are 50 here that don't have kids
+Hmm and the second they realize that or they're
+like in their 30s. They don't aren't married
+starting starting to have kids like oh wait
+That's not sustainable. That should it should have been
+it's hard obviously hindsight 2020 but
+That whole like oh, yeah, you're gonna work here to
+your 70 that should have been shut down when they came up with it
+Yeah, good point. Good point
+Okay. So I think that's it. So I think that's the
+question. I think that's the question. I think that's the question
+Anybody else want to share? Thank you for sharing any about the core dilemma
+any other groups
+Okay, let's switch to Western comparison. What do
+you guys think about the idea of?
+The West losing dating to swiping
+Please share
+Yes, I just thought it was interestingly
+Like we're losing dating just it's being transitioned to a different form
+than it used to be
+I think part of that is definitely economic like it is a lot cheaper
+Time and money wise to just like swipe on an app and find someone
+Then it is to like go to a bar and spend that money and that time that
+You might not have
+So yeah, yeah, right. Maybe you're right. Maybe it's not necessarily a bad thing
+I
+We probably know plenty of people
+Who have married from finding their their
+significant other through online dating?
+Great great point anybody else like to share on the Western comparison
+Yes
+How it's a difference in commitment that we don't
+think that the arranged marriage is exactly the same as how it is in the West
+Where in Japan like the arranged marriages?
+were a
+more like pressure from your parents and things like that
+And more like societal pressure and now it's just
+that's breaking down and people kind of don't really know where to turn and they're
+more committed to their work than finding like
+relationships whereas in the West the
+Dating to swiping is more people wanting like a
+dopamine hit or being able to just like find quick
+Relationships through swiping yeah first and like not as
+committed to that and that's kind of like more of a societal change
+That's happening for specifically our generation. I think
+I think
+Awesome observation yeah
+And you know it's I don't know would anybody like an
+arranged marriage anybody up for that?
+Actually, Mr.. You have
+Heritage from India right we were talking about
+arranged marriage is that still taking place back home?
+the arranged marriage
+I think it's kind of a mix
+I feel like people are more open to dating and stuff
+but like
+In the very traditional towns like
+I think arranged marriage is still pretty big
+Still pretty big
+Yes in Colombia
+Very poor population
+Most of them are arranged marriage so like yeah, it happens a lot that you would see
+a girl that is born and once she turns like 10 my
+guy goes and like I'm gonna marry her and
+F underneath and
+So it's great ан besides
+Yeah, I think it starts at home like becomingモ
+My launched the device, then until it comes around
+then when you know yeah, bono
+Very expensive α
+dressed on blackface suit in one of the fabrics that think it's gonnaıyorum
+I mean, I know plenty of couples who have children
+but are not married, so that's also a difference there.
+Looking ahead, and thank you guys for sharing,
+looking ahead, just something to keep in mind.
+In Tokyo, where do you see technology replacing human labor
+not for efficiency but for necessity?
+One place we'll visit when we go to AI Station in Nagoya,
+they have a convenience store in that building
+with a little robot that goes around.
+It's not stacking food yet,
+although I think that technology does exist.
+Actually, I don't know what it does.
+It kind of just moves stuff around,
+but I don't know how it puts it on the shelf yet.
+So something to think about.
+But you know, also Japan still has technologies.
+It's very dated.
+I'm trying to arrange right now a high school group
+that's going to Japan,
+and we're going to go
+to this Skytree, which looks out.
+You'll see it in Tokyo.
+It's a giant antenna that looks over the whole city.
+In order to get the tickets online,
+it still requires a fax machine to get the confirmation,
+which is crazy.
+So it's, yeah, Japan's an interesting country
+in that regards with the technology.
+Okay, I do want to talk about a quick overview here.
+So, I'm going to talk about the technology.
+We talked about the Meiji Restoration, right?
+They go in, they have their 200 years of isolation.
+Perry's black ships come in, they break it open,
+and Japan in a short time transitions
+from a feudal society to a military society.
+And they go on to become a major player in World War II,
+as well as before,
+occupying a huge portion of Southeast Asia and into China.
+And then they're literally bombed to ashes post -war.
+They change again, they reinvent themselves again
+from a military society to an economic giant and come
+up with the bubble, with the real estate bubble to the 80s,
+where they're the number two most strongest country
+in the world economically speaking,
+threatening the U .S. as number one.
+I still remember many,
+many books written saying Japan is going to take over the U .S.
+But then their bubble collapses, it pops.
+And then they go into this 30 year stagnation where they're presently are
+during the Reiwa period, starting to see some inflation coming in now.
+So the question is, will Japan be able to reinvent itself a third time?
+And what will that look like?
+So some thoughts to that.
+In 2022,
+the Japanese government put in $67 billion into the startup ecosystem,
+10 trillion yen, with their target by next year
+to create 100 unicorns, startup unicorn, and create 100 ,000 new startups.
+A unicorn, right, we know is a super highly successful startup
+with a $1 billion valuation.
+In addition, going to Professor Brady's question
+about Digital Nomad, they've created startup visas,
+allowing foreigners to come in and try to build their startups in country.
+And they also are really encouraging VCs from abroad to come into the U .S.
+or to Japan to inject capital into the economy.
+So this is a huge initiative.
+Maybe back to that idea when we talked about post -war Japan,
+where they reinvented their economy
+to, you know, to the U .S. economy.
+And they're doing it to give favorable loans to companies
+and even middle -class people.
+So how is that going to work?
+Is it going to happen?
+Is it going to really take shape to allow Japan
+to reinvent itself a third time?
+I don't know.
+Question's still out there.
+But to that 100 unicorn idea, they've only gotten to seven.
+So that one is a pretty extreme target.
+But that's a big one.
+The venture capital invested in the economy,
+the startup economy, is about $5 billion in 2024.
+So hitting 100 unicorns is probably not going to happen.
+But, you know, they did get seven.
+They got seven unicorns out of it so far.
+And then so there's also some other factors,
+not just injecting money into Japan in the startup ecosystem
+that's going to help it, but also the framework of how startups exit.
+In the US, it's most common that startups exit through M &A, right?
+You create a startup, you get acquired, you make a zillion dollars.
+Only 10 % of startups in the US are, just go straight to IPOs.
+In Japan, it's almost the inverse of that.
+70 % of startups in Japan go to IPO on the Tokyo Stock Exchange.
+Only 30 % are acquired.
+So why is this an issue?
+Well.
+It's kind of easy to go IPO in Japan on the Tokyo Stock Exchange.
+You only need to reach $100 million valuation or market cap.
+I say only.
+That's quite hard to do still.
+But it's more like a mini IPO.
+You know, 100 million in the US, that's more of a Series B funding.
+So that's also, even though you're inflexing cash into the ecosystem,
+this is also a challenge to think about.
+So.
+And then in addition, right, we still have that
+muscle memory of the social contract for life,
+the salaryman contract of not taking risks during stagnation.
+So if your startup does IPO, are you going to keep
+growing or are you going to switch to more
+of like that, even like a zombie company where you're not going to take risk and you're just trying
+to stick to the compliance now that you're a public listed company?
+So that is also a concern with startups in Japan.
+But it's still to be determined if the influx
+into the startup ecosystem in Japan is going
+to reinvent the country.
+There is a concept out there called Society 5 .0
+that the Japanese government has termed this
+concept Society 5 .0.
+And that's the idea with Society 1 .0 was hunters and gatherers.
+Society 2 .0 was the agricultural revolution.
+3 .0 was the industrial revolution.
+4 .0 was the information revolution, information society.
+5 .0 is a vision of society in which cyberspace
+and the physical world are increasingly connected,
+right?
+So it's not necessarily just land as a country.
+It's the cyberspace world of forming communities in
+the Internet domain.
+Also Society 5 .0 is something that's going to be a little bit more of a global, you know,
+a global conversation.
+And I think this is supposed to help mitigation,
+mitigating several challenges faced by Japan's society
+such as demographic aging, labor shortage, and
+depopulation in the rural areas.
+And so these technologies, they're factoring into the
+Society 5 .0 is AI, IOT, robotics, et cetera.
+So something to think about, can we influx money
+into Japan's startup ecosystem and get
+to this Society 5 .0 concept?
+So that's a good question.
+I think the question is, can we influx money into Japan's startup ecosystem and get to this
+Society 5 .0 concept?
+That's yet to be determined.
+We shall see.
+All right.
+That's it.
+Thank you, guys.
+Any questions?
+All right.
+Yes.
+Do you know anything about if you were to make a
+startup in Japan as a foreigner, if
+the government would have some sort of ownership over your company, if you were to, like, sell
+it or IPO or anything?
+Yeah.
+No, it depends on, well, I shouldn't say no right off.
+It depends on the technology you're creating.
+I think if it goes into like maybe defense or things like that,
+they might be a little more skittish of your growth.
+But in general, no, you could easily create a startup and grow it.
+The founders of Notion founded, they were still registered in the U .S.,
+but they built their company in Tokyo.
+All right, any other questions?
+Okay, real briefly, before we end today's session,
+I want to introduce you to Makoto -kun now that he is live.
+We've got about five minutes left.
+So where's my workflow?
+Oh, here it is.
+So.
+So I built Makoto -kun 1 .0.
+I showed previously it was built in chat GPT.
+Makoto -kun 2 .0 is built in this framework called NAN,
+which allows you to do no -code or low -code programming.
+And so I built the first version, Makoto -kun 2 .0,
+just in here.
+And you can say something like, you know, hello, and it'll spin up.
+I think I've showed you this before.
+And it'll respond.
+You guys can see the answer.
+He introduces himself.
+And he has program knowledge.
+So he has a knowledge base, which essentially looks like this.
+It is just, I copied some raw text from a brochure.
+I don't know if you saw this brochure, Top Five
+Reasons to Join This Program.
+It's called Nuku, another firm of Nagoya University and CU University.
+So it has five reasons.
+So if I asked Makoto -kun, why should I join Nuku?
+It'll go to the agent that's connected to chat GPT,
+and then go to its knowledge base, which is
+that brochure that I put in.
+And it'll give me those five reasons.
+Okay, great.
+That's awesome.
+But what's going to happen is that's like already, you know, 2 ,800 tokens.
+Not bad.
+Not bad.
+But it's pulling that.
+It's pulling that whole document into chat GPT
+every time I ask it,
+and then giving me an answer.
+It's kind of a regurgitated answer.
+Well, I know that we want to get, like, lectures,
+transcripts, schedules,
+a lot more information from Makoto -kun.
+So just having a simple text document tied to it is not going to work.
+It's going to be too many tokens because it pulls a whole document all at once.
+And this one text document is going to get sued.
+It's going to be super long.
+So Makoto 2 .3 is actually connected to a database, what's called RAG,
+which is retrieval augmented generation.
+And it only pulls chunks of information out.
+It doesn't pull the whole document to go through the AI, which helps with tokens.
+And then I can make different text documents.
+So I have one text document, and this is hosted on GitHub.
+And this is the one that's going to be used to make the transcripts.
+So I have a document that has all the program information.
+And then I took the transcript from my second lecture
+and fed it into the Makoto -kun as well.
+So you have this long document.
+This is all the lecture from our conversation from session two.
+I did have to cut out the beginning and after because there was chatter, right,
+between our classmates, that I didn't want as public information.
+So I did cut that information out.
+But I fed it into Makoto -kun.
+And so, and then in addition, I connected it to Discord as the interface.
+So he is in our Discord server.
+And I can go to Makoto -kun here and chat with him directly.
+So I can say something like, I've already asked him several times, but I'll ask him again.
+Say hello.
+Right.
+It's going into the NAN.
+It's pulling out the information.
+He's introducing myself.
+Why should I join Nuku?
+He's going back.
+Again, pulling in the knowledge base, which now is two documents.
+And he gives me some information, which is not just,
+you know, I'm going to do this.
+I'm going to do this.
+And he's regurgitating the brochure, giving an overview
+and a couple of reasons on why to join.
+And then I can even ask things like this.
+I missed session two on January 20th.
+Can you provide a summary?
+Right.
+Because it has the entire transcript.
+So it's going and looking at the transcript, reading
+it, maybe pulling just a couple chunks out.
+And then it'll spit back.
+And then it'll pick a summary from that lecture.
+So there it is.
+Right.
+We talked about the major registration.
+I was the lecturer.
+Some key points on it.
+Also talked about the breakout discussions we had.
+So super cool.
+Right.
+And you can even ask, like, I don't know, were
+any significant historical events covered?
+And it'll go in.
+Look at the transcripts again.
+See if we talked about any specific historical events, which we did.
+Right.
+Talks about Sokoku, which is that 200 years isolation.
+Also talks about what happens during that time.
+So and then talks about the black warships that we covered as well.
+So this is a great way.
+If you miss class, you can just talk to Makoto -kun
+and get information from the lecture.
+Which I think is pretty neat.
+In addition, you can have, if Makoto -kun doesn't know the answer, he can email the team.
+He can even set up coffee chats in the calendar.
+But you can talk to Makoto -kun.
+But if you do set up coffee chats, I'm not going to see this calendar
+because I still have it completely separate from my main calendar because he's still testing.
+So if you really do want to have a coffee chat, just come and talk to me.
+But I'm going to share.
+I'm going to share the link to get into our
+Discord server with Professor Brady.
+It's only valid for seven days at a time.
+So when you get the link, please create your, if you don't have a Discord account, create it.
+And then join the Discord server and play around with chatting with Makoto -kun.
+Either privately, DM, or you can just, you know,
+you can talk to him just in our general channel.
+See, he's right there.
+I can say hi, Makoto -kun.
+And this channel, right, everyone can see the conversation.
+But it'd be good feedback to understand how he's responding.
+Oh, he's not responding.
+Well, that's good to know.
+I'll have to fix that.
+So when Professor Brady shares the link to get in the Discord channel,
+there's a couple things that I need you to do because I need to verify you are you.
+I don't want just anyone getting into this private server.
+So I put up three questions.
+One, just introduce.
+So when you join the server, you're not going to
+be able to type in anything except for this verify here room.
+So I need you to introduce yourself by answering these three questions.
+And then I also ask to change your profile name to
+first name, last initial, and then what school you're associated with.
+You can adjust your profile name just per server, Discord server.
+So if you have a main profile that's different, that's fine.
+You can just edit for this server.
+Okay.
+If you have any questions on that, let me know.
+But once I verify you, and you'll know you're verified because your name will have this green mark,
+then you can go and chat in the other channels.
+You can actually see what last year's class did.
+So it gets some idea of how the program works.
+This was the virtual program as well as the in -person program.
+And then, you know, reach out to your teammates as well as talk to Makoto -kun.
+So, yeah.
+Look forward to that.
+Any questions on that?
+Okay.
+Awesome.

@@ -1,0 +1,1561 @@
+Document: Technology Primer: Networking & AI Models
+Lecture: Session 4
+Date: February 3, 2026                                                        
+Course: BAIM 3300 - AI & Automation for Tomorrow's Societies
+Topics: OSI Model (7-layer architecture), TCP/IP Model (4-layer architecture), Internet data transmission fundamentals, Packetization and data routing, IP addressing and MAC addressing, Network troubleshooting using OSI framework, Physical vs. logical networking layers, Internet infrastructure and hardware dependencies, Relationship between internet architecture and AI systems, Big Data and Machine Learning foundations, Evolution to Large Language Models (LLMs), LLM capabilities and limitations (hallucinations, latency, generalization), Enterprise AI constraints (security, compliance, data privacy), Small Language Models (SLMs) and domain-specific AI, Edge AI and local model deployment, Model efficiency vs. scale tradeoffs, Latent Consistency Models (LCMs) for real-time inference, Large Concept Models (LCMs) and semantic reasoning, Tokenization vs. concept-level understanding, AI infrastructure challenges (energy consumption, data centers, environmental impact), Economic implications of AI (energy demand, trades, infrastructure), Prompt engineering fundamentals (5P framework), AI-assisted workflows and automation (Zapier, Salesforce integration), Retrieval and knowledge systems in applied AI
+
+All right.
+Well, good evening.
+Good to see you all.
+Thank you for being here.
+So I'm flying solo tonight, which is great.
+Today's content is very technical, and I love doing that.
+And so to complement what Sam's been up to,
+on the history of Japan and the culture
+and the context geopolitically, my goal
+is to complement that with technical capabilities that
+will really hopefully serve you well.
+So today's lecture is on some topics
+that I've called kind of a technology primer, including
+networking and AI models.
+So we'll work our way into that.
+I did just want to give you a little bit of an overview on
+where we stand from.
+So I'm going to start with the first one,
+and answer them from a class perspective.
+So this is session four.
+And you all have finished quiz one.
+So congrats.
+I'll give you a quick update that the average on quiz one
+was a 91.
+So you did very, very well.
+It's not a bell curve.
+So typically, it would look more like a classical parabola.
+But there we go.
+So great work.
+I would tell you.
+I don't think anyone's in trouble in this class.
+And the quizzes will be similar.
+The content of the lectures will not always
+be as cut and dry as Sam was able to deliver.
+But I thought those were just great lectures, personally.
+I haven't sat in many Leeds lectures.
+So those were two of my favorites.
+So look for the content to become more technical
+and probably a little bit more challenging as we proceed,
+including the lecture.
+And then, between tonight's lecture and next Tuesday,
+and then quiz two will be relevant to those sessions
+four and five.
+So I think we'll stay on that cadence,
+at least for the foreseeable future.
+Spring break, we'll chop that up a little bit.
+But anyone have questions just about the cadence of the course
+or how things are shaping up here?
+I cheat.
+We could look in Canvas.
+I just like to look here because I
+think it's so much easier to see everything in one consolidated
+view.
+But if you ever have questions about Canvas, please let me know.
+Quiz two will be available after next week's lecture.
+And again, you'll have ample time, effectively a week,
+to finish what is an untimed quiz.
+So great job on that.
+Let me know if you have any questions.
+Otherwise, what I'd like to do is dive in.
+And so I'm going to link to you.
+And I'm going to go back to the session four
+in the spreadsheet here.
+So if you'd like to refresh your page if you're on that,
+and if you'd like to follow along, feel free.
+Otherwise, I'll share that with you via Canvas afterwards.
+So there you go.
+OK.
+So anyone had any issues getting to the content
+thus far through the links?
+OK.
+Perfect.
+Good.
+So this class is based on my knowledge of the AI world
+and, honestly, some content that I was taught as an undergraduate.
+And you might say, well, wait, why?
+How could that possibly matter?
+Jason Thatcher is a professor here at Leeds.
+He was brought in from Tulane University.
+I think very highly of a number of the people who teach here
+at Leeds.
+Jason is among that list.
+I don't know Jason as well as I know
+Kai Larson, who recruited me, Alex Ratosky, Heather Adams.
+There are a bunch of really, really high quality
+instructors and professors here.
+Jason, among the most senior and credible,
+said the other day in a faculty meeting something
+that I want you to understand so that when I teach it to you,
+you know why I'm teaching it to you.
+He said, you know, if we're teaching business schools,
+students about technology, they have
+to understand how the internet works,
+how information is sent back and forth between two devices,
+two systems.
+And so I really took that to heart.
+And he challenged us to teach content
+in our technical lectures that is very technical, that explains
+how the internet actually works.
+So the reason I'm teaching you what I was taught
+in my undergrad at Purdue and their Polytechnic, and then,
+you know, the Polytechnic Institute at Purdue,
+is I want you to understand how this stuff works.
+I don't want it to seem like a black box or just magic
+or automatic, right?
+So we're going to do a little bit of that.
+And I hope it is really beneficial to you.
+I can tell you that when I tell Jason that I've actually
+taught this content, that faculty meeting was
+a week or two ago, hopefully there's
+a recognition that in a course like this, we can move really
+fast.
+And we can pivot into topics that are perceived to be a momentary,
+but also one of the most important topics
+you could potentially learn.
+OK?
+So that's a little background on the first few slides.
+And then you'll see as we move into the second section
+of the lecture, it will get a lot more cutting edge,
+like content from last week's news cycle.
+So my goal for tonight is to walk you
+through what is called the OSI model and then the TCPIP model.
+Hopefully you've heard of TCPIP.
+If not, I will explain it to you.
+And then we'll talk about both the theory
+and the practice of moving information
+between different nodes on a network, different systems.
+OK?
+Then we'll shift into some content that
+is very timely, large language models,
+or LLMs as they're called, SLMs, LCMs, two different versions
+of that, and then RLMs, which are
+bleeding edge concepts.
+OK?
+So that's our roadmap for tonight.
+A couple of things I would ask is, one, please speak up
+if there's something that's not clear.
+Two, if you have a personal experience
+or some additional knowledge that you
+think is relevant to the course and to the recording,
+please speak up.
+I am not a know -it -all.
+I am not an expert.
+I have pressed into these topics, but you all know,
+and you individually.
+You're native to these technologies.
+They have been familiar to you probably
+through your college career.
+And I want you to share your perspectives.
+OK?
+So the OSI model is what is called the seven layer model.
+OSI stands for open systems interconnection.
+So it is a way of systems interconnecting
+through what are really deemed to be open protocols.
+These were developed by the International Organization
+for Standardization, which is a bit of a mouthful, or ISO
+for short.
+And ISO, you will see ISO codes throughout the physical world.
+So manufacturing has ISO codes.
+Consumer packaged goods, right?
+All the things that need a standard mechanism
+for identification are also there.
+And these are often overseen by an ISO standard.
+So ISO created OSI.
+And I didn't do that on purpose to confuse,
+but try to manage those two concepts.
+This is a blueprint to ensure computer systems
+can communicate.
+And it helps us pinpoint potential failure.
+You may have seen in your working life
+or your personal life, someone will say, the computer is not
+working.
+Or I can't watch my movie.
+And it's like, well, OK.
+What about the movie is not working for you?
+Did it freeze up halfway?
+Can you not find the movie?
+Is the TV not turned on?
+Do you have electricity?
+Do you own a television?
+Or a viewing device, right?
+So in the same way that you would troubleshoot a roommate
+saying they can't watch the movie,
+we can use this sort of methodology
+to understand all the layers that go into two systems
+connecting together.
+I have some video content, some of which
+I'm going to share with you tonight,
+and some of which I'm going to just refer you to
+in the future.
+So for each short explainer that I'm going to use,
+there's a much lengthier, in some cases better,
+but just longer explanation.
+I won't play those.
+I don't think they're necessary.
+But I do want you to always feel like you've
+got access to additional content,
+especially if the way I'm explaining it
+or the little short cartoon version
+is just not satisfactory.
+So for tonight, I'm going to work off
+of the more brief, what I think are pretty punchy videos.
+And then we'll talk this through very carefully together.
+But first, let's get a quick overview.
+So let's hope the audio is sufficient,
+and we'll dive in here.
+All right.
+That's not so great.
+Try that again.
+Hi.
+Welcome to Knowledge Catch.
+In today's episode, we'll break down the OSI model,
+an easy way to understand how data travels through networks.
+But before we start, don't forget to like, share,
+and subscribe for more tech insights.
+The OSI model, or open systems interconnection,
+is made up of seven layers.
+Each layer handles a specific part of transferring data
+between devices.
+Think of it like a team, where each player
+has a specific role.
+Let's go through the layers and see how they work together.
+First.
+The physical layer.
+This layer is all about hardware, cables, routers,
+and Wi -Fi signals.
+It handles the actual transmission of data,
+whether through wires or wirelessly.
+Without this layer, data can't move between devices.
+Next.
+The data link layer.
+It makes sure data moves smoothly between devices
+on the same network, like making sure the data is packaged
+properly and gets to the next stop,
+without errors.
+The network layer works like a GPS.
+It assigns an IP address to the data, and determines the best route through the network,
+making sure it reaches the right destination.
+The transport layer is like the delivery truck.
+It ensures that all the pieces of the data arrive
+in the right order and reassembles
+them correctly.
+If any piece is missing, it sends it again.
+Then.
+Next.
+We have the session layer, which keeps the connection open between devices.
+It sets up, manages, and closes the connection once the communication is finished.
+The presentation layer translates data into a
+format both devices understand, and it also
+encrypts data for security, like converting and locking your message before it's sent.
+Finally.
+The application layer is the one you directly interact with.
+It's a very useful tool to use when you're working with your devices.
+It's where you access websites, email, or
+messaging apps, and where the data becomes
+useful to you.
+Let's see this in action by sending a photo to a friend.
+First, at the physical layer, your phone connects to Wi -Fi to start the transmission.
+The data link layer prepares the photo for sending and checks for errors.
+The network layer assigns your friend's IP address to
+the photo, so it knows where to
+go.
+The transport layer splits the photo into smaller
+packets and makes sure they all arrive.
+The session layer keeps the connection open while the photo is sent.
+The presentation layer compresses the photo for
+quicker delivery and ensures it's safe.
+Finally, at the application layer, your friend receives
+and opens the photo in their messaging
+app.
+So, why is the OSI model important?
+1.
+It's incredibly useful for troubleshooting when something goes wrong.
+Let's say your photo doesn't send.
+You can check each layer to find where the issue is.
+Is your Wi -Fi working?
+That's the physical layer.
+Is your phone connected to the network?
+That's the data link layer.
+Is the IP address correct?
+That's the network layer.
+By following the OSI model, you can quickly diagnose
+and fix problems step by step.
+2.
+Data is a very important tool for data transfer.
+That's the OSI model.
+Each layer plays a crucial role in ensuring data moves
+smoothly and securely from one
+device to another.
+Next time something goes wrong with your network,
+remember how these layers work together to
+get the job done.
+Thanks for watching KnowledgeCatch.
+Be sure to subscribe and hit that notification bell, so you don't miss any of our next
+videos.
+3.
+There may not be the best way for you to take that content in.
+But you can do it.
+Let's check out our reviews of each of these layers.
+The physical is the connectivity.
+The actual hardware or virtual hardware with Wi -Fi
+with Ethernet cable or some other sort
+of connectivity.
+Radio waves, fiber optics, etcetera.
+Data is the movement.
+That is predicated on the MAC address.
+That's the low -level identifier for the device.
+From there, you have the data.
+packet routing across the network. So I'll just pause
+to say that Jason Thatcher, again,
+made a very strong point that understanding packets
+or packetizing of information. Think of
+sending boxes through FedEx UPS, right? You have to
+package them or packetize them because you
+can't just ship a big pile of stuff. You have to put
+them into containers. And so that mechanism
+of wrapping and unwrapping or bundling and unbundling
+is necessary. Transport, TCP, and that
+would, again, have parallels in the world of shipping a
+box. The session just maintains that
+connection. You will often find that if you're on a website for too long of a period of time, your
+session will end. That is just the fact that it is
+timed out for security reasons. And so that's
+somewhat in our common sense.
+Common vernacular. Presentation is a little different, I would say, than the type of
+presentation layer I teach in my low -code application development class. Presentation
+isn't what you see as much as it is how that data is encrypted. I would call it the security
+layer if it were me or that lockdown layer. But it
+is formally called presentation. And lastly,
+application. It's the means by which you're seeing what the person sent, photo, video,
+or text is consuming that content.
+So, super important. Also fairly abstract. This is a
+theoretical model. So the next thing
+I want you to be aware of is that this can be
+operationalized in terms of the Internet
+in a much cleaner actual framework called TCP IP.
+So
+TCP IP is a very common type of data processing software. It's a very common type of data
+processing software. It's a very common type of data processing software. It's a very common
+TCP IP stands for transmission control protocol
+and Internet protocol. So TCP IP is how all
+– when I say all, almost all modern computers connect
+to each other. Not to say that there
+are not other types of networks, but they're very
+esoteric. Maybe in a power plant you
+have a network that runs a different protocol or in
+defense or something like that. But
+for the large majority of anything you're ever going
+to come across, you're going to
+able to surf into like your computer network. Because you're going to interact with昇
+suggests to me that you are, not just another device with the Internet that is an Internet -A夠
+connected device using TCP IP. So this is really the
+basis of the modern Internet bye rap and it's
+streamlined because it's practical
+in nature and one of the things that makes it
+practical is it boils it down to four groupings. The
+first of which is network access. toda Registry
+The second is the internet layer.
+That would be layer three, and that is really IP,
+internet protocol, thus the name.
+Not intellectual property, by the way.
+That's a different IP.
+And so the internet protocol really handles the routing of the packets globally.
+So you can stream.
+If there's an interruption in the signal, it will try
+to reconvene those packets together.
+You'll sometimes see when you're glitching on a
+movie, when it gets kind of pixelated
+or there's certain frames or scenes that you don't quite catch,
+that is typically an internet protocol level breakdown.
+When you're watching some sort of high -def car race
+or game or something that is live
+and that they're trying to shoot high -def content,
+from somewhere else in the world, you'll see packet
+loss or some sort of loss rate.
+Okay. Transport protocol.
+That's layer four.
+And that is really not only host to host or
+device to device, but also when you're prompting,
+you're working at that kind of transport layer.
+And lastly, the application layer, five through seven.
+It's all of the higher level things.
+So if we were to go back.
+And look at, say, that presentation or what I would call the security,
+as well as ultimately two apps talking.
+So if you're messaging with someone on Telegram or Signal, when you're using Discord
+for this course later, that is at that application layer.
+So Discord is communicating amongst devices, whether they're centralized or decentralized,
+and you're traversing these layers without ever thinking about it.
+Okay.
+So again, I have a short video.
+I don't think there's a need to kind of go through that here.
+Feel free to watch these videos as you see fit.
+Has anyone ever gained any experience with this type of information?
+Have you ever been classically trained in IT
+or worked, say, in network administration?
+Okay.
+I'm not surprised that you haven't.
+In a way, it's kind of been abstracted down into being a commodity, right?
+Okay.
+So you're just going to assume that you're going to have fast Wi -Fi anywhere you're at,
+or cellular, or hard wire, or whatever.
+That wasn't always the case, and it may not
+always be the case that we can take for granted.
+Let's hope that we just have through Starlink and
+through other technologies, you know,
+instant, always on, high speed access to the internet.
+But it's all using these sorts of layers.
+So I want you to be cognizant of that.
+Furthermore, companies like Cisco, if you're familiar, have made their
+and a number of other companies that make
+networking devices, which is a huge, huge high -market industry,
+you will gain a lot of benefit from following their progress.
+Because who knew that computer memory and storage
+and GPUs and CPUs would become such a hot commodity?
+Even the precious metals, copper, silver, gold,
+nickel, et cetera, they go into those devices.
+And we're going to see that in the future.
+you know that we're experiencing a tremendous run -up,
+all because physical devices now matter a lot, even though we live in this digital world,
+because one begets the other, right?
+You can't do any of what we've gotten accustomed to
+without hardware running and fans and water to cool
+and all these other techniques, okay?
+So this all kind of hopefully comes around to the notion of,
+how does AI actually work, right?
+Well, AI runs on the internet, and the internet
+runs on all of these things.
+And as a quick aside, we're going to spend a lot
+of time in this course this semester
+talking about digital innovation and moving at
+the pace of thought or the speed of light.
+But if some of you are curious about career paths
+that you or your siblings, friends, loved ones, et cetera,
+could pursue,
+I'm going to give you a couple of examples.
+Trades.
+The trades.
+If you're a high -level, skilled electrician and can
+find an AI data center to go work at,
+you can make hundreds and hundreds of thousands of dollars a year.
+And that's not a few people.
+That'll be hundreds and hundreds of people who are
+getting jobs paying absurd amounts of money.
+So electricians, plumbers for the same reason, a
+variety of those sorts of trades
+are going to be in tremendous demand.
+There aren't enough people going into the trades.
+So supply is down as demand is spiking.
+So if you want to look to start a business, start an
+electrician, a high -end precision electrician company,
+and position yourself where data centers are being built.
+OK.
+Questions, comments about the physical digital world, the internet?
+OK.
+This?
+Hey.
+Hey.
+Hey.
+Theory versus practice.
+So the OSI model is one of the classic things
+to study in the world of technology and innovation.
+That said, the TCP IP model is, in fact, what you need to know or need to understand.
+So study them both for the quiz.
+But TCP IP is, practically speaking, how the world works.
+Four to five layers versus seven.
+Much more summarized and bundled.
+And really, OSI is just a framework where TCP IP is
+you could potentially reference continuously
+through your technical career.
+So now, let's sort of shift gears and talk about
+AI and the different types of models
+that are currently in play.
+And I will say off the bat.
+This is a new model.
+It's a very simplified view on what is an incredibly
+dynamic field that has been underway
+for 15 to 20 years.
+So even just to speak to the genesis of this topic
+of language models, we had big data,
+which is the ability to store data well beyond what you can typically put into a relational
+database.
+So the big data movement was an enabler to this concept of AI.
+And then machine learning, which is the ability for machines to detect patterns and to sort
+of extract out algorithms from a set of data, big
+data, that you train those algorithms
+on.
+So big data led to machine learning, led to now this
+notion of prompt -based or language
+models.
+But even the language models.
+I mean, I think that's a big part of the problem.
+And I think exactly what
+cost hypnotism is.
+It's built into technologies.
+You have to build for functions.
+You have to build forSQL.
+is really just leveraging some of those.
+So a big data training set,
+the English language or some other domain
+led to machine learning,
+which led to algorithms that could detect
+when they and they is an appropriate use of a word,
+or they are, T -H -E -R -E or T -H -E -I -R.
+And that's all just predicated on probabilistic thinking,
+on probability.
+So, and by the way,
+if you are especially interested in this topic,
+I think our Masters of Science program here at Leeds
+is world -class beyond what I think.
+That's what the surveys say,
+that we have a world -class MS program.
+My oldest daughter finished the MSBA program,
+and they teach you how to develop these algorithms.
+And the exams are wild.
+Not only is there no technology,
+you just have an interview.
+It's like an oral exam,
+and you have to explain,
+how a probabilistic language model works.
+So talk about learning how to defend your point of view.
+It's just like a debate or a one -to -one.
+So if you are really intrigued by this,
+I would highly encourage you to pursue
+a master's degree here or elsewhere,
+or just learn it on your own.
+That's another good way to do it.
+So large language models are really generalists.
+They are, by definition,
+they're trained on a really broad set of content.
+And that idea is,
+to know enough to be credible or to be an expert.
+But it's really breadth over depth.
+Before I give you some examples of these,
+what large language models do you use?
+And I'm especially interested in both what you found valuable
+about them, but also where you found they have shortcomings.
+So quick example of a large language model,
+a chatbot, if you will, that you use,
+or have used, go ahead.
+I've used all of them.
+It's really cool.
+Yep.
+I find that they each commit some of their own areas,
+but Copilot, I find,
+tends to be the most out of all of them.
+Yep.
+Especially if it's an enterprise version of Copilot,
+I think the challenge is behind it.
+I do have something I'm pretty fond of,
+which is Chalk.
+Yeah.
+True.
+Okay.
+Great points.
+Thank you.
+So ChatGPT, arguably the market leader.
+In fact, probably not arguably.
+From a market share perspective,
+I think they have something like 1 .1 billion
+monthly active users, or MAUs, MAUs.
+A monthly active user is just a way of measuring
+the popularity of a web -based tool.
+They don't even need to measure monthly active users.
+They have weekly or daily active users,
+because ChatGPT tends to be a pretty,
+a very sticky or very high adoption tool.
+If you use it, you either use it and walked away from it,
+or you use it a lot.
+That tends to be the skewing, at least for now.
+Google's Gemini got off to a really rough start,
+but is insanely, insanely powerful.
+Why?
+Because it's Google,
+and they have access to the world's data,
+and have just incredible ability to execute on,
+on like staggeringly difficult technical problems, right?
+They make their own processors.
+Nvidia is famous for making their own GPUs.
+Google's like, hold my kombucha,
+I'm going to make my own just because they can, right?
+So they're insanely good at what they do.
+There are others.
+Claude is a real innovator in the world of AI, arguably,
+and I'd love to come back to this notion
+of what do you find uniquely interesting.
+So Claude, for example, is a real innovator.
+For me, for example, Claude code is as kind of,
+is cutting edge when it, when it comes
+to developing software through prompts, right?
+You tell it what you want, it writes the code,
+you tell it to tweak it, it changes the code.
+Let's come back to, give me a highlight and a low light
+on your experience with LLMs.
+I think the highlight is kind of saving time
+and some of the problems that I also agree
+with some of the other people.
+Sure.
+It's great.
+Highlight, highly productive, low light can be a total waste
+of time.
+So it's sort of the table of two cities.
+I'm going to come back to that point in the slide
+that is towards the end of the deck.
+Someone else, and thank you for the points on co -pilot too.
+It's interesting that Microsoft has been able to do this
+and Microsoft made a huge, huge investment in open AI
+and had kind of exclusive rights.
+They own 49 % of open AI, yet they struggle with AI.
+And so it's really fascinating to watch how those things take place.
+Although, to be fair, it might be more self -imposed limitations
+because as Louis said, when you're working
+in an enterprise context, you may have found this at CU,
+you can't do things that you can do out in the wild, right?
+So if you go to Grok, for example,
+from XAI, you can do a lot of things that you couldn't do
+on CU's co -pilot if we have one.
+Someone else, give me just kind of a personal explanation
+of a tool you use and then maybe a highlight and a low light.
+For my work, like ChatGPT, I have to like find certain people
+and I need to have like certain qualifications like followers,
+kind of like who they are, what they do.
+In ChatGPT, isn't really good at, or it's not.
+I'm not good at it at all.
+It like hallucinates a lot and just gives me like fake people.
+So that's like not good.
+But then once I find the person I want, I usually just do it manually at this point.
+But then I put them in and I'm like, connect to this person, to like this client.
+It's good at doing that.
+But finding the people, it's just not really good at doing.
+So low light, the notion of, I'll use the word prospecting.
+You tell me if that, you know, kind of searching, trying to do business development
+or reaching out to find other potential prospective buyers.
+And then highlight might be once you find those
+targets, maybe the communications
+and some of the steps towards, you know, getting a meeting or trying
+to find common ground could be effective.
+So once again, that's kind of the perfect segue into something that we're going to work
+on a little later in tonight's class.
+Did I miss anybody on?
+Yeah, please, Rachel.
+Just to go a little deeper on the code.
+This is all a co -pilot issue.
+So in my company, we are using co -pilot because we're a Microsoft shop.
+So all of our data's in SharePoint.
+It's in there already.
+And so, to use a different system, it's a little more complex.
+And we also do government contracting.
+So we have clearance requirements.
+So we operate on kind of a high security model.
+And so that limits it down even more in terms of what it can do because everything has to be kept
+within the U .S. to meet government requirements for cyber security.
+And so, we're like using even a more behind -the -scenes solution,
+version of Copilot and so he loves it for like
+transcripts and notes and you
+know it can be good for running through emails like summarizing team's messages
+and you get in a meeting five minutes late what did I miss can be great for
+some of these really little things but that's about as far as it can go right
+now which is really frustrating when you see
+what some of these other models can do.
+Yep and that's a classic you know like do you want to be way ahead of the curve
+and get you know on the cutting edge you know cut
+by the modern modernity of a
+tool or do you want to be feeling left behind and lagging and both are tough
+and maybe the middle of the bell curve is nice you
+kind of have enough to to
+feel like you're making progress and keeping up with with modern capabilities
+without finding out the hard way on either side of that.
+So,
+the things I'd like you to take away from this would be that it is supposed
+to be like a massive brain right like the they're gonna train on more data
+with more components to these models right trillions of different parameters
+that they have access to and they're trying to
+generalize that the knowledge
+that humanity has access to so Google's mission since I got an offer from them
+on a
+grad school was to you know to catalog or index the world's information to make
+it readily available I would say that in some cases they have done that
+remarkably well they they dramatically beat out Yahoo
+who took a more human
+based indexing approach Sergey and Larry took more of an algorithmic approach to
+indexing the content it just went faster machines never needed to sleep or or
+take a day off so so it really was a tremendous
+advantage that said search is really fascinating because if you think about
+why you search for something it's usually not
+no one says I would like a
+list of websites that then I have to go click through after I skip past the ones
+that paid to get to the top and I'd like to spend
+the next five to fifty minutes
+figuring out what the answer to my question
+actually was I would really
+actually just like the answer to my question and
+so the chat model for the
+�
+Ei
+E -
+won't cover necessarily in this course, at least tonight.
+We'll press into some of these.
+But concepts like mixture of experts, reasoning models,
+long horizon models.
+What we're seeing lately, if you think back
+to November of 2022, who, and this is not like a humble brag,
+but who was involved accessing an AI platform
+prior to November of 2022?
+Now, who knew about ChatGPT before 3 .5
+or some other project?
+Just call out how you might have come across it.
+Don't go into great length, but just name drop.
+What was it?
+How'd you hear about it?
+I was in class, and I was taking AP Computer Science.
+And they mentioned it.
+And the first thing, it was like writing poems.
+So that's why.
+Do you remember what the tool was called?
+No.
+Yeah.
+So something in the world.
+In the world of AI.
+Another one?
+I don't remember which one it was called either,
+but it was during COVID.
+Sure.
+OK.
+It was like .
+Yeah.
+So it was impressive even back then?
+Yeah.
+OK.
+Give me a couple more.
+.
+The name of the tool?
+Do you remember?
+It was .
+Yeah.
+So it was a while back.
+So far ago, three or four years ago that we've already forgotten.
+The point is we'll probably forget most of what we're using today.
+Who had heard of DeepSeek?
+Do you remember when that came out?
+So that was the Chinese open source model
+that was supposedly trained on GPUs, graphical processing units,
+kind of CPUs but for graphics, that were very inexpensive.
+They were not embargoed by the US for being defense grade technology.
+And so these.
+These Chinese researchers were able to produce a
+very large model that took up
+a very small footprint that they effectively gave away through open source.
+So DeepSeek was a big deal probably 18 months ago, 12 months ago.
+It's kind of hard.
+Internet time is weird because everything moves so fast.
+So that's good.
+I'm going to come back to a couple of other hot topics.
+But long horizon models.
+Again, this notion of my point in talking about ChatGPT 3 .5.
+Is you would ask it to do something and it would try its best.
+But it didn't take, it would think, but it would come back with something potentially
+really off base, right?
+And then you'd tell it again and tell it again.
+Now what you can do is send these things kind of off to go do work.
+And it can report back to you in its hours.
+I had a project over the summer.
+I was writing a marketing campaign for a client.
+We fed it three years of social media posts and likes and impressions
+and views and all the different metrics.
+It took almost three weeks for it to get back to me
+with a marketing campaign of three years
+of forward looking posts with optimized hashtags and image recommendations.
+And three weeks is a long time for a machine to run.
+But that was the body of work that I asked it to do.
+So that is now possible with these models.
+So a few points to make on LLMs.
+Trillions of parameters.
+It is learning.
+Think of it like a constellation in the sky.
+It's trillions of data points worth of these
+parameters that can inform probability or
+the accuracy that it can get your request right.
+So the more the merrier.
+The more parameters theoretically the better.
+Well theoretically the better because there's a
+tremendous cost that comes with growing
+into the trillions and beyond.
+What's its point?
+A large language model is probably going to become
+what we would call a quarterback or
+a command and control type of module.
+It's the overarching interface between the human
+and say other types of technologies.
+Because it's a generalist.
+You go down to the front desk, you can ask them any question.
+They're not the problem.
+They're not the professor of accounting.
+But they know where the professor's office might be.
+They're not the person who runs the building.
+But they know when the building is locked.
+So a generalist is a good component of an architecture.
+The challenge though is that with this scale and
+scope of data, you have immense latency,
+which means the wait time.
+Everything would ideally be instant.
+But that's not how it works.
+It's not how these models work.
+In fact, the larger they get, you're kind of heading in the opposite direction of these
+being faster.
+And so there becomes tension in the way that you have usability concerns.
+Who's familiar with the energy concerns of training
+AI models and the data centers that
+are involved?
+Good.
+Some of you, yes.
+Quite a few of you.
+So my parents and my brother and my sister.
+Actually, my whole family lives in Indianapolis now.
+I didn't grow up there.
+I grew up in west of Chicago.
+But Indianapolis, great town, great city and community in Indiana.
+Google was going to open a data center there.
+Indianapolis said, thanks.
+We're not interested.
+No.
+Why would they have done that?
+And this is a little bit not like a test of your logic.
+But did anyone know the back story there?
+Yeah.
+Well, I know it uses a lot of energy from the grid.
+Yeah.
+And also, I've heard of other towns where it's the
+runoff, essentially, when the data
+center uses the energy.
+It's similar to this other case that I can't remember right now.
+But basically, it's just also the pollution as well.
+It's gotten pretty bad.
+So runoff meaning water.
+But there's also maybe a play on runoff meaning...
+Actually, in this room, there's a lot of ambient noise.
+It's a noisy room.
+There's a lot of white noise.
+There's a lot of...
+I think they call it the buzz or the hum of fans and of cooling.
+So if you just listen, it's noisy.
+It actually drives me crazy because I don't naturally have a very loud voice.
+Thankfully for the microphone, it helps.
+And please speak up if you don't either.
+But imagine living with 20, 30 decibels of background noise.
+It could drive you crazy.
+And I'm not speaking to you as an activist or as a...
+I think people are more important than trees.
+I love trees.
+I love animals.
+But I think people are really important.
+So I think the advancement of humanity is really important.
+I'm not coming to you telling you that trees have feelings.
+That's just me.
+But I will also say that I love nature.
+I don't want it to be polluted.
+I don't want there to be runoff or ambient noise or noise pollution or light pollution.
+If you want to go see the stars, you want to see the stars.
+You don't want to look at a reflection off of the clouds.
+So there's some huge considerations.
+And CU is a school that is very committed to sustainability.
+My hackathon was renamed for me to the sustainability challenge.
+I wanted to build nerd stuff.
+And I was told that building nerd stuff to help the environment would be even cooler.
+So that's really, really significant.
+So my point in talking to you about this is that AI is facing...
+...tremendous resistance in part from people who just
+say, yeah, I want it.
+I don't want it in my backyard.
+I don't want you to build an Amazon distribution
+center worth of or a mall worth of just noisy,
+loud, or noisy, hot, energy hungry machines.
+Coming back to the Indianapolis punchline, if
+not a bunch of others, when supply stays
+steady and demand goes up, what happens to your prices?
+What happens to your energy prices?
+We studied economics.
+This is what happens.
+Well said, as you take a bite of burrito.
+That's exactly what happens, is price goes through the roof.
+Our energy prices here are going crazy.
+Why?
+Because there's more demand without there being more supply.
+Another great job to go into is energy.
+Right?
+Oil and gas.
+Nat gas.
+Nuclear.
+Water.
+Wind, if it survives.
+Et cetera, et cetera, et cetera.
+Hydro.
+Fusion.
+Vision.
+You name it, go do it.
+We desperately need more energy.
+If we could get more energy, we could start having a lot of really cool things.
+But if we can't get more energy, we're going to have
+some really tough discussions about
+what matters more.
+Okay?
+You know?
+Is providing electricity to a school more important?
+Is providing electricity to a manufacturing facility more important than providing electricity
+I don't know.
+Is providing electricity to a data center more
+important than providing electricity to a
+non -profit who does, who's a homeless shelter?
+I think I might know on that one, but I don't really know on that.
+It's going to be really difficult when things are scarce, and most things in this world
+are actually scarce, fighting over who gets what is a really hot topic.
+I sat in on some, just at one point, I was on a conversation with a professor at the
+zulmu, we
+What I would like to do for Ahora!
+No one's allowed.
+Okay!
+to come in and consult to a variety of stakeholders who
+need water.
+Who needs water?
+Farmers need water.
+Rafting companies need water.
+Ski resorts need water because they need to make snow.
+I think they make snow out of water.
+Don't go beyond that.
+Maybe it's something else.
+A lot of people need water.
+She said, I need water.
+I love water.
+So who gets it?
+How much?
+Why?
+What are the legal frameworks?
+Who has to pay?
+What if someone can't afford it but still needs it,
+like maybe farmers?
+So then what?
+Arguing over who gets what water is like a crazy complex debate.
+So Virga comes in and analyzes the data,
+does predictive modeling, does a bunch of really, really
+sophisticated stuff.
+Here's the kicker.
+One of the ways to do the best predictive modeling
+would be to use AI.
+AI uses a lot of water.
+Virga can't use AI to predict water usage
+because of the water impacts AI has.
+That's where things get really tricky,
+where you're a data scientist and you're like,
+I'm going to go crazy on this data set.
+Oh, but I'm not allowed to use in the same way that
+was described in a corporate or in a defense world.
+You can't use the cutting edge tools
+because they're sort of tainted or carry this baggage with them.
+So that's an interesting point.
+And I think that's an anecdote that you should be prepared
+to think through on your own.
+All right, let's spice things up a little bit,
+because you all have heard a lot, maybe ad nauseum,
+about large language models.
+It is only one of many techniques for delivering data.
+In fact, let me have you right now think out loud,
+what would be an alternative playbook for a large language model?
+And if you need inspiration, who's ever seen a boombox?
+Right?
+Carry it on your shoulder.
+They are, well, you could if you were really cool.
+They can set it down, big speakers, you get the point.
+What's an alternative innovation to a big speaker system?
+If you've been in my classes today, you've heard the punchline already.
+Headphones.
+Headphones, which is a smaller version of a big speaker system.
+You could miniaturize a big speaker system to be a small speaker system,
+like a, what do they call it?
+Like the JBL, whatever, a Bluetooth speaker, a little smaller speaker.
+In fact, these watches now have not one, but like multiple speakers.
+Why?
+Because it's nice to have a little speaker, but I
+can't carry a big boombox with me.
+The same model for innovation is taking place in the world of AI.
+If you have a large language model that's trained on all the world's data,
+quote unquote, but it's kind of wide but not deep,
+it's a generalist but not an expert,
+what if you had a small language model that brought precision,
+but it only knew about a limited number of topics?
+So I have a student who runs like an auto mechanic company.
+He's a pro level auto technician.
+He has worked with a model that is trained only on
+engine data, on the timing of the belt,
+the spark plug ratios, the size of the cylinders, all the things that are really,
+really specific.
+But it knows everything about every engine.
+That would be incredibly valuable if you were an auto mechanic.
+You don't need to ask ChatGPT the history of the Roman Empire.
+You need to know how do I get my V6 running at, you know, optimal capacity
+so I can get this customer back out on the road.
+So that's the idea with a small language model.
+Sorry, that went the wrong direction.
+Who has ever worked with one?
+Say a little bit.
+What was it and a high and a low?
+Well, it was within ChatGPT, but it was someone
+who like trained it on like a specific class.
+Yeah.
+So then it like answered everything about the class
+and it like knew all the topics on it.
+That's a really interesting point.
+I've actually done a bunch of this too.
+And I believe if I remember correctly, they're called GPTs, right?
+They're like private or white labeled subset.
+So you feed in some content.
+It uses its large language model capabilities, but it
+develops kind of a mini language model for that.
+I think they call it a GPT.
+That's actually a great example.
+Anyone else worked with something like a specialized or small language model?
+Well, I didn't really work with it, but in an
+internship I did in Colombia,
+they used a small language model to understand the inventory.
+They had like products they're using.
+And I know right now they're trying to get one
+that like sort of predicts what to buy next,
+like on trends and stuff like that.
+Good.
+Excellent.
+So specifically trained, may have not had a brand name,
+but it was hyper specialized
+to your company's products and customers and whatnot.
+This summer in my internship, I used one called Co -Counsel.
+Okay.
+That was made by like the company.
+Thompson Reuters.
+Yeah.
+Like some ex big four accountants and stuff.
+And it's trained on legal knowledge and like accounting fundamentals.
+So it's mostly used in law and accounting.
+So that's more tailored.
+That's a beautiful point.
+If you were going to ask a technology around a legal
+question, would you be open to hallucinations
+or rather not get yourself thrown into jail?
+I mean, if it were me, I'd want a tailored,
+expert, you know, read the laws for the United States and for the states that you're doing
+business in and just tell me what the law says.
+Don't give me all the crazy things that people
+put on Reddit about how to break those laws
+and not get caught.
+Right.
+That would not be great.
+So a small language model gives precision.
+And I want you to know this term edge.
+Edge means kind of where you're in your place of work.
+So in your business in Columbia, in your audience.
+You're in a private role where you need a legal
+copilot that's just going to give you
+legal advice that sound in your class where you need
+an AITA and you only want it to tell
+you what the professor said, not what other people think about that topic.
+So an SLM is a really powerful concept.
+My bet is that you're going to start hearing more
+about these than you may be hearing about
+LLMs.
+Nothing wrong with LLMs, but they're reaching what is called convergence.
+Convergence.
+And that is at a certain point, what other data is there to index?
+Like all the data has been cataloged.
+All the public data.
+So what is GPT -8 going to do that GPT -4 didn't do?
+In fact, if you remember, and you may or may not have noticed this personally, but you
+may have heard about the news, chat GPT -5 from
+OpenAI is a pretty big flop.
+Why?
+Because people's expectations were higher than it
+delivered with 4 coming off of 3 .5.
+And 3 .5, whoever said it was like, wow.
+That's insane.
+Even before that, there was a big wow factor.
+Think about Apple's run rate with the iPhone 8 through 12.
+Wow.
+Wow.
+That's amazing.
+Look at what they've done.
+That's incredible.
+It used to be a thumb.
+It used to be a password.
+Then it was a thumbprint.
+Then it was your face.
+After it can read your face.
+Yeah.
+What's the wow factor?
+What's the big new thing with the iPhone 17 or 18 or 19?
+Well, it has a different shape of the back.
+That's not a wow.
+That's a yawn.
+So chat GPT and OpenAI are, this is my humble opinion, are in big trouble.
+As the market leader, they've taught people to wait for a wow moment.
+And when they don't get it, they're going to go elsewhere.
+So what's going to happen instead is you're going to
+see compact versions that run on
+local hardware.
+The other thing.
+How nice would it be to have an AI when you don't
+have fast Wi -Fi on an airplane, underwater,
+in a tunnel, on your device, private, back to
+the point made about security and privacy,
+one that wouldn't leak all your data out to the public.
+So bear in mind, when you upload data to ask a question about it, if you don't have history
+turned off.
+Yeah.
+It's learning from your data.
+I'm hearing examples of, I'll use audit, people
+posting confidential documents online saying,
+hey, what are the potential audit risks of what we're doing with our procedures?
+You're giving confidential data away.
+It's learning off of that content.
+Now, there are ways to turn that off if you've remembered to turn that off in advance.
+But otherwise, heads up.
+This is super, super risky behavior.
+It would totally violate policy for you.
+It would be a great idea for you to do that.
+But it's so convenient, so powerful, it doesn't make it right.
+So look for these to occur.
+I feel a little bit like I'm kind of talking about
+this for the sake of proving that may
+not be true.
+I mentioned DeepSeq already.
+DeepSeq was kind of a smaller, more compact model.
+Who's heard over the last week about Claudebot, Maltbot, or OEM?
+Anybody?
+OK.
+Those who may be doing some day trading or following tech.
+Claude, one of the most popular large language models, fantastic platform.
+But you have to have fast internet, and you have to pay when you use it.
+You have to have a subscription, and there's consumption fees.
+An open source developer created a open source free
+version of Claude called Claudebot, C -L -A -W -D,
+instead of C -L -A -U -D -E.
+OK?
+Claudebot.
+Total nerd thing.
+You could run it on your local computer.
+So if you know what a Mac Mini is, it's kind of a,
+I don't know, $500 to $800 double deck
+of cards looking little puck.
+And you can run Claudebot on a Mac Mini.
+And then you don't have to pay using some other
+technologies like Kimmy 2 .5 and some
+other things which, again, aren't salient for today or for this course.
+But you can run a full large language model on your local machine.
+And you can run it through this type of small language concept.
+That would have huge implications if your bills
+are thousands of dollars a day, like
+most startups who are hammering on AI.
+You could run it for pennies or dollars a day instead.
+So there's big, big opportunities to miniaturize technology.
+Does it run with the same amount of parameters that it does?
+Yeah.
+Really?
+Theoretically, yes.
+Yeah.
+So watch that.
+And again, if you don't think that taking something large and making something small
+is a big deal, ask Apple how their AirPods, not only
+is Apple an iPhone, Apple is a phone
+company.
+Well, stop.
+That's where all their revenue comes from effectively.
+But if Apple divested AirPods, that would be a
+top 50 company in the world just selling
+earbuds or headphones, right?
+So miniaturization is probably maybe the most valuable.
+It's probably the most valuable business model that gets run and run and run and run over
+and over again because that's just how our world works.
+Efficiency, it's billions rather than trillions.
+And so maybe you do give up a little bit on
+breadth, but what you get is that efficiency
+piece.
+Latency, if you're not searching as large a corpus of information, it's going to be
+faster to get you the answer.
+And, oh, by the way, a small language model.
+Coming back to the OSI.
+Yeah.
+The OSI and TCP IP models, you don't have to go across the internet.
+The idea is it's all localized.
+You're asking it for information that it's
+retrieving from its own local memory, right?
+Its own brain.
+That's a totally different dynamic.
+Lastly, privacy.
+If you're dealing with sensitive information, home security, right?
+Facial recognition.
+You wouldn't want your family's photos and their day to day.
+Yeah.
+You wouldn't want your interactions to be posted online.
+But maybe if it ran locally and it was a
+firewall or there was a moat around that device, yeah,
+that might be okay.
+All right.
+Two more, we're going to move faster.
+Latent consistency model.
+If you need real time speed, it always has to answer immediately.
+You're going to want to use a latent consistent model.
+The time that it takes is the same every time.
+Okay?
+One step is the goal.
+You're going to ask it to do something.
+It's going to do it for you instantly.
+This is very common.
+Think in a military battlefield scenario or for a surgeon.
+If they're wearing AR goggles or augmented reality
+or mixed reality, they're looking at the patient,
+they're seeing insights about that patient
+instantly, every time.
+Again, it's very common.
+Go back to a battlefield scenario.
+You look, good guy, bad guy, you're going to know
+every time, is it a friend or foe, friend or foe.
+That sort of thing would require a latent consistency model.
+It's trained and optimized for perfect results with
+the first or second attempt and it's almost unnoticeable how long it takes.
+Visual overlays, VR, navigation of robots, things that have to be.
+Okay.
+And then you can see the robot is moving as fast as possible.
+What does that do?
+It reduces wait time.
+That's the definition of latency.
+Allowing machines to react faster than.
+Okay.
+Hopefully that all makes sense to you.
+If it seems like the future that robots battle
+robots, look at how most wars are fought.
+It's drones against drones.
+Right?
+Or some other automated devices.
+Which is a really fascinating topic.
+Okay.
+I did not do this on purpose.
+Like OSI and ISO.
+But there's a different kind of LCM called a large concept model.
+And I want you to be familiar with this.
+So first off, what is it?
+It's a shift from predicting words.
+Think of auto complete.
+Right?
+It's a type ahead that does the next letter in the word or the next word in the sentence.
+And it's going to maintain entire ideas.
+So instead of thinking about a word as WRD, it's
+looking at a broad concept.
+Sustainability.
+I think I brought that up earlier in class.
+So if I'm talking about sustainability and I mention
+profit and enough runway and enough savings in the
+bank, what kind of sustainability am I talking about?
+I'm not talking about environmental sustainability.
+I'm talking about sustainability.
+I'm talking about financial sustainability.
+I am a viable solvent business.
+I manage my money.
+I spend less than I earn.
+I make more than I spend.
+That kind of sustainability would be clear in a large concept model.
+Because it knows I'm talking about running a company in a profitable manner.
+I'm not talking about trees, water, et cetera.
+It can reason on much more complex topics.
+Because it understands what we're talking about.
+So that the boundary lines have fallen in pleasant places.
+It knows that when I'm talking about financial
+sustainability, it can say, hey, you should increase price.
+That would have nothing to do with environmental sustainability.
+So it can come back with things that I didn't even know to ask it.
+Because it knows what I'm talking about.
+All right.
+Questions?
+So many areas.
+I'm going to go through them.
+I'm going to go through the
+I'm a hammer.
+Everything looks like a nail.
+Right?
+If you've heard that expression before.
+Hammer is great unless you need to cut a piece of wood.
+In which case you need a saw, which is great unless you need to drive in a nail.
+Yeah.
+Sorry.
+How is it language agnostic?
+Because I know LLMs run into tokenization issues with Japanese, for example.
+So how does that get past that?
+Yeah.
+That's a really great question.
+So one of the things that a concept model can do is pursue meaning.
+Instead of pursuing translation.
+So in a translation, you might see this.
+You'll see someone who knows their vocab words,
+but doesn't know that it's inappropriate to say certain
+words in certain parts of a sentence.
+And so by abstracting, it can get to the meaning of what's being asked.
+I would like to order this food.
+Or I need help with directions to get to this destination.
+Which lower level models would be.
+We'll just do token level.
+I need directions to the hospital.
+Versus help.
+I have an emergency.
+How do I get to the hospital?
+If that is a quick response.
+So the other ones, like large language models, small
+language models, feels fairly intuitive, right?
+You put in a whole bunch of data in the large
+language model and it works through what's in there with kind of a brain.
+Right.
+Small language.
+And then the large concept models, this feels a little
+bit more like the human thinking side.
+So how is a model like this created?
+Right.
+So the training can be different.
+And the reward system is going to be different.
+Because training is all about teaching the system to reinforce.
+Reinforcement learning is positive outcomes.
+And to avoid negative outcomes.
+So not only is the way that these models train
+different, it's going to have a different corpus of content.
+The tagging and the reinforcement is different.
+The other thing is that the physical structure of these systems can be different.
+So you raised the point of like a neural network.
+How does our brain work?
+So that is different than say a small language model which is about retrieval.
+I want to get the same, I want the answer as fast as
+possible, consistently or on a tighter set of content.
+So it's beyond this course for us to kind of delve into the depths.
+There are people here.
+Like Kai Larson, David Doebley, Abe Handler.
+Who are world class experts in this field.
+If you're interested, I'm happy to bring them in.
+Liu Liu is another one.
+Dan Zhang.
+We have a ton.
+So hopefully the point is different tools for different jobs.
+Some are very precise and consistent.
+Others very generalized and creative.
+So kind of bringing this in for a close.
+What is it?
+What I'm going to have you do as our next kind of challenge I wanted to explain here.
+Because thank you for those of you who have posted to the discussion board.
+So I've started a new discussion.
+Let me just zoom out to the discussion board in general.
+So I see a number of you have shared articles.
+Thank you.
+I look forward to reading those.
+I would encourage all of you to review these
+articles that are posted here that I've not yet read.
+But the one that I want to call your attention to is brain.
+There's a much -needed training in this field that
+I want you toHave kita all involved in for your understanding.
+Another piece of information that you've likely not
+heard about, tearative training training, is prompt engineering.
+So I've given you some background.
+And we're going to be digging in on this over the next couple of weeks.
+how to write an effective prompt. So there's a framework called the five
+piece. I will leave it to you to determine if this is helpful to you. I
+think it is helpful but some of this you probably
+already know how to do. What do
+you want it to do? Who should it behave as? What
+what does success look like? So
+take a look at this five piece framework and then
+what I'd like you to do is read
+through some of these essential techniques. I've built this out in terms
+of a business school student. Obviously you're not always acting as a business
+school student. You might be acting as a fan of a
+certain band or an expert
+within your company on a certain topic. So review this and then I've provided
+you some 5p examples of how to do things like
+market research. Anyone familiar
+with lean canvas?
+Is that?
+Yeah.
+Okay I'll teach you what a lean canvas is. It's a
+business modeling product
+planning technique and then product market fit, PMF. Okay so the reason I've
+given you these prompts is that in this course as we prepare to go to Japan to
+solve population collapse and some of the things
+that come with it, strategic
+market research, lean canvas, and then product market fit are some techniques
+that you can employ to start to hone in on a business model. So I'm going to start
+with the start part. Following that being said here, I want to take a moment to
+talk about plot replacement tool that I plenty mentioned in my year. I used a
+lot in my program this week, I hope you'll take a look at the sketched
+machine, because I was just buying it and it was quite winning at once. What
+I want to introduce you to is that this is a quick chart. In this scenario so
+we've got a florberg kit. The reverse stroke sketch has by default are three
+different colors. J on the first one and J on the third. We're going to use D for
+that.
+Okay.
+Now that we're looking at this model the work has come out . Now let's see.
+Salesforce, a lead is someone who might buy, or in this case, might donate.
+Salesforce, the world's most popular customer relationship management tool.
+So when a lead is created, it's going to filter for
+certain things like, is it a test lead?
+Is it junk data?
+So it's going to ignore stuff that it doesn't need to worry about.
+It's going to format some text, go to FireCrawl,
+which can pull data off of LinkedIn.
+So back to the point that was made about do some initial prospecting.
+And then I have shared with you my prompt that
+I'm calling out to Gemini for from Zapier.
+This is a workflow tool I'll teach you later this semester.
+And I basically offload everything in step five to
+say, you are a market research expert.
+You work for this organization.
+You have these skills.
+I want you to go do this work.
+Before you report back to me, I want you to check your work.
+I don't want you to repeat the instructions.
+I don't want you to come back and say, I'm a market research intern.
+And I am going to look at this.
+I just want you to cut to the chase.
+Give me the prospects information.
+So that's the flow.
+And then put that data back into Salesforce.
+So as a user, you get a lead or it comes off a web form.
+Two seconds, three seconds later, that data has been
+enriched and you have a full dossier on how to do it.
+How to go target that prospect.
+So here's the prompt.
+You'll see a strategic donation advisor and growth hacker.
+I redacted the client name just because it's not relevant.
+You can use this anywhere for any company.
+You might want to tune certain parts.
+How to return the dossier.
+What are the constraints?
+Be succinct.
+Don't reiterate the instructions.
+Okay.
+This is a prompt that I've used.
+Okay.
+I've used for the last probably year to great effect.
+It probably could be made better.
+So my challenge to you is to, one, share a prompt
+that you've used for any topic.
+Please redact any sensitive information.
+I absolutely don't want to see socials or credit cards or anything, obviously.
+And I'd rather not see proper names or identifiable information.
+Just classier.
+I try to pull that out.
+If there's an accident, we're all, obviously, we've
+all agreed to kind of some confidentiality throughout this course.
+But strip it out if it was something that you did,
+you know, that didn't need to be in there.
+Okay.
+Can anyone think of a prompt that they'd be
+willing to share just to kind of get the wheels turning here?
+Andrew.
+Yeah.
+One for trading stocks.
+The scalp for underperforming companies.
+That.
+That have high expectations for their stock values.
+That's great.
+That's awesome.
+So you and I have talked a little bit about it.
+I'm so glad that you spoke up.
+If you're looking to buy equities or make investments
+in crypto or whatever other things, that type of tool could be an edge.
+Anyone else have one that comes to mind that you've,
+let's do something other than betting on the movement of a market.
+Something different that you've written a sophisticated prompt for?
+I can say two years ago, I created a GDC with a John Jay CD about some .
+I would take research articles and then basically make it as a form out of .
+So the synthesis of research papers into a proprietary database.
+So there's probably a lot of.
+Yeah.
+Instructions with that.
+I want you to think about a prompt that you wish you had.
+And then I'm going to kind of close us out for tonight with the following.
+If you don't know how to write that prompt, you actually have a helper.
+A large language model is a quite good prompt assistant.
+So tell it to develop a prompt for you.
+Tell it to use the five Ps.
+What would be called a meta prompt.
+And I think you should be good to go.
+Where are we headed?
+We're headed towards a future where.
+Sensors are sending data in.
+To what would be called to bring this back full circle to OSI layer one.
+You know, it's telling you the temperature in here.
+72, the temperature 72, the projectors are on the microphone is active.
+You know, all those sensors.
+Most of which we could care less about, but we could tell the system.
+Let me know if the temperature goes below or above a certain range.
+Then we might have a problem.
+Localized decisions.
+SLMs will be used on a factory floor.
+To immediately determine.
+Oh, a problem is detected.
+Should I let the manager know?
+Should I shut the assembly line down?
+Should I pull the fire alarm?
+Those are things that localization will allow for that.
+Immediate edge type of decision.
+Sending data to the cloud through the internet protocol that we've talked about.
+TCP IP to a central LLM to find a root cause.
+Maybe across all factories.
+So you've got sensor data.
+No one cares.
+Local decisions through SLMs.
+And when I say no one cares, I just mean only
+tell me when there's an abnormality to the data.
+And then cloud analysis where it would be bigger, heavier lens.
+Lastly, a visual technician to overlay visual information.
+Someone puts on their information glasses.
+They can see the serial number and the instructions to fix a certain machine.
+All in one.
+All in real time.
+Where are we headed?
+Recursive language models.
+This is a really complex topic.
+I'm not going to tell you the what.
+I want you to research it on your own.
+But as we wrap, here's the so what.
+There's two things.
+What and so what.
+The so what is that GPT -5, the most sophisticated
+large language model that most people are interacting with today,
+it really tapers off as the context length.
+I think the amount of information gets larger that you feed into it.
+I think as was said in class, the more you feed
+it, the more likely it is to forget some of what you fed it.
+And so the performance of this model degrades as you send it more information.
+That's what the chart on the left says.
+The chart on the right doesn't have that degradation.
+Not only can it push through the limit of modern
+model like GPT -5, but it doesn't degrade as much.
+So what does that mean?
+We're going to laugh at the quality of the models that we're currently working with.
+They are going to be pathetic in a matter of years, if not months.
+Why?
+Because the pace of innovation is moving.
+So a recursive language model, which again is way beyond.
+This is straight off of the printing press, the MIT research lab.
+They will be able to produce models that have
+less degradation and can handle an even larger context window.
+What does that mean?
+We have not yet begun to see these models really
+accelerate in what they're capable of.
+So look forward to that.
+If you're interested in doing more research, I've listed the sources of this.
+I would highly encourage you to look at a model
+that could be as good and cheaper in a matter of
+years, if not months, that you could have access to.
+So the best of both worlds.
+It might know more and cost less to run.
+Which should be a trade -off otherwise.
+That's it.
+I'll see you next Tuesday night.
+Happy to chat with you one -on -one.
+We'll go back into some Japanese history next week.

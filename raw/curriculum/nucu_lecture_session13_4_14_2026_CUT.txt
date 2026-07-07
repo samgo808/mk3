@@ -1,0 +1,1837 @@
+Document: Team Collaboration & FCQs
+Lecture: Session 13
+Date: April 14, 2026                                                     
+Course: BAIM 3300 - AI & Automation for Tomorrow's Societies
+Topics: Startup pitching fundamentals (4-minute pitch structure, investor communication), Product development lifecycle (idea → market validation → pitch), Study abroad program logistics (CU Education Abroad coordination), Pre-departure requirements (health forms, passports, compliance), International travel preparation (packing, documentation, communication planning), Risk management and safety protocols for international programs, International health insurance systems (coverage, reimbursement model, emergency procedures), Physical and mental health considerations during travel abroad, Medication regulations in Japan (restricted substances, compliance requirements), Emergency response protocols (International SOS, communication chains, escalation procedures), Cultural and logistical preparedness for Japan (etiquette, documentation, contingency planning), Cross-functional program coordination (faculty, administrators, students), Team collaboration and accountability (task completion, deadlines, shared responsibility), International teamwork challenges (time zones, engagement gaps, communication breakdowns), Stakeholder coordination for global programs (students, faculty, institutions), Site visit planning and prioritization (industry exposure, student input, logistical constraints), Survey-based decision making (student preferences, democratic selection process), Data collection for program logistics (dietary restrictions, apparel sizing, personal info handling), Privacy considerations in shared data systems (DM vs. shared sheets), Career pathways in analytics (MSBA program overview, ROI, career outcomes), Job placement strategies and networking (referrals, curated job boards), AI-assisted job discovery and recruitment pipelines, No-code platforms (Glide) for app development, Spreadsheet-to-app transformation (data-driven UI generation), API integrations in no-code tools (Pexels, Gemini API), Real-time data interaction and app logic layers, Limitations of no-code platforms (data control, customization constraints), Transition from no-code to low-code and full-code systems, Vibe coding paradigm (natural language → application development), AI-assisted software development (Lovable, Replit, Cursor, Claude Code), Prompt engineering for application generation (broad → specific refinement), Agent-based development workflows (chat mode vs. autonomous agent mode), Frontend/backend architecture concepts (UI, database, authentication layers), Rapid prototyping and MVP development using AI tools, Software development acceleration (minutes vs. weeks paradigm shift), Reusability of software components (modular development, avoiding reinvention), Economic impact of AI on software development industry, Shift from software companies to data-centric business models, Personal app development for niche use cases (micro-tools, internal apps), Case study: demographic simulation app (Japan population trends visualization), Data visualization and simulation tools for demographic analysis, Application of AI tools to startup prototyping for NUCU projects
+
+let's go ahead
+and get things started
+well hello again
+good to see you all
+it is good to be back
+in Boulder
+from Silicon Valley
+last week
+I was at a pitch competition
+I may have mentioned to you
+so I have been part of a
+cohort since January
+to launch a new product
+so we went through the whole
+process of identifying our
+target market
+learning how to communicate
+the solution to the problem
+for that problem and create a four minute pitch.
+So I don't think we'll have time tonight,
+but I promise you, and please hold me accountable to this,
+I will pitch in the same way that I think
+you should prepare to pitch when you're in Japan.
+So I'll put myself on the hot seat
+and give you that very brief,
+but very, very heavily rehearsed pitch and deck
+so that you can see what that looks like
+to talk to prospective customers and investors
+and just to get the word out.
+So with that, what I'd like to do
+is immediately turn things over.
+We have a very dynamic class tonight.
+We're gonna be building apps all class,
+as Sam did last week,
+but I'd like to introduce Sarah Westmoreland
+from Education Abroad to talk with us about our trip.
+Thanks for having me, everybody.
+It's nice to see some faces
+after sending you a thousand emails this semester,
+so I'm happy to be here.
+I hope your class has been really fruitful
+up until this point.
+I think you guys are excited to get abroad in a month.
+I'm counting down the days.
+So I was going to email this out,
+which I might do with my computer.
+I had to restart my computer.
+Good timing, but I think everybody has a handout, yeah?
+Okay, cool.
+So I'm Sarah.
+I am from the, oh yeah, if you want.
+It's three pages, sorry.
+There you go.
+I work in the Education Abroad office over in C4C.
+Have any of you been abroad already
+on a program like FGX,
+or a study abroad program?
+A lot of you, cool, that's great.
+I'm excited for you to get to do this program as well.
+And I know you've spent a lot of time talking with Matt
+and with Sam about Japan specifically.
+And I'll be honest, I'm not a Japan expert.
+I've never been there.
+It's just in my portfolio,
+I work with a lot of faculty going to different locations.
+So I'm here just to kind of talk about the nuts and bolts
+of some things like health insurance, you know,
+just things like that.
+So we're gonna run through this handout pretty quickly.
+And I won't be here all night.
+I'll probably leave in 10, 15 minutes from now.
+So you have here, I'm just gonna go through
+this handout together.
+It will kind of go over some parts briefly.
+But you have my contact info at the top,
+which I think you all have my email address.
+Feel free to reach out if you have questions that come up
+between now and when you go abroad,
+while you're abroad, even when you return.
+There's probably not a lot to follow up on after you're back,
+since this is a CU course,
+and there's not any special grading that happens.
+It's a regular course that's graded like normal.
+So, and then there's Sam's contact info.
+I'm guessing he's probably already given that to you too.
+But he will be your main contact
+along with Professor Brady on site.
+Do you prefer Professor Brady or Matt?
+Either one is fine.
+Either one, okay.
+Thank you.
+And so they will be your go -to people
+in case of anything that comes up.
+You know, that could be just like
+a class question or a full -blown emergency,
+which we'll kind of talk about tonight,
+how to walk through something like that.
+Okay, so in your post -acceptance responsibilities,
+I think most of you have completed what you need to.
+If you're still getting reminders from our system
+that's like, you have things to do,
+please log in to your myCUabroad account and check that out.
+Typically the forms that are most important
+is the health and wellness worksheet.
+Does that sound familiar to some people?
+Fill that out, okay.
+That is important to us because although this is a CU course
+that you've been in all semester,
+sometimes disability or wellness needs look different abroad
+than they do here on campus.
+So we want to make sure that if you have any accommodations
+that you need fulfilled while abroad, that's taken care of.
+So log in there, make sure you fill that out.
+If there's anything that I need to follow up on,
+I'll be reaching out to you probably this week
+to answer any questions.
+I'll share that info with you.
+I'll also be sending out a link to the
+with Sam and with Matt so that they know
+and we're all on the same page about
+any individual accommodations or physical wellness things
+that need to like if you carry an EpiPen
+or anything like that that you need to know about on site.
+Let's see, where are we here?
+Oh yeah!
+Our recepted student guide covers general info.
+So, I'm guessing you talked with Sam already
+about a lot of these things like your cell phone abroad.
+Is that something you've already discussed
+as far as like logistics of taking it and using it abroad?
+Okay.
+But there are additional ideas on our website
+and packing tips, things like that just kind
+of generally speaking.
+So take a look at that site.
+It's pretty helpful.
+And then of course any info sent by Professor
+Brady and sent by Sam is, you know, your responsibility
+to make sure you know what's happening there.
+I hope everyone has their passport and has done a
+double take to make sure it's not expiring
+anytime soon, but if you haven't, just give it a fifth glance just to make sure we don't
+have any emergencies on the day of departure.
+Okay, so has everyone booked their flight?
+Yeah, cool, okay.
+We're good there.
+I won't go over arrival and departure because I
+know Sam has talked about that and you guys
+are good with that stuff.
+So I just put the dates here to remind you.
+And then a little bit in the health and safety
+section, this part at the top, so we always
+put this here for students.
+It's not so applicable to Japan per se, but things can happen anywhere in the world, especially
+kind of in these uncertain times when we don't know always what's happening in the news or
+it's a surprise sometimes.
+But we have a full protocol for assessing whether or not we send students to certain
+locations on any given day or month or week of the year.
+So all of these little bullet points are resources that we use.
+As well as the CU International Risk Committee
+to determine, one, is it safe to send students
+here?
+Is there something happening in a certain part of the country, in a certain city that
+would make us change plans?
+And so that's something that we coordinate with Sam as the provider for the program.
+If anything were to come up before the program,
+during the program, we will make sure that
+we know what's happening with your program and that
+we're keeping you guys all in a safe
+area.
+If anything were to change with the itinerary, that's something we would coordinate together.
+So that's that.
+With vaccinations, travel, health, I put the link
+here to that, but there is nothing required
+specifically for Japan that you need to get vaccination -wise ahead of time.
+There are some...
+I'm going to come back to the health insurance, but
+as far as since we're talking about vaccines,
+and things like that, medications, there are some
+prescription medications such as Adderall
+that is illegal in Japan and many other countries around the world.
+That's something that you would want to indicate on your health and wellness form if that's
+something that you regularly take and you won't have it while you're there.
+We need to talk about that now just to make sure that that's covered and that you have
+a plan, either with your therapist, psychiatrist,
+something like that, to manage that abroad.
+Thank you.
+Most other prescription medications are fine, and
+you'll want to take them abroad in the
+original packaging or a note from your doctor or something along those lines, and bring
+enough to last the full duration of your program.
+Let's see.
+What powers here?
+I'm going to go back to the health insurance, which I will...
+Oh.
+I can pull it up here just to kind of show you guys.
+Yeah.
+It's our URL.
+Colorado .edu slash abroad.
+While Professor Brady's doing that, I...
+And then you can go to health and safety and health insurance.
+Every student who's going abroad on any of our programs is covered under the same health
+insurance.
+It's not the CU Boulder insurance that you have here during the school year.
+It's different.
+It's international health insurance.
+It's not travel insurance, so it does not cover
+things like lost luggage, stolen cell
+phones or stolen laptops.
+So if you want something along those lines or your parents think you should have something
+like that, you can look down at the bottom.
+We have information more about...
+I believe it's on this page.
+I'll find where it's at, but that's separate.
+This is health insurance.
+So physical health as well as mental health.
+Mental health insurance covered.
+So anything that you...
+It's not preventive, so obviously you're not gonna
+go get a routine dental cleaning while
+you're there.
+It's things that come up while you're abroad that
+are illnesses or injuries, something
+that would happen.
+So if in the event you get sick or you are
+injured, you would let Sam and or Professor
+Brady know about that.
+They would take you to a doctor, a hospital, depending on the severity of the incident.
+And then you would go to the hospital.
+And then typically what happens is the insurance
+works so that you pay for the cost of care
+upfront out of pocket, and then you submit a claim form to get reimbursed afterward.
+So the reimbursement and your member ID, all of that is the same for every student.
+You don't have a unique ID, so it's not a hard thing to remember.
+You will get an email though with your dates of coverage, and typically that happens just
+a couple days before you arrive, and then a couple days after the program ends is when
+that expires.
+If you are traveling afterward, you will want to
+think about what health insurance you might
+want to use if you're staying in Japan or going
+somewhere else, because the coverage
+will lapse a few days after the program ends.
+Any questions about insurance?
+No?
+On that point of paying for your own care and then
+being reimbursed, what would be an
+appropriate amount that would be covered?
+On a debit or credit card for typical procedures?
+Yeah, that's a great question.
+So yes, you can typically use a credit card or a debit card or something in Japan.
+I would say up to maybe a couple hundred dollars is
+what you would think of as a reasonable
+amount to pay and then get reimbursed, because I know for students, you don't always have
+just thousands of dollars laying around.
+Care in other countries is not as expensive as it is here in the US.
+So that could be...
+I don't know exactly in Japan, but if it's something that's more than that, if you are
+hospitalized especially overnight, that is something our office would step in and start
+coordinating with the insurance provider on the
+back end so that you don't have to worry
+about that.
+So just keep that in mind.
+If something were to happen, Sam and Matt would
+notify our office either straight to
+me or through our emergency phone that we have.
+We carry two phones.
+We're 24 -7.
+So you'll have all of this sent out in an email with all the emergency contact info
+right before you go.
+And I recommend plugging that into your cell phone
+just in case you're out, you're away
+from the program site, or it's at night and Matt and Sam are not with you and something
+happens and you need to get ahold of someone.
+That said, if something does go wrong and it's not
+during program activities, please
+let Matt and Sam know right away.
+They are your first points of contact.
+So sometimes we hear through the grapevine that if something happens to a student, they
+call their mom or dad.
+Their mom or dad calls our office and we don't know what's happening.
+Meanwhile, you're not getting the care you need right away.
+So I'd say cut to the chase.
+Get straight to Sam who can help you get the care you need.
+And then we'll follow up with parents.
+Of course, keep them in the loop, but they can't do much from this far away.
+I'll add one thing.
+Yes, please.
+And I'm used to traveling to countries where it can be pretty hostile.
+So I'm just going to look to try to prove this to you.
+So I have in my calendar every day, like a two week
+calendar appointment called International
+SOS Emergency Hotline.
+I'll have this number on my phone, therefore on my
+watch, on my laptop, and probably in
+a couple pieces of paper that I'll have in my backpack.
+Okay.
+And I'll have it in my pocket.
+I'll have it in my luggage and maybe even like in a coat pocket or something.
+Why?
+Because you're going to need that number only,
+Murphy's Law, if you don't have it with you.
+If you have it with you, you're going to be fine.
+And Japan is not, I would argue, a hostile country.
+You're not going to likely be given an unrequested
+ride somewhere in a van with no windows.
+But please take it seriously enough that you
+have a backup for your backup and that you
+know what you would do in the event that you are in a place you didn't plan to be without
+the money, without the thing.
+At least you could make a phone call.
+At least you could ask someone to borrow a phone
+just so that you've thought this through.
+It's rare, if ever, that anything like this happens
+on these types of trips, but you just
+don't want to find yourself in a situation where you
+didn't have a plan to be able to
+communicate.
+I would also say, for what it's worth, you'll all be traveling probably in the next couple
+of weeks.
+And I should also say, because Matt and Sam's
+names are being mentioned a lot here, my wife's
+name is Tisha.
+She's been here for the information session.
+She's been here, I want to say, a month ago.
+She will also be with us the entire time, day and night.
+So you'll have her contact information as well, just in case that that would be more
+appropriate.
+Okay.
+Thanks, Matt.
+That's great.
+Great points.
+I appreciate that.
+Let's see what I may have missed.
+I'll just go through the list here.
+We talked about emergency calls, things like mental health.
+I'll just touch on this quickly.
+So there's, of course, you could sprain your ankle crossing a road.
+You could do any number of things physically.
+You might get a cold or a strep throat or something.
+Fairly straightforward to treat that.
+Mental health things can be a little more challenging, and this is a short program.
+So you might think, oh, it'll be fine.
+Nothing's going to come up for me.
+I've traveled before.
+But just keep in mind that whether or not you've ever
+had any issues or challenges with
+mental health -related things, it could happen to anybody.
+So you could be in this group.
+Something might just feel different on this program.
+So keep that in mind and keep an open dialogue with
+Professor Brady, with Sam, with Tisha,
+if that feels comfortable.
+Or with me.
+You can always reach out to me.
+And anyone in our office if you're...
+Something's just not going right.
+Or there's a roommate issue or something along those lines.
+So the more proactive you are in talking about it early on, the better we can address it.
+This doesn't happen a lot on short -term programs, but
+the ISOS insurance does cover mental health
+services.
+And so if that's just a therapist call, check -in,
+or a hospitalization for something more serious,
+that is all covered as well.
+Okay.
+I think we put the travel advisory here.
+Japan is a level one.
+There's not a lot of serious concerns of health and safety concerns that we have to worry
+about, thankfully.
+But if you are traveling to other locations
+afterward, I would recommend checking out
+the State Department website just to make sure that where you're going is...
+You're prepared for whatever comes at you.
+So yeah.
+I think that's all I had to share tonight.
+But I'm happy to answer any questions.
+You guys have them?
+They're all set.
+Okay.
+Cool.
+Thanks for having me, Matt.
+Matt B.: Thanks for handling this so
+professionally and being such a great resource.
+I really appreciate it.
+Sure thing.
+Matt B.: Great.
+I will email you guys the sheet so that you can take a look at the...
+The last page I didn't...
+Sorry, I'll project.
+I forgot about this page.
+This is just something like, oh, it's a COVID -19 vaccine.
+I'm sorry.
+I'm going to have to go back and do my own little brainstorming session.
+So if you get home tonight and you're like, huh, I
+didn't ask about being vegan in Japan.
+What does that look like?
+Just things that come up.
+I think Sam is a great resource for questions like that.
+But if things come up and you're like, wow, I'm super confused, reach out.
+Okay?
+Great.
+Thanks a lot, Sarah.
+Appreciate it.
+Thanks a lot.
+Will do.
+Awesome.
+Again, I would reiterate, not only is the SOS number right here that I was just referring
+to happens to just be on the screen make a copy of
+your passport like a paper
+copy is great a photo of it is really easy just have those things ready maybe
+have both a credit card if you've got one and maybe some cash Sam can talk to
+you a little bit about some of those basics so we'll we'll game plan next
+week as well and then I'm sure there will be between our discord chat and
+other content that you find valuable that you distribute well we'll cover
+some of those spaces just for what to pack and what the weather is and you
+know kind of how to gauge the formality of some of our business meetings and the
+other things that we may be doing on that topic
+moving into some of the
+things that are quasi homework I wanted to
+reiterate to you that there are a few
+things that Sam has asked us to be aware of so team
+voting please and I saw
+discord conversations on this so
+you
+well done for those of you who are trying to initiate conversation with
+your team by Friday we'd love to have the voting
+done for your teams okay so
+keep an eye on that there's details in the announcements channel so thanks in
+advance one call out since our Nagoya University colleagues aren't on the call
+today are not on zoom please try to engage with them and draw them into the
+conversation out for for some of you you've had good engagement and in other
+cases maybe you're not on the call today but you're
+on the call so please try to engage with them and
+draw them into the conversation I hope for
+some of you you've had good engagement and in other cases maybe you're
+not on the call today but you're on the call today
+colleagues in Japan have faded a bit just because of the nature of their
+the call this is our call today and so please do not raise your hands
+but you're on the call today but you're not on
+semester and the difference in time zone and all the rest please re -engage them
+pull them in and try to get them to vote as well
+second thing the site survey
+may be otherwise known as the where do you want to go what do you want to do
+survey really dig through and see if there are companies that stand out to you
+that you would want to vote for Sam has done a
+ton of sourcing to figure out
+where we could get in and
+drone companies and healthcare companies and AI
+companies. And so please speak up. We want to hear
+from every one of you. And we're trying to make this
+a fairly democratic disclaimer stands that
+things can change right there. We might make a
+commitment and it's mutual, and then they have
+to back out of that, or we have to back out of
+that for some reason because of logistics, but
+please do speak your mind on that. And then the last
+thing, as Sam said, or excuse me, as Sarah
+said, we need a little bit of detail about allergies,
+t -shirt sizes. You can either just
+drop that right into the little, it's not even a
+web form, it's just a spreadsheet. Or if you want
+to just put the letters DM in those cells, you can
+direct message Sam. I think he sent each of you
+a message in Discord. So if it's easier,
+or you prefer to keep that information private, obviously we're not going to have you put it in a
+shared spreadsheet. So whatever's easier for you.
+But I would just say, if you want to try to knock
+those two, three things out, even during class
+today, or before you move on with your evening,
+that would be great. So between now and Friday,
+please. Any questions about logistics?
+The trip, anything else along those lines? Okay.
+Great. So one other basic announcement, which I've
+been asked to share, and I have a little bit of a
+personal reason for doing this. The MS in analytics,
+so MSBA, is a great grad degree.
+Who's planning on doing this program? I usually
+have, yep, okay, I think I have at least one in
+every one of my courses. And then who's thinking
+about a master's program immediately after undergrad?
+Okay, great. I can tell you firsthand that this is
+a great program. The rankings are really high.
+And the scholarships, not only is the price of this
+degree much more affordable than many master's
+programs, the retail price of this is 40 % of what I
+paid for my master's degree, but 20 years ago.
+So scale that up probably by double the cost of
+inflation. So this is like a 20 % of what some degrees can cost.
+It's a very credible degree. I say from a
+personal basis because my oldest daughter, Alexandra,
+has this degree. She got an internship before she even started the program officially,
+and is still at that company. So she graduated
+less than a year ago, call it 10 months ago,
+but already has two years of work experience and is
+probably going to get promoted, doing really
+cool work for a really interesting company. So I
+can tell you that this program works, not just based on Alex, but her
+roommate did the supply chain analytics, and Andrea
+now works at Vail Resorts in supply chain analytics.
+So this is the type of program you study it for
+10 months, an accelerated MS program, and you go do
+that work for a living, making great money. So I
+could really tell you it's a great investment.
+So if you're interested, you will automatically be
+approved and accepted because you're a lead student.
+So just keep that in mind. Okay.
+One last thing before we dive in. On my human
+-centered app, I'm going to jump over to the job section.
+I have a friend in Chicago. I bring this up
+frequently that I hear about these jobs.
+So Pure Fishing, I'm sure you're familiar with. AI Club has a partnership with them.
+My buddy Mark is hiring for multiple roles at
+Rethink First. It's a healthcare tech company.
+They're based in Chicago, but the roles are remote.
+And I think these are roles, if you're studying
+marketing and or have a creative aspect to your
+skill set, definitely pursue that. I can tell you, I think that marketing analyst job would be
+incredible for a starting role. And I'd be happy to
+write you a letter of recommendation, and the
+hiring manager is Mark Alep. I've worked with him
+for years. He's a great marketing exec, so
+check that out. Okay.
+Okay.
+And if you have, I'm gonna go ahead and get this out to you.
+If you have other jobs that you're aware of,
+please pass them to me. I love trying to connect
+the jobs and the people. It burdens me that there's
+a disconnection there. So please know
+that while the job board isn't very fancy, these are
+all personally curated roles, and I would love
+to see you go after them and get them, get those
+jobs filled. All right. Any questions, any concerns
+about the plan for tonight? Like I said, we're gonna
+vibe code. And Thursday, we're gonna have a
+meeting on Tuesday, excuse me, Tuesday of next week.
+We will wrap up with your proposal, and we'll
+do our final briefing for our travels. Okay. So with
+that, let's go ahead with the lecture.
+I have the deck posted. I'm gonna be formally walking you through
+the platform called Lovable. And then I'm also going to be walking you through
+a platform called Glide, which I have mentioned in
+class, and that frankly, not only have I kind
+of walked you through some of that, but everything
+that I demo in the Human -Centered App is obviously
+hosted on the Glide platform. So you see me
+kind of eating my own dog food or drinking my own
+champagne is maybe a better way of saying it. So
+please know that Glide is written up in this
+platform. There's a great overview video I'll play for you in just a minute,
+loop through.
+this...
+I will go directly from an explanation of why these
+platforms are so helpful into I would like to
+give you some time tonight before we finish to
+prototype an app that you could potentially build
+as part of your PLOS. That's great enough to say
+that you got everything right. So let's get right to the point here with Go.
+part of your project and your pitch for Japan. So
+again let's take some baby
+steps because I've already given you a little bit of an intro on what Glide is
+and let's just go through this explanation.
+A simple idea.
+Let me make sure I've got this audio feed out to the
+classroom.
+The spreadsheet. A simple idea. As simple as it gets.
+A horizontal line. A vertical line. Together a
+cell. A row of cells.
+Thousands of cells. In each cell a piece of data. A
+number. A name. A place. A time.
+Now at
+formulas and it's in motion. An action. A task.
+A role. A team. An entire business.
+Now somehow it got less simple. Here's Glide. A
+simple idea. Take your spreadsheet
+and an app. A screen. A tab. Behind the app all the power of your spreadsheet but
+now it's collaboration.
+Collaborative. Real time. Interconnected. Mobile. Now another spreadsheet. A different
+process. For this worker or that team. For a client.
+Those contractors. Dedicated apps
+for people. For the apps. A dashboard. A base of
+operations. A control tower. A business.
+A simpler business. A more powerful business.
+Because with Glide.
+You have everything you need. It's right there in your spreadsheet.
+Makes sense? Do any of you have a spreadsheet that you wish was an app?
+You think of anything that comes to mind? So I'll
+give you a quick example of what came to mind for me.
+The... What we just talked through.
+So the... What's your t -shirt size? Any allergies
+infect all of this? This really should not be a spreadsheet.
+This is way better. Each of you only needs to see
+your information and it should be super straightforward.
+Dietary restrictions. Small, medium, large, extra large.
+That's a pick list. So we could have it.
+Actually why don't we just try this. No let's not
+work with your personal data.
+What I'm going to do is I'm going to work with this spreadsheet which is just sample data.
+There's sleep data and exercise data. So I'm going
+to go ahead and download this as a spreadsheet.
+And in the Glide platform I'll do a new app from a spreadsheet.
+Or I could just do Google Sheets. It's even easier.
+Then...
+So the idea here is that if I wanted to track my
+exercise, track sleep, and have a bunch of users,
+here is that spreadsheet.
+I'll go back. It's almost kind of magical.
+So you can see if someone were to just log their
+workouts, the date, what they did, how many reps, how many sets.
+You know sometimes it might not be quantity.
+Like as many reps as possible.
+That's all good.
+It's smart enough to be able to handle that.
+And just like that we've got at least the beginning
+of an app.
+Now someone might say it's fine but it's kind of boring.
+I would agree.
+So why don't we make it a little bit more interesting.
+Maybe for exercise we have the some sort of image.
+And that will use Pexels.
+And for Pexels...
+I'll go get an API key.
+Which you can get for free.
+And we'll have that image be just a small image.
+And just like that...
+You feed it in the keyword like the exercise.
+Come back to our layout.
+And the image is the image.
+And just like that we've got the workout.
+Pulling in the fact that there's a stock image off of a website called Pexels.
+It's much like Unsplash if you're familiar with that for video.
+There's a bunch of different photo libraries out there and creative.
+And now we've got pretty accurate from what I can see here.
+Pretty accurate images of those workouts.
+So much less boring app.
+If we were to create a new exercise that was
+logged it would automatically pull that Pexels in real time.
+Okay.
+So this is Glide.
+I think you've seen this before.
+Who's played with Glide at all?
+Done anything with it?
+A few of you?
+Good for you.
+Any comments early on?
+Any feedback?
+I mean this is when I took your low code class.
+Yeah.
+It's been a while.
+It's been a minute.
+I actually created for those of you who have taken low code.
+I added a sprint six.
+We're actually, we just started it today.
+It's a freebie sprint where we just do it together and we're using Glide.
+Because I think that what I see is that it's great
+to use Typeform and Airtable and Google Sheets and Zapier.
+But this is the wave of the future where people are
+going to want an app for everything that they do.
+We shouldn't have to fill out shared spreadsheets and pass around links.
+They should just all be unified.
+So my commitment is the Build in Japan app which
+some of you haven't really spent a lot of time in.
+But for future students in this course they'll all
+really only have to interface with the Build in Japan app.
+From registering to the course, doing all the leg work, all of this will all be done there.
+How does like the back end actually work?
+Like where is the spreadsheet being updated or stored?
+Okay, it's a good question.
+So each tier of the architecture is visible up at the top.
+So the data tier, the user interface tier which is called layout.
+The workflow tier which is the layout.
+The logic tier.
+And then of course there's some settings that you can make.
+So the data is all stored here just like it's stored
+in Airtable or Monday .com or Sheets or Office 365.
+That said, if you were to push that question even
+further like no, where is it actually stored?
+Like where is my data?
+The answer is we don't really know.
+Like somewhere on the platform in Glide.
+But that's Glide.
+That's behind the framework.
+The curtain of Glide.
+Okay?
+Which is a little bit problematic.
+What if you want to control your own data?
+What if you want to move your data from into SQL
+Server or MySQL or Convex or something?
+So that's where we move from a no code platform.
+Because I haven't touched a lick of code yet.
+And I'm calling out to Paxels and I could make a
+call to Gemini or Claude or you name it.
+And I would never see it actually working.
+I'd maybe write the prompt.
+But that's it.
+In fact, let me just show you before we move on.
+Because there's some tension here which is why we want
+to go from no code to low code to code.
+Right?
+So let's say I wanted a, I don't know, let's say it's something like calories.
+Burned.
+And this is going to be a Gemini call.
+And...
+Let's see if I can do this as fast as possible.
+Again, bear with me.
+Let me grab an API key.
+This is very common for you to have to do.
+API key just proves that you are allowed to do this.
+You are allowed to call into a certain deal.
+And you can say something like estimate the number...
+Or what type?
+Of calories that are burned based on this exercise for a typical healthy person.
+And then I would pass in something like...
+The exercise.
+Now, I really am not going to take the time to kind of tweak that prompt.
+But the idea is that it's going to call out...
+And it's going to bring back the calories accordingly.
+Okay.
+So you can make AI callouts just super fast
+according to this type of smart AI column.
+But again, let's say we decide we don't like that
+Glide really only has a few different user interface approaches.
+It's this kind of list view.
+And even if we were to make it a card view or
+something else, we still just don't feel like this is sufficient.
+We want a totally bespoke app.
+So what we would do then is move from a no -code
+platform like Glide to a vibe coding platform like Lovable.
+So perfect.
+Thank you for setting up the tension that is this next step.
+So let's talk about Lovable.
+And then I'll come back to demo.
+And then we'll build one together.
+All right.
+So this is called vibe coding.
+What is vibe coding?
+Has anyone heard of that phrase before the semester started?
+Yeah?
+Some of you?
+Good.
+Good.
+Those of you who have not, no worries.
+Vibe coding is not really like an acronym or something special.
+It's just the notion of focusing on what you want the outcome to be.
+So all you need to be an expert in is what you want created.
+And then it will figure out how to create it.
+Okay?
+So the vibes are just sort of a throwback to Andrej
+Karpathy just a year ago.
+He is a very significant component of the AI Frontier Labs.
+And behind the scenes, what's happening when you're
+vibe coding or you're telling the platform what
+you want the result to be is that instead of figuring out how code calls,
+other methods and interfaces to AI,
+APIs with all kinds of hierarchy,
+you just basically describe in a linear,
+maybe not so linear path,
+what do you want?
+I want an app to track workouts.
+I want it to track sleep.
+Well, I wanted to do both.
+I actually wanted it in the form of like a style of anime.
+And so by doing this,
+you describe the problem,
+the journey,
+what the user sees.
+You speak in your own native language and it
+creates the solution for you.
+So to Connor's point,
+one of the things that lovable brings to the table
+is that it gives you all the infrastructure.
+You don't have to stand up a database and create a
+development environment and create sample data and create test classes.
+It will do that for you.
+So what you need to focus on is your natural language and the intent of the application.
+You you're the shot caller,
+right?
+You're the quarterback.
+This is this.
+This is what we want.
+This is what we're,
+what the users are going to need.
+The lovable engine translates that into a series of components.
+Those would be again a classic tiered architecture,
+front end user interface,
+which is in languages that are actually editable.
+React is a JavaScript library and tailwind is a
+cascading style sheet library.
+The back end,
+like the database,
+and the functionality and then database storage,
+authentication,
+et cetera.
+Okay,
+how does it know how to do this?
+Because it's been trained on thousands and thousands
+of projects and where this would typically cost
+5,
+15,
+50,
+$500 ,000 to develop an app.
+You can do it in much,
+much less time cost.
+All right,
+so,
+so,
+there's two ways to interact with this type of
+platform and I want you to be cognizant of both because they have pros and cons.
+One is you can chat with the platform.
+You can tell it what to do.
+It will do it.
+You say,
+no,
+I wanted more of that,
+less of that.
+Try it differently.
+Make it bigger.
+And that chat mode is very effective.
+The other approach as compared to the more
+collaborative approach is to say,
+here's what I want.
+This is my target market.
+These are the user stories,
+the capabilities.
+You go figure it out.
+I'm offloading everything to you.
+You do the testing.
+You optimize the design.
+You figure out what's going to make most sense for
+elderly populations who speak Japanese,
+who have a slow internet connection.
+Okay,
+and it's going to recursively work through that and what they call agent mode.
+Okay,
+so you're giving it much more authority.
+You give up control.
+But you arguably have a lot more productivity gain
+because you just chuck it over the fence and say,
+build it for me,
+figure it out.
+Okay,
+so pros and cons there.
+And obviously you can,
+you can kind of pivot back and forth from collaborative to more autonomous and back again.
+But from a framework perspective,
+these are two materially different approaches.
+Uh,
+they one takes longer and,
+uh,
+could potentially be more powerful for you.
+So,
+this is just a simple illustration of what it might look like to build an app.
+Where to start?
+Just like I demoed for you with glide.
+A great place to start is just give it some data.
+So if I were building the building Japan app,
+I would upload our class roster.
+It would have name,
+email,
+class.
+Uh,
+you know,
+are you a third year,
+fourth year,
+are you grad student?
+It would have your hometown.
+It would have your dietary,
+your restrictions.
+Any platform with any sophistication can reverse
+engineer that in the same way that when it sees shirt size,
+S M L XL,
+it's going to know,
+oh,
+that's a pick list with four choices,
+small,
+medium,
+large,
+extra large.
+It's going to make the user interface do that.
+So that's kind of how to kick things off.
+Let's call that minute zero by minute 10.
+You should have your database.
+What's called a backend.
+That's just that kind of,
+jargon for your,
+your data storage.
+Um,
+who's taken SQL 32 Oh five,
+hopefully most many of you.
+Um,
+if you haven't yet,
+don't worry.
+It's equal relational database columns and rows.
+Okay.
+With,
+with tabs called objects or tables that are linked to each other in a thoughtful manner.
+That's the relational database.
+You should buy minute 10.
+You should hopefully have figured out.
+No,
+again,
+this is like very high bar to set,
+but,
+but the point is,
+um,
+where this might be weak 10 of a software
+development project when I was coming out of undergrad,
+where we would have spent the nine prior weeks planning,
+setting up the infrastructure,
+getting the screens or the UI designed by minutes.
+And you should have your database ready to go.
+You should have authentication sorted out.
+And are you going to do username password?
+Are you going to do OAuth from a single sign on
+provider like a Google or some other identity provider?
+Uh,
+and,
+and,
+you know,
+basically with agent mode,
+you know,
+tell it to do what you needed to do to get the
+system ready for you to have users who are going to be able to securely access your system.
+Let's say it's 13 more minutes.
+You should have an app ready.
+It should have a theme applied to it.
+So I use the built in Japan theme for this deck.
+You could use the build in Japan theme for the app that you go.
+Okay.
+Okay.
+Maybe your app has chat based,
+uh,
+you know,
+it's,
+it's embedded.
+Well,
+what are you going to train your chat bot?
+You learned last week,
+Makoto Kuhn,
+I think 3 .0 is what Sam's currently up to or 2 .3.
+Uh,
+I know he's working on it,
+a next gen,
+but if you want a Makoto Kuhn type of AI assistant,
+I have one called the AITA.
+Um,
+do you want to build that in?
+That's usually a very helpful way.
+In fact,
+if you remember in my building Japan app,
+I have a series of FAQs.
+There's like 70 of them.
+That's fine.
+But who wants to scroll through FAQs?
+It'd be way better to just say,
+uh,
+do I need any vaccinations?
+And it says,
+no,
+and there's your answer,
+right?
+You don't have to scan through everything.
+So that makes sense.
+Any animations,
+any keyboard shortcuts,
+anything that you want that makes your app feel super
+bespoke and custom,
+even though you didn't really have to write much code.
+So again,
+the impact here,
+is insane.
+And I,
+um,
+I would say that where I often am skeptical of
+clickbait as you hopefully are,
+you know,
+oh,
+the,
+this is going to happen by this date and it's all going to be really bad.
+Like,
+I don't know.
+Usually that doesn't turn out to be true.
+That said,
+there is some real merit to the fact that it turns
+out that where humans can build technology,
+technology can build technology.
+Pretty well.
+So an area where AI is going to have a major
+effect is in writing code because it turns out that there are patterns.
+There are building blocks that once you've built a
+module to do credit card processing or shipping
+logistics or tax calculation or think of any phrase when someone's built that,
+why reinvent the wheel?
+How much better is your tax calculator going to be than the one that's provided by,
+these platforms like calculate tax price times
+tax equals tax rate or whatever.
+Um,
+so where you might have to spend,
+you know,
+right?
+Tons of code and all these different threads of activity of,
+okay,
+calculate tax,
+figure out shipping,
+do this,
+do that.
+And it can cost you months and tens of thousands,
+if not greater,
+hundreds of thousands with this vibe coding approach.
+The idea is everything that's been done.
+Before you is yours to use.
+Um,
+there's a saying,
+you know,
+we stand on the shoulders of our forefathers or we stand on the shoulders of,
+uh,
+you know,
+our,
+our predecessors,
+uh,
+ceiling becomes our floor,
+different ways of saying that it's that same concept
+of why would we reinvent that wheel if it's already been done?
+So that's the goal.
+Uh,
+if you wanted to build an app and all you have is a pitch deck,
+what do you feed it?
+The pitch deck.
+Tell it what you told your investors.
+This is the problem I'm trying to solve.
+This is my solution.
+This is how much money I need.
+These are the users that I want to serve.
+It will figure out what that app should look like.
+It'll even build when I keep mentioning app because
+that's the world I live in is that app dev world.
+It'll build your site for you.
+It'll help you with social media.
+It'll help you with landing pages to do signups.
+I mean,
+it will do the comprehensive work.
+Yeah.
+It'll do the work because again,
+how many different ways are there to do a signup form?
+What's your name?
+What's your email?
+What do you want?
+How much you willing to pay?
+How fast should we get back to you?
+Uh,
+that,
+that is really just straightforward.
+All right.
+How to prompt,
+how to approach doing this plan first.
+One thing that's true in life is if you have no idea what you're trying to accomplish,
+it's going to be really hard to accomplish it.
+So try to have some sense of like,
+okay,
+I want an app for exercise and sleep health and I want it to be in the theme of anime.
+Okay,
+that's at least scoped down to a point.
+It's super vague,
+but at least I know what I'm trying to build.
+Then from there you start to dial into the component
+level so it will create a first draft for you.
+You might look at it and say,
+I do not,
+I'm not trying to,
+you know,
+be the next,
+um,
+Strava or,
+uh,
+arrow.
+If you're familiar with the workout app world,
+I just want something really basic and fun to use.
+Okay,
+well then maybe it gets much less technical and much more personal.
+Maybe you just talk to the app and it records your workouts.
+It doesn't need to know like every fine to detail.
+It just needs to know,
+Hey,
+I did bench,
+I did squat,
+did whatever.
+Okay,
+so you go from the broad vision down into like,
+the component level of,
+I don't like this.
+This needs to be better,
+faster,
+cheaper,
+bigger,
+smaller.
+And then finally you will get to the point where you're nitpicking about like,
+Hey,
+that button,
+I want the corners to be more rounded.
+I want it to look cooler.
+I want it to,
+when I click it to kind of depress and then,
+you know,
+to have that animated effect of like clicking a tactile button,
+you'd never want to start there,
+but you can finish on something that's that bespoke.
+Who's done any of this before?
+Okay.
+A few of you.
+What platforms have you used?
+Uh,
+I've just used like quad code.
+Um,
+and yeah,
+great.
+Just since it's been brought up and we'll talk more about this and Sam demoed it
+last week.
+Cloud code I would argue is even slightly further
+down the continuum of code.
+Now you're telling it,
+you're,
+you're kind of a dictating,
+but it is slinging code for you.
+And it's code that you can take and run on Amazon web services.
+You can run it on for sale.
+You can keep it,
+you can put it in GitHub.
+You can,
+I mean it's,
+it's producing something for you that is a tangible asset.
+Whereas glide,
+you're never going to see that code.
+It doesn't exist because it's,
+it's kind of behind the curtain.
+So,
+uh,
+someone else,
+I think,
+um,
+you have an example Dylan as well.
+Yeah,
+I've used lovable and replet.
+I just used for like a capstone.
+Um,
+this is really cool for collaboration.
+Very cool platform.
+So lovable,
+ratlet replet,
+excuse me,
+cursor and windsurf are kind of in this middle
+tier of technical,
+but not more technical than a glide or an air table
+or maybe a base 44 but much less technical than
+like a cloud code or a codex from open AI,
+et cetera.
+And,
+and there are a ton of these coming.
+I haven't even mentioned the Google products.
+I,
+although I do believe I demoed for you Google stitch,
+um,
+a couple of three weeks ago,
+we'll look at that again.
+That's a vibe coding platform just for design.
+It will make gorgeous mockups of apps and then
+you can take those designs like you would have
+otherwise created in Figma or Canva and then implement the backend,
+the application against those UI designs.
+So,
+um,
+all right,
+so this is a perfect segue because I,
+I,
+I do,
+this gets pretty technical,
+but I just want you to know that often what you'll
+do is I would even argue maybe there's a phase zero,
+which would be like a Google stitch formerly known as like Figma,
+Canva,
+PowerPoint,
+uh,
+mockups.
+I mean,
+I teach in my low code class that there's nothing wrong with the,
+just,
+you know,
+kind of building your wireframe saying this is
+like login with username and password.
+And then this is like your home tab,
+which,
+you know,
+has some like things down here.
+And then maybe from there,
+you go from home to workouts and this is like your,
+uh,
+exercise page and it's bench press and it's three reps at,
+you know,
+whatever.
+And so by doing these wireframes by hand or in a low fidelity tool,
+and there are again,
+lots of tools that do this,
+that's great.
+That's that gets you to this type of like,
+well,
+what do we want to do?
+Let's plan it out.
+There's no fun automating a bad idea.
+You're just going to really,
+really,
+really quickly get an app.
+That's still a bad idea.
+So,
+uh,
+think through this thing through your target market.
+What's called your ideal customer profile.
+ICP.
+Try to figure that out for two is going to buy this thing from you.
+Is it just you like Sam with his driving,
+uh,
+drive tracker thing that was great for his daughter.
+Is there another market for that?
+Maybe,
+maybe not.
+So,
+so think through that.
+Don't forget your leads business school training as you dive in and buy,
+code stuff that never really needed to exist.
+That said,
+once you go from your wire frames,
+vibe coded,
+like send it,
+see what it does.
+You might not love it,
+but it's really fast to get something built.
+And then,
+and we probably won't spend a ton of time on this here in this class though.
+See how fast we move.
+Um,
+you might want to get into like professional developer
+level where you're talking about someone who does understand the code,
+but it is,
+it's just 10 acting themselves on productivity,
+right?
+They might have multiple agents running agents are talking to each other and,
+uh,
+the human is just again like a,
+an orchestrator of a digital symphony saying,
+Hey,
+percussion more,
+less louder,
+quieter,
+start,
+stop.
+And so that is what you would maybe graduate into.
+Okay.
+End of the day,
+most of what's being written is JavaScript,
+uh,
+react,
+type scripts.
+The code is stored in something called GitHub.
+It's kind of intimidating.
+It's just a place to store text code is just text.
+So end of the day,
+GitHub looks kind of funky with like MD files and all these different config folders.
+It's just text.
+So don't be afraid of it.
+It's all written in English.
+It's got some weird like semi -colons at the end or some brackets.
+You can do this.
+Okay.
+Um,
+here's the little pitch.
+For lovable,
+um,
+you have a free tier and then there's like a pro tier.
+Um,
+I say we build.
+So if you're ready,
+um,
+let me put that back up.
+You want to try building something?
+Would that be,
+that'd be a good way.
+So why don't we do this?
+I'm going to walk us through one quick turn of,
+of I've coded chat.
+And then I want you to give it the last 15 minutes to try it
+on your own.
+So I'm in lovable.
+I,
+I literally just created this account.
+I don't spend a ton of time in lovable.
+I end up either using higher level like glide or lower level like cursor.
+I,
+for me,
+there's kind of like a no man's land in between,
+but please don't take my perspective on that.
+It's totally yours.
+Um,
+so here we go.
+I wanted to build a progressive web app.
+This is a little bit of a technical term,
+but this just means one app that will run on any device,
+a portrait landscape,
+big screen,
+small screen.
+Like,
+so,
+so it just,
+it runs through the browser,
+but it feels like a web app,
+like it's,
+excuse me,
+like an app.
+It,
+it,
+it feels like it's installed locally,
+but it's actually not.
+It's,
+it's on the cloud.
+I wanted to track workouts,
+sleep patterns and designed with a style of anime.
+Anyone know anybody,
+anything about anime?
+Are there like a couple of common colors in anime that would be,
+are they primary?
+Are they vivid?
+Like what would be a couple of ways that I can give
+it some stylistic design?
+Okay,
+give me a show.
+Okay,
+All right.
+Let's do Studio Ghibli style.
+Studio Ghibli.
+Okay.
+Like Studio Ghibli.
+Like so.
+I spell that correctly.
+Yeah.
+Okay.
+By the way,
+if you notice I'm using a function control.
+I have whisper installed.
+If you haven't tried it,
+it's just a voice dictation tool,
+but it knows Studio Ghibli,
+which like a Siri type of tool.
+Would spell that in a horrifically bad way.
+Like it would not be right.
+It knows what this is.
+So it's like smart dictation versus dumb,
+which most everything else is dumb.
+Okay,
+let's see how this goes.
+So I'm just going to give it this prompt real quick.
+Back to my slides.
+Thank you.
+Notebook alum.
+Um,
+there are two different user paradigms here and I would encourage you to
+consider.
+I'm going to just go ahead and build the app,
+but I do want to point out to you if you're not
+really ready to build your app and you're just experimenting,
+go for the plan option instead and it won't fully build out
+your database with your authentication with your,
+you know,
+functions.
+It will just kind of help you as a thought partner towards
+that.
+The other thing I do almost always is I don't start
+in the platform I'm going to be working in.
+I start.
+I start with my good old Gemini or fill in the
+blank LLM and I'll say something like,
+write me a system prompt for vibe coding,
+an app in lovable that tracks workouts,
+sleep health,
+and is in the style of anime and I will let
+it write an epic prompt that gets the job done.
+Why do I have it do that?
+Because I don't want to sit and write all this.
+And so I'll take this just since I mentioned to you that
+it could be valuable and let's go back to lovable.
+Cut that out.
+I'm going to keep that one little phrase that I just added.
+Okay, so you can always tune this up.
+I have no idea what some of this stuff is.
+There's Makoto, so that's obviously a an important concept.
+Here we go.
+Let's see how this goes.
+Okay, real quick while this is running something that's going to change in the AI world.
+You're not going to have the right system prompts.
+That gnarly like page worth of content,
+they're going to get smart enough quickly that you just say,
+I want an app to track sleep workouts in the style of anime.
+Go.
+It knows that it's supposed to be a rock star app designer and it knows that
+workouts mean lifting weights and exercise,
+you know,
+yoga and whatever.
+Like so watch that prompting over time will
+become simpler.
+Versus more crazy.
+Okay, thought for 18 seconds.
+Um,
+it is building the app.
+You can see it work.
+It's established.
+What would that be?
+Black?
+Oh, sorry.
+Deep purple,
+neon cyan and sunset.
+Orange is our color scheme.
+Glass morphism cards.
+That is kind of a deal where there's like a,
+you know,
+the liquid design or the,
+uh,
+what did iOS Apple call their most recent?
+Their name is escaping me.
+I think in iOS 26 it's that kind of glass like look.
+Liquid glass.
+Thank you.
+That's their brand name.
+I'm super controversial by the way as to whether it added any value.
+Uh,
+but it does look like it's going to go for that type of look.
+We can control that later.
+And again,
+what it's doing.
+So design system,
+that is the,
+the look and feel,
+uh,
+anyone ever work with cascading style sheets or know what,
+what that is?
+CSS.
+So it's the look and feel.
+It's the aesthetic.
+That's all it does.
+It doesn't have anything to do with the functionality,
+the data.
+It's just the aesthetic.
+So it'll build the components.
+It's come up with a name called sleep sanctum.
+Uh,
+so we'll let this thing run.
+Why don't we do this?
+Why don't I have you maybe as a team or individually,
+whatever you're comfortable with,
+hop into lovable,
+give it a prompt.
+You give it a really simple outcome based prompt,
+or you can go more than nerd approach and write like a fancy,
+you know,
+you are a,
+you're you fulfill the role of and stay within these constraints and only use
+these data sources and go ahead and give it a try.
+Maybe someone do the nerd approach and someone do the outcomes based approach.
+And let's see,
+but the results are do plan or do build whatever you prefer.
+And this can either be throw away or this can be something for your project.
+2050 what would the map look like?
+You know,
+every so
+it's a,
+yeah,
+I've used that a lot.
+I don't know.
+That looks exactly like it.
+Oh yeah,
+no,
+this is a,
+uh,
+this is a super block.
+Uh,
+let's see.
+Let's see if,
+uh,
+that's the crazy.
+Yeah,
+I really like to make it very realistic cap or
+that was one of my
+half.
+It's how we can watch this game.
+It's an old thing.
+Once it does it once,
+once it only once,
+you'll find it.
+Yeah,
+so
+that gives you these that wanna just take me on
+concerts for parts that might make the
+start.
+I was just five o 'clock.
+I,
+if I made a horrible
+with the.
+Just because curiosity is weird.
+Yeah.
+Gordon, you said that.
+You're going to speak to us.
+I'm in VS Code with Clock Code.
+So it's a possibility.
+Have you considered using Cursor?
+So I tried.
+Matt and Randy following all this, and they have been using
+VS Code.
+And I tried Cursor, but VS Code was just more intuitive to me.
+And I used it before, so I was just
+already more familiar with it.
+I'm having a harder time using Cursor just because VS Code
+is more, it just seems more vivid from a UI perspective.
+You can put a skin on Cursor to make it better,
+but I use it for a really long time.
+So great, good work.
+And it's just an HTML file.
+It's not like a website or anything.
+Great.
+Well, maybe come up with a demo.
+What?
+It would be awesome.
+High school.
+Yeah.
+I heard.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Anyone have any issues getting into Lovable?
+No.
+No.
+No.
+No.
+Cursors is .
+Wait.
+So how do you use Lovable?
+It's just like VS Code.
+I've done a lot of .
+Choose your .
+Pretty much most of the .
+Yeah.
+And how that can go.
+It goes .
+Well, so more of a .
+Everyone can sign up.
+So like, you can create a list of chores.
+And then.
+It's called a code base.
+Yes.
+VS Code is my coding platform.
+Yes.
+You can write it on your .
+And in that, you have a terminal.
+Yes.
+And in the terminal, you can set up
+a cloud code within the terminal.
+Yes.
+And you can interact with the cloud code directly
+in the terminal.
+See all the code that it's making.
+See what edits it's making.
+Interact with it.
+Tell you what it .
+Well, yeah.
+You have to connect your .
+OK.
+So I'm .
+But you can just track.
+Like, maybe they're done.
+The choice .
+How to or not get .
+.
+.
+.
+Actually, I've used the for my internship.
+Yes.
+And I .
+You did?
+Yes.
+How would you ?
+It's a .
+Sure.
+I mean, I can .
+How did you ?
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+I mean, you're supposed to, like, display, like,
+instructions or, like, something for some particular .
+I did blue and differentiation.
+I did this and, like, .
+.
+I used to have the .
+.
+.
+Yes.
+.
+And I used to work with them.
+And some of them are cold.
+you have access to the code.
+So let me see.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+I think like right now.
+I have some understanding.
+Okay, wait, so it only changes the highlight of it?
+Yeah.
+Yeah.
+Okay, does it work?
+Wait, wait, I think I have to click simulate.
+Simulate.
+Oh my goodness.
+Matt, check it out.
+I just keep saying it.
+All right, so this is 2050.
+That looks terrible.
+.
+41 out of 47.
+I know, but it's just like, I've had it forever.
+I'm just going to get through.
+We're looking for the cancel letter.
+This is what I told my child to do.
+Is this going to be part of your project?
+No, he just came up with the idea.
+I'm just bored.
+.
+Yeah, maybe you guys have a problem.
+Tell him.
+Oh.
+It's pretty sick.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+More to come.
+As I iterate on this, I gave it one prompt,
+and that was the result. So pretty strong
+from that deep purple cyan and sunset.
+Blake has some experience in this field
+and works with a really cutting edge team
+of former and current students from Leeds.
+So show us, yeah there you go, second try usually will.
+Oh, yeah, choose some mirror, you might have,
+on your Mac itself.
+Okay there, upper right, all the way up, yep.
+So I was a little bored,
+and I just put in,
+You mean you were captivated by my lecture,
+and inspired?
+Thank you.
+I wanted to make a map of just Japan,
+and using their 2020 census data,
+and the density of their age populations.
+And then just adding on to that,
+so you can go over to different provinces
+and see how many people are 65 plus,
+and you, if you're working.
+And then to add on that, I added a simulator
+using projection.
+So you can see the projection trends,
+I can simulate what a certain year would look like,
+in Japan, so that's 2050.
+And you can go around and look and see
+the demographics of that year.
+I did this with a plot of code terminal in VS Code.
+Give us an example of a prompt,
+like one of the first couple prompts that you used
+to start this whole like broad to narrow approach.
+Yeah, of course.
+I actually had,
+so I had Claude create the prompts for me.
+I gave Claude a general idea of what I wanted,
+and say create a good prompt for me to feed into Claude's code.
+So like this is what the original,
+prior to the simulation,
+is what I've got it.
+And then after I've got it back,
+I got the initial map,
+and I wanted to add a little bit more functionality
+to make it cooler,
+so then that's why I was like,
+all right, what are some different ideas I can add,
+to make this more usable.
+And then I went with the scenarios in there,
+and I was .
+That you're throwing into AI to create it.
+Yeah, the AI's using that prompt to create it.
+Yeah, I didn't know that.
+Yeah, it's like,
+clicking into it.
+Yeah, I don't know.
+It's cool.
+Very cool.
+My goal is that by the time you get to Japan,
+and with your colleagues in Japan,
+that you can think about solutions digitally,
+that you can then, kind of,
+speak into existence through quad code.
+VS Code is just Visual Studio from Microsoft.
+It's a great development environment.
+Lovable.
+Gone over Glide multiple times.
+Replit is very powerful.
+Who knows Base44?
+Anyone learned it in project management?
+Agile project management, I think is the question.
+That's a tool.
+Google has multiple tools through AI Studio,
+including Google Stitch,
+which I'll just,
+I won't go back and demo it for you tonight.
+Go to Google Stitch,
+tell it what you want to design.
+It'll build a gorgeous set of wire frames,
+either for mobile or for browser,
+or for both.
+We are coming into a season of time
+where you can have the technology you want
+in the manner, style, function that you need,
+and in a way that's gonna put a lot of
+very valuable software companies on the chopping block.
+Look for software companies
+to pivot into being data companies.
+Salesforce .com is a data company at the end of the day.
+They host not amazing lead management
+and opportunity management functions.
+They're good,
+but that they sit on a bunch of data that companies need
+and will train AI on
+and become more profitable and effective at.
+So that's a wrap for tonight.
+Please be mindful of the two or three action items
+that you've got.
+The survey.
+The voting.
+Et cetera.
+The voting.
+Fill that out.
+See you next Tuesday for our last class.
+And we'll prep for Japan.
+And thank you, Blake, for the great demo.
+Very impressive.
+I'm happy to chat.
+Thank you.
